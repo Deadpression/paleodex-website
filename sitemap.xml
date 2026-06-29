@@ -243,13 +243,64 @@
   <url>
     <loc>https://paleodex.co/terms</loc>
     <lastmod>2026-06-28</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+  <url>
+    <loc>https://paleodex.co/features/radar/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/features/radar/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/features/radar/"/>
   </url>
   <url>
-    <loc>https://paleodex.co/cookies</loc>
-    <lastmod>2026-06-28</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <loc>https://paleodex.co/es/features/radar/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/features/radar/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/features/radar/"/>
+  </url>
+  <url>
+    <loc>https://paleodex.co/features/fossilrun/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/features/fossilrun/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/features/fossilrun/"/>
+  </url>
+  <url>
+    <loc>https://paleodex.co/es/features/fossilrun/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/features/fossilrun/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/features/fossilrun/"/>
+  </url>
+  <url>
+    <loc>https://paleodex.co/features/fossil-dex/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/features/fossil-dex/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/features/fossil-dex/"/>
+  </url>
+  <url>
+    <loc>https://paleodex.co/es/features/fossil-dex/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/features/fossil-dex/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/features/fossil-dex/"/>
+  </url>
+  <url>
+    <loc>https://paleodex.co/features/continental-drift/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/features/continental-drift/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/features/continental-drift/"/>
+  </url>
+  <url>
+    <loc>https://paleodex.co/es/features/continental-drift/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/features/continental-drift/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/features/continental-drift/"/>
+  </url>
+  <url>
+    <loc>https://paleodex.co/features/signal/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/features/signal/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/features/signal/"/>
+  </url>
+  <url>
+    <loc>https://paleodex.co/es/features/signal/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/features/signal/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/features/signal/"/>
+  </url>
+  <url>
+    <loc>https://paleodex.co/features/collection/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/features/collection/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/features/collection/"/>
+  </url>
+  <url>
+    <loc>https://paleodex.co/es/features/collection/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/features/collection/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/features/collection/"/>
   </url>
 </urlset>

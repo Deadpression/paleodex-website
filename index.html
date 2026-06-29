@@ -343,7 +343,7 @@ img { display: block; max-width: 100%; }
         <img class="pdx-logo-icon" src="/assets/favicons/favicon-64.png" alt="PaleoDex">
         <span class="pdx-logo-text">Paleo<span>Dex</span></span>
       </a>
-      <a href="#features" class="pdx-navlink">FEATURES</a>
+      <a href="/features/" class="pdx-navlink">FEATURES</a>
       <a href="#deeptime" class="pdx-navlink">CONTINENTAL DRIFT</a>
       <a href="#how" class="pdx-navlink">HOW IT WORKS</a>
       <a href="#data" class="pdx-navlink">THE DATA</a>
@@ -609,7 +609,7 @@ img { display: block; max-width: 100%; }
         <span style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:17px;">Paleo<span style="color:var(--green);">Dex</span></span>
       </div>
       <div style="display:flex; flex-wrap:wrap; gap:24px; font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:.06em; color:var(--muted2);">
-        <a href="#features" style="transition:color .2s;" onmouseover="this.style.color='#46e08a'" onmouseout="this.style.color=''">FEATURES</a>
+        <a href="/features/" style="transition:color .2s;" onmouseover="this.style.color='#46e08a'" onmouseout="this.style.color=''">FEATURES</a>
         <a href="#how" style="transition:color .2s;" onmouseover="this.style.color='#46e08a'" onmouseout="this.style.color=''">HOW IT WORKS</a>
         <a href="#data" style="transition:color .2s;" onmouseover="this.style.color='#46e08a'" onmouseout="this.style.color=''">THE DATA</a>
         <a href="#faq" style="transition:color .2s;" onmouseover="this.style.color='#46e08a'" onmouseout="this.style.color=''">FAQ</a>
@@ -741,7 +741,4 @@ function showWaitlistSuccess() {
 (function(){
   var PORTAL="50834246";
   function lang(){ try{ return localStorage.getItem('pdx_lang') || ((navigator.language||'en').toLowerCase().indexOf('es')===0?'es':'en'); }catch(e){ return 'en'; } }
-  function loadHS(){ if(document.getElementById('hs-script-loader'))return; var s=document.createElement('script'); s.id='hs-script-loader'; s.async=true; s.defer=true; s.src='//js.hs-scripts.com/'+PORTAL+'.js'; document.head.appendChild(s); }
-  var T={ en:{ msg:'We use cookies to run this site and, with your consent, to measure interest and improve PaleoDex. You can change your choice anytime.', accept:'ACCEPT', reject:'REJECT', link:'Cookie policy →' },
-          es:{ msg:'Usamos cookies para operar este sitio y, con tu consentimiento, medir el interés y mejorar PaleoDex. Puedes cambiar tu elección cuando quieras.', accept:'ACEPTAR', reject:'RECHAZAR', link:'Política de cookies →' } };
-  function render(){ var t=T[lang()]||T.en; var el=document.getElementById('pdx-cookie'); if(!el)return; el.querySelector('[data-cc=msg]').textContent=t.msg; el.querySelector('[data-cc=accept]').te
+  function loadHS(){ if(document.getElementById('hs-script-loader'))return; var s=document.createElement('script'); s.id='hs-script-loader'; s.async=true; s.d

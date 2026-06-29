@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/app-icons/apple-touch-icon-180.png">
+<link rel="manifest" href="/site.webmanifest">
+<script>try{localStorage.setItem('pdx_lang','es');}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Funciones — PaleoDex</title>
+<meta name="description" content="Explora cada herramienta de PaleoDex: Radar, FossilRun, Fossil-DEX, Deriva Continental, SIGNAL y Rango de Colección.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#07120c">
+<meta property="og:title" content="Funciones — PaleoDex">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://paleodex.co/es/features/">
+<meta property="og:image" content="https://paleodex.co/og-image.png">
+<link rel="canonical" href="https://paleodex.co/es/features/">
+<link rel="alternate" hreflang="en" href="https://paleodex.co/features/">
+<link rel="alternate" hreflang="es" href="https://paleodex.co/es/features/">
+<link rel="alternate" hreflang="x-default" href="https://paleodex.co/features/">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+:root{--bg:#07120c;--surface:#0c1a12;--panel:#0a1610;--border:rgba(70,224,138,.16);--green:#46e08a;--greenglow:rgba(70,224,138,.4);--amber:#e8a33d;--text:#d8e8de;--muted:#9fb6aa;--muted2:#7d978a;--ongreen:#06140c}
+body{font-family:'Hanken Grotesk',system-ui,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;overflow-x:hidden;line-height:1.65}
+a{color:var(--green);text-decoration:none}a:hover{text-decoration:underline}
+.pdx-scanlines{position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.5;background-image:repeating-linear-gradient(0deg,rgba(70,224,138,.035) 0 1px,transparent 1px 3px)}
+.pdx-haze{position:fixed;inset:0;pointer-events:none;z-index:0;background:radial-gradient(120% 70% at 80% -10%,rgba(70,224,138,.09),transparent 60%)}
+.wrap{position:relative;z-index:1}
+.nav{position:sticky;top:0;z-index:40;backdrop-filter:blur(12px);background:rgba(7,18,12,.72);border-bottom:1px solid var(--border)}
+.nav-inner{max-width:1040px;margin:0 auto;padding:15px clamp(20px,5vw,40px);display:flex;align-items:center;gap:16px}
+.logo{display:flex;align-items:center;gap:10px;margin-right:auto}
+.logo-icon{width:24px;height:24px;border-radius:7px;display:block;box-shadow:0 0 14px var(--greenglow)}
+.logo-text{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:18px;letter-spacing:-.01em}
+.logo-text span{color:var(--green)}
+.nav-link{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.06em;color:var(--muted2)}
+.nav-link:hover{color:var(--green);text-decoration:none}
+.nav-link.active{color:var(--green)}
+.nav-cta{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:12px;letter-spacing:.05em;color:var(--ongreen);background:var(--green);padding:9px 18px;border-radius:9px}
+.nav-cta:hover{text-decoration:none;opacity:.9}
+.langsw{display:flex;gap:7px;align-items:center;font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.06em}
+.langsw a{color:var(--muted2)}.langsw .on{color:var(--green);font-weight:700}
+.doc{max-width:1040px;margin:0 auto;padding:clamp(28px,5vw,56px) clamp(20px,5vw,40px) 90px}
+.eyebrow{font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.18em;color:var(--green);margin-bottom:14px}
+h1{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(34px,5vw,58px);line-height:1.0;letter-spacing:-.02em;margin-bottom:16px}
+.lead{font-size:17px;color:var(--muted);max-width:56ch;line-height:1.65;margin-bottom:48px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:24px;margin-top:0}
+.fcard{background:var(--surface);border:1px solid var(--border);border-radius:20px;overflow:hidden;display:flex;flex-direction:column;transition:border-color .2s}
+.fcard:hover{border-color:rgba(70,224,138,.4)}
+.fcard-img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block}
+.fcard-img-placeholder{width:100%;aspect-ratio:16/10;background:var(--panel);display:flex;align-items:center;justify-content:center}
+.fcard-img-placeholder span{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.1em;color:var(--muted2)}
+.fcard-body{padding:22px 24px 26px;flex:1;display:flex;flex-direction:column;gap:8px}
+.fcard-name{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:20px;letter-spacing:-.01em}
+.fcard-tagline{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.08em;color:var(--green)}
+.fcard-desc{font-size:14.5px;color:var(--muted);line-height:1.6;flex:1;margin-top:4px}
+.fcard-link{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.05em;color:var(--green);margin-top:14px}
+.fcard-link:hover{text-decoration:underline}
+.cta-band{margin-top:64px;background:var(--panel);border:1px solid rgba(70,224,138,.18);border-radius:20px;padding:clamp(28px,4vw,48px);text-align:center}
+.cta-band h2{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(20px,2.4vw,28px);letter-spacing:-.01em;margin-bottom:12px}
+.cta-band p{color:var(--muted);max-width:40ch;margin:0 auto 24px;font-size:15.5px}
+.cta-btn{display:inline-block;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:13px;letter-spacing:.05em;color:var(--ongreen);background:var(--green);padding:15px 28px;border-radius:11px;box-shadow:0 0 28px rgba(70,224,138,.4)}
+.cta-btn:hover{text-decoration:none;opacity:.92}
+.footer{border-top:1px solid var(--border);padding:36px clamp(20px,5vw,40px);max-width:1040px;margin:0 auto;display:flex;flex-wrap:wrap;gap:12px 28px;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.05em;color:var(--muted2)}
+.footer a{color:var(--muted2)}.footer a:hover{color:var(--green);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="pdx-scanlines"></div>
+<div class="pdx-haze"></div>
+<div class="wrap">
+  <header class="nav">
+    <nav class="nav-inner">
+      <a href="/es/" class="logo"><img class="logo-icon" src="/assets/favicons/favicon-64.png" alt="PaleoDex"><span class="logo-text">Paleo<span>Dex</span></span></a>
+      <a href="/es/features/" class="nav-link active">FUNCIONES</a>
+      <a href="/es/blog/" class="nav-link">BLOG</a>
+      <a href="/es/about-the-data" class="nav-link">LOS DATOS</a>
+      <div class="langsw"><a href="/features/">EN</a><span style="color:var(--muted2)">·</span><span class="on">ES</span></div>
+      <a href="/es/#waitlist" class="nav-cta">LISTA DE ESPERA</a>
+    </nav>
+  </header>
+  <main class="doc">
+    <div class="eyebrow">// FUNCIONES</div>
+    <h1>Cada herramienta,<br>explicada.</h1>
+    <p class="lead">Seis herramientas en una app. Esto es lo que hace cada una.</p>
+    <div class="grid">
+<a class="fcard" href="/es/features/radar/"><img class="fcard-img" src="/assets/screenshots/web/radar.jpg" loading="lazy" alt="Radar"><div class="fcard-body"><div class="fcard-name">Radar</div><div class="fcard-tagline">Un mapa mundial de descubrimientos fósiles reales.</div><p class="fcard-desc">Tu ubicación real, 1,8 millones de registros de ocurrencias y filtros para 74.000+ géneros. Ve qué especies prehistóricas se han encontrado cerca de ti, o explora cualquier país del mundo.</p><span class="fcard-link">Ver más →</span></div></a>
+<a class="fcard" href="/es/features/fossilrun/"><img class="fcard-img" src="/assets/screenshots/web/fossil-run.jpg" loading="lazy" alt="FossilRun"><div class="fcard-body"><div class="fcard-name">FossilRun</div><div class="fcard-tagline">El juego de excavación. Cada hallazgo es real.</div><p class="fcard-desc">Un detector siempre activo se calienta al acercarte a un sitio. Una mecánica de anillo de tiempo te permite excavar. Cada especie que aparece es un género real y documentado con fotografías.</p><span class="fcard-link">Ver más →</span></div></a>
+<a class="fcard" href="/es/features/fossil-dex/"><img class="fcard-img" src="/assets/screenshots/web/dex.jpg" loading="lazy" alt="Fossil-DEX"><div class="fcard-body"><div class="fcard-name">Fossil-DEX</div><div class="fcard-tagline">74.000+ géneros prehistóricos reales. Con fuentes.</div><p class="fcard-desc">Un catálogo con buscador y fichas de campo: foto real, clasificación científica del Open Tree of Life, edad geológica, formación, dieta, rareza y conteo de ocurrencias.</p><span class="fcard-link">Ver más →</span></div></a>
+<a class="fcard" href="/es/features/continental-drift/"><img class="fcard-img" src="/assets/screenshots/web/continental-drift.jpg" loading="lazy" alt="Deriva Continental"><div class="fcard-body"><div class="fcard-name">Deriva Continental</div><div class="fcard-tagline">540 millones de años de historia tectónica.</div><p class="fcard-desc">Desplázate desde hoy hasta el Cámbrico en un mapa paleogeográfico en vivo. Ve los continentes moverse y las criaturas de cada era, impulsado por reconstrucciones de GPlates.</p><span class="fcard-link">Ver más →</span></div></a>
+<a class="fcard" href="/es/features/signal/"><img class="fcard-img" src="/assets/screenshots/web/signal.jpg" loading="lazy" alt="SIGNAL"><div class="fcard-body"><div class="fcard-name">SIGNAL</div><div class="fcard-tagline">Noticias de paleontología. Bilingüe, continuo.</div><p class="fcard-desc">Un feed RSS en vivo de Phys.org, ScienceDaily y Sci.News — nuevas descripciones de especies, descubrimientos de sitios y hallazgos de investigación en inglés y español.</p><span class="fcard-link">Ver más →</span></div></a>
+<a class="fcard" href="/es/features/collection/"><div class="fcard-img-placeholder"><span>PALEODEX</span></div><div class="fcard-body"><div class="fcard-name">Colección y Rango</div><div class="fcard-tagline">Tu museo. Tu rango. Tus mejoras.</div><p class="fcard-desc">Cada espécimen excavado vive en tu Museo. Un Rango de Colección de 8 niveles refleja lo que has recolectado. Los Fragmentos financian cinco mejoras de equipo. La tabla de clasificación es anónima y global.</p><span class="fcard-link">Ver más →</span></div></a>
+    </div>
+    <div class="cta-band"><h2>Todo. En tu bolsillo.</h2><p>PaleoDex llega a iOS y Android.</p><a href="/es/#waitlist" class="cta-btn">LISTA DE ESPERA</a></div>
+  </main>
+  <footer style="border-top:1px solid var(--border);margin-top:0">
+    <div class="footer">
+      <a href="/es/">Inicio</a>
+      <a href="/es/features/">Funciones</a>
+      <a href="/es/blog/">Blog</a>
+      <a href="/es/fossil-finder-guide/">Guía de Búsqueda</a>
+      <a href="/es/about-the-data">Los Datos</a>
+      <a href="/privacy">Privacidad</a>
+      <a href="/terms">Términos</a>
+      <a href="/es/#waitlist">Lista de Espera</a>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
