@@ -201,18 +201,7 @@ img { display: block; max-width: 100%; }
 .pdx-logo {
   display: flex; align-items: center; gap: 11px; margin-right: auto;
 }
-.pdx-logo-icon {
-  width: 26px; height: 26px;
-  border: 1.5px solid var(--green); border-radius: 7px;
-  display: flex; align-items: center; justify-content: center;
-  box-shadow: 0 0 14px var(--greenglow);
-}
-.pdx-logo-tri {
-  width: 0; height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 8px solid var(--green);
-}
+.pdx-logo-icon{width:26px;height:26px;border-radius:7px;display:block;box-shadow:0 0 14px var(--greenglow)}
 .pdx-logo-text {
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 700; font-size: 19px; letter-spacing: -.01em;
@@ -351,7 +340,7 @@ img { display: block; max-width: 100%; }
   <header class="pdx-nav">
     <nav class="pdx-nav-inner">
       <a href="#top" class="pdx-logo">
-        <span class="pdx-logo-icon"><span class="pdx-logo-tri"></span></span>
+        <img class="pdx-logo-icon" src="/assets/favicons/favicon-64.png" alt="PaleoDex">
         <span class="pdx-logo-text">Paleo<span>Dex</span></span>
       </a>
       <a href="#features" class="pdx-navlink">FEATURES</a>

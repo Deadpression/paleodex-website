@@ -39,8 +39,7 @@ a{color:var(--green);text-decoration:none}a:hover{text-decoration:underline}
 .nav{position:sticky;top:0;z-index:40;backdrop-filter:blur(12px);background:rgba(7,18,12,.72);border-bottom:1px solid var(--border)}
 .nav-inner{max-width:1040px;margin:0 auto;padding:15px clamp(20px,5vw,40px);display:flex;align-items:center;gap:16px}
 .logo{display:flex;align-items:center;gap:10px;margin-right:auto}
-.logo-icon{width:24px;height:24px;border:1.5px solid var(--green);border-radius:7px;display:flex;align-items:center;justify-content:center;box-shadow:0 0 14px var(--greenglow)}
-.logo-tri{width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:8px solid var(--green)}
+.logo-icon{width:24px;height:24px;border-radius:7px;display:block;box-shadow:0 0 14px var(--greenglow)}
 .logo-text{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:18px;letter-spacing:-.01em}
 .logo-text span{color:var(--green)}
 .nav-back{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.06em;color:var(--muted2)}
@@ -153,7 +152,7 @@ footer{border-top:1px solid var(--border);background:var(--surface)}
 <div class="pdx-scanlines"></div><div class="pdx-haze"></div>
 <div class="wrap">
 <nav class="nav"><div class="nav-inner">
-<a class="logo" href="/"><span class="logo-icon"><span class="logo-tri"></span></span><span class="logo-text">Paleo<span>Dex</span></span></a>
+<a class="logo" href="/"><img class="logo-icon" src="/assets/favicons/favicon-64.png" alt="PaleoDex"><span class="logo-text">Paleo<span>Dex</span></span></a>
 <a class="nav-back" href="/fossil-finder-guide/">← FOSSIL FINDER GUIDE</a>
 <div class="langsw"><span class="on">EN</span><span style="color:var(--muted2)">·</span><a href="/es/fossil-finder-guide/chile">ES</a></div>
 </div></nav>
