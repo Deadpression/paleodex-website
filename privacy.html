@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/app-icons/apple-touch-icon-180.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — PaleoDex</title>
+<meta name="description" content="How PaleoDex collects, uses, and protects your personal data. Compliant with the EU/UK GDPR, Chile's Law No. 21.719, and global data-protection best practices.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#07120c">
+<meta property="og:title" content="Privacy Policy — PaleoDex">
+<meta property="og:description" content="How PaleoDex collects, uses, and protects your personal data.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://paleodex.co/privacy">
+<link rel="canonical" href="https://paleodex.co/privacy">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+:root {
+  --bg:#07120c; --surface:#0c1a12; --panel:#0a1610;
+  --border:rgba(70,224,138,.16); --green:#46e08a; --greenglow:rgba(70,224,138,.4);
+  --amber:#e8a33d; --text:#d8e8de; --muted:#9fb6aa; --muted2:#7d978a; --ongreen:#06140c;
+}
+body {
+  font-family:'Hanken Grotesk', system-ui, sans-serif;
+  background:var(--bg); color:var(--text); min-height:100vh; overflow-x:hidden;
+  line-height:1.65;
+}
+a { color:var(--green); text-decoration:none; }
+a:hover { text-decoration:underline; }
+.pdx-scanlines { position:fixed; inset:0; pointer-events:none; z-index:0; opacity:.5;
+  background-image:repeating-linear-gradient(0deg, rgba(70,224,138,.035) 0 1px, transparent 1px 3px); }
+.pdx-haze { position:fixed; inset:0; pointer-events:none; z-index:0;
+  background:radial-gradient(120% 70% at 80% -10%, rgba(70,224,138,.09), transparent 60%); }
+.wrap { position:relative; z-index:1; }
+
+/* Nav */
+.nav { position:sticky; top:0; z-index:40; backdrop-filter:blur(12px);
+  background:rgba(7,18,12,.72); border-bottom:1px solid var(--border); }
+.nav-inner { max-width:880px; margin:0 auto; padding:15px clamp(20px,5vw,40px);
+  display:flex; align-items:center; gap:18px; }
+.logo { display:flex; align-items:center; gap:10px; margin-right:auto; }
+.logo-icon { width:24px; height:24px; border:1.5px solid var(--green); border-radius:7px;
+  display:flex; align-items:center; justify-content:center; box-shadow:0 0 14px var(--greenglow); }
+.logo-tri { width:0; height:0; border-left:5px solid transparent; border-right:5px solid transparent;
+  border-bottom:8px solid var(--green); }
+.logo-text { font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:18px; letter-spacing:-.01em; }
+.logo-text span { color:var(--green); }
+.nav-back { font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:.06em; color:var(--muted2); }
+.nav-back:hover { color:var(--green); text-decoration:none; }
+.lang-switch { display:flex; gap:0; border:1px solid var(--border); border-radius:8px; overflow:hidden; }
+.lang-switch button { font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.06em;
+  background:transparent; color:var(--muted2); border:none; padding:7px 11px; cursor:pointer; transition:.15s; }
+.lang-switch button.active { background:var(--green); color:var(--ongreen); font-weight:700; }
+
+/* Content */
+.doc { max-width:880px; margin:0 auto; padding:clamp(36px,6vw,72px) clamp(20px,5vw,40px) 96px; }
+.eyebrow { font-family:'JetBrains Mono',monospace; font-size:11.5px; letter-spacing:.18em; color:var(--green); }
+h1 { font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(32px,5vw,52px);
+  line-height:1.02; letter-spacing:-.02em; margin:14px 0 10px; }
+.updated { font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:.04em; color:var(--muted2); }
+.lead { font-size:17px; color:var(--muted); margin:22px 0 0; max-width:62ch; }
+h2 { font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(21px,2.6vw,27px);
+  letter-spacing:-.01em; margin:52px 0 14px; padding-top:14px; border-top:1px solid var(--border); color:var(--text); }
+h3 { font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:17px; margin:24px 0 8px; color:var(--text); }
+p { margin:12px 0; color:var(--text); }
+.doc p, .doc li { font-size:15.5px; }
+ul, ol { margin:12px 0 12px 22px; }
+li { margin:7px 0; color:var(--text); }
+strong { color:var(--text); font-weight:600; }
+.muted { color:var(--muted); }
+.callout { background:var(--panel); border:1px solid var(--border); border-left:3px solid var(--green);
+  border-radius:12px; padding:18px 22px; margin:22px 0; font-size:15px; color:var(--muted); }
+.callout strong { color:var(--green); }
+.toc { background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:22px 26px; margin:34px 0; }
+.toc h2 { border:none; margin:0 0 10px; padding:0; font-size:13px; font-family:'JetBrains Mono',monospace;
+  letter-spacing:.12em; color:var(--muted2); font-weight:500; }
+.toc ol { columns:2; column-gap:32px; margin-left:18px; }
+.toc a { font-size:14px; }
+@media (max-width:640px){ .toc ol{ columns:1; } }
+table { width:100%; border-collapse:collapse; margin:16px 0; font-size:14px; display:block; overflow-x:auto; }
+th { font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:.1em; color:var(--muted2);
+  text-align:left; padding:10px 14px; border-bottom:1px solid var(--border); white-space:nowrap; }
+td { padding:11px 14px; border-bottom:1px solid rgba(70,224,138,.08); color:var(--muted); vertical-align:top; }
+td:first-child { color:var(--text); font-weight:600; }
+.placeholder { color:var(--amber); font-family:'JetBrains Mono',monospace; font-size:.92em; }
+footer { border-top:1px solid var(--border); background:var(--surface); }
+.foot-inner { max-width:880px; margin:0 auto; padding:32px clamp(20px,5vw,40px);
+  display:flex; flex-wrap:wrap; gap:18px; align-items:center; justify-content:space-between;
+  font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.06em; color:var(--muted2); }
+[data-lang]{ display:none; }
+[data-lang].active{ display:block; }
+</style>
+</head>
+<body>
+<div class="pdx-scanlines"></div>
+<div class="pdx-haze"></div>
+<div class="wrap">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="logo" href="/">
+      <span class="logo-icon"><span class="logo-tri"></span></span>
+      <span class="logo-text">Paleo<span>Dex</span></span>
+    </a>
+    <a class="nav-back" href="/" data-t="back">← BACK TO SITE</a>
+    <div class="lang-switch">
+      <button id="btn-en" class="active" onclick="setLang('en')">EN</button>
+      <button id="btn-es" onclick="setLang('es')">ES</button>
+    </div>
+  </div>
+</nav>
+
+<!-- ============================== ENGLISH ============================== -->
+<main class="doc" data-lang="en">
+  <div class="eyebrow">// FIELD MANUAL · DATA</div>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: 28 June 2026 · Effective: 28 June 2026</p>
+
+  <p class="lead">PaleoDex is built on a simple principle: nothing is invented, and nothing is hidden. That applies to your data too. This policy explains what personal data we collect, why, how we protect it, and the rights you have over it — written to meet the EU/UK GDPR, Chile's Law No. 19.628 as amended by Law No. 21.719, and recognized global best practice.</p>
+
+  <div class="callout"><strong>Plain-language summary.</strong> Right now, the only personal data we collect is what you give us to join the waitlist (your first name and email) plus standard analytics about how you use this website. We don't sell your data, we don't knowingly collect data from children, and you can ask us to show, correct, or delete your data at any time by emailing <a href="mailto:hello@paleodex.co">hello@paleodex.co</a>.</p></div>
+
+  <div class="toc">
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#who">Who we are</a></li>
+      <li><a href="#what">What data we collect</a></li>
+      <li><a href="#why">Why we use it &amp; legal bases</a></li>
+      <li><a href="#cookies">Cookies &amp; tracking</a></li>
+      <li><a href="#sharing">Who we share data with</a></li>
+      <li><a href="#transfers">International transfers</a></li>
+      <li><a href="#retention">How long we keep data</a></li>
+      <li><a href="#security">Security &amp; breaches</a></li>
+      <li><a href="#children">Children's privacy</a></li>
+      <li><a href="#rights">Your rights</a></li>
+      <li><a href="#regional">Regional notices</a></li>
+      <li><a href="#changes">Changes &amp; contact</a></li>
+    </ol>
+  </div>
+
+  <h2 id="who">1. Who we are</h2>
+  <p>PaleoDex ("PaleoDex", "we", "us") is an independent paleontology app and website operated by a sole developer based in Chile (<span class="placeholder">[YOUR FULL NAME / RUT — to complete]</span>). For the purposes of the GDPR and Chilean Law No. 21.719, we are the <strong>data controller</strong> responsible for your personal data.</p>
+  <p>You can reach us about anything in this policy at <a href="mailto:hello@paleodex.co">hello@paleodex.co</a>. This is also the address to use to exercise any of your data-protection rights (see <a href="#rights">Section 10</a>).</p>
+
+  <h2 id="what">2. What data we collect</h2>
+
+  <h3>a. Information you give us — the website</h3>
+  <ul>
+    <li><strong>Waitlist sign-up:</strong> your <strong>first name</strong> and <strong>email address</strong>, and the fact that you ticked the consent box. This is stored in our CRM (HubSpot).</li>
+    <li><strong>Email &amp; messages:</strong> if you email <a href="mailto:hello@paleodex.co">hello@paleodex.co</a> or otherwise contact us, we keep your message and contact details so we can reply.</li>
+  </ul>
+
+  <h3>b. Information we collect automatically — the website</h3>
+  <ul>
+    <li><strong>Usage &amp; device data:</strong> pages viewed, referring links, approximate location derived from your IP address, browser and device type, and similar diagnostic data, collected via cookies and our analytics/CRM tools.</li>
+    <li><strong>Server logs:</strong> our hosting provider records IP addresses and request metadata for security and reliability.</li>
+  </ul>
+
+  <h3>c. Information collected by the PaleoDex app</h3>
+  <p class="muted">The PaleoDex mobile app is in pre-launch. When it is available, the following will apply:</p>
+  <ul>
+    <li><strong>On-device by default:</strong> your collection, in-game progress, and settings are stored <strong>locally on your device</strong>, not on our servers.</li>
+    <li><strong>Location (optional):</strong> if you turn on GPS field mode, your device location is used to find fossil sites near you and to query that map region. You can use the app, pan, and scan any region <em>without</em> sharing your location, and you can revoke the permission at any time in your device settings.</li>
+    <li><strong>Anonymous leaderboard (opt-in):</strong> if you choose to join the online leaderboard, we process an anonymous skill score and a display name of your choosing. It is opt-in and does not require an account or your real identity.</li>
+    <li><strong>Diagnostics:</strong> we may collect anonymized crash and performance data to keep the app stable.</li>
+  </ul>
+  <p>The scientific content in PaleoDex (species, occurrences, classifications) comes from open databases — it is not your personal data. See the data sources listed on our site.</p>
+
+  <h2 id="why">3. Why we use your data &amp; our legal bases</h2>
+  <p>We only process personal data where we have a lawful basis to do so. Under the GDPR and Law No. 21.719, our bases are:</p>
+  <table>
+    <thead><tr><th>Purpose</th><th>Data</th><th>Legal basis</th></tr></thead>
+    <tbody>
+      <tr><td>Run the waitlist &amp; send launch updates</td><td>Name, email</td><td>Consent (you may withdraw it anytime)</td></tr>
+      <tr><td>Reply to your messages</td><td>Contact details, message</td><td>Legitimate interest / your request</td></tr>
+      <tr><td>Operate &amp; secure the website and app</td><td>Usage, device, logs</td><td>Legitimate interest</td></tr>
+      <tr><td>Analytics to improve the product</td><td>Usage, cookies</td><td>Consent (where required)</td></tr>
+      <tr><td>Provide app features you enable (e.g., nearby sites, leaderboard)</td><td>Location, score</td><td>Consent / performance of the service</td></tr>
+      <tr><td>Comply with the law</td><td>As needed</td><td>Legal obligation</td></tr>
+    </tbody>
+  </table>
+  <p>We follow the principles of <strong>lawfulness and fairness, purpose limitation, data minimization, accuracy, storage limitation, security, transparency, and accountability</strong> — the shared core of the GDPR and Chile's Law No. 21.719. We collect the minimum we need and never use your data for purposes incompatible with those above without telling you first.</p>
+
+  <h2 id="cookies">4. Cookies &amp; tracking</h2>
+  <p>We use a small number of cookies and similar technologies:</p>
+  <ul>
+    <li><strong>Strictly necessary</strong> — needed for the site to work and to remember your cookie/consent choices.</li>
+    <li><strong>Analytics &amp; marketing</strong> — set by our CRM/analytics provider (HubSpot) to understand traffic and measure interest. These are used only where you consent, where consent is required.</li>
+  </ul>
+  <p>You can control cookies through our cookie banner (where shown) and through your browser settings. Blocking some cookies may affect how the site works. Our pages also load web fonts from a third-party font provider, which may receive your IP address as part of serving those files.</p>
+
+  <h2 id="sharing">5. Who we share data with</h2>
+  <p>We do <strong>not</strong> sell your personal data or share it for others' advertising. We share it only with service providers ("processors") who help us run PaleoDex, under contracts that require them to protect it:</p>
+  <table>
+    <thead><tr><th>Provider</th><th>Purpose</th><th>Region</th></tr></thead>
+    <tbody>
+      <tr><td>HubSpot</td><td>CRM, waitlist, email, website analytics</td><td>USA / EU</td></tr>
+      <tr><td>Zoho Mail</td><td>Our email inbox (hello@paleodex.co)</td><td>EU / global</td></tr>
+      <tr><td>Cloudways / DigitalOcean</td><td>Website hosting &amp; server logs</td><td>Configurable region</td></tr>
+      <tr><td>MapTiler (app)</td><td>Serving map tiles in the app</td><td>EU</td></tr>
+    </tbody>
+  </table>
+  <p>We may also disclose data if required by law, to protect our rights or users' safety, or in connection with a future business transfer — in which case we will tell you.</p>
+
+  <h2 id="transfers">6. International data transfers</h2>
+  <p>Some of our providers (for example HubSpot) process data outside Chile and outside the EU/EEA, including in the United States. When personal data is transferred across borders, we rely on appropriate safeguards required by the GDPR and Chile's Law No. 21.719 — such as transfers to countries recognized as providing an adequate level of protection, or <strong>Standard Contractual Clauses</strong> and equivalent contractual guarantees. You can ask us for details of the safeguards that apply.</p>
+
+  <h2 id="retention">7. How long we keep data</h2>
+  <ul>
+    <li><strong>Waitlist data:</strong> until you unsubscribe or ask us to delete it, or until the waitlist purpose ends, after which we delete or anonymize it.</li>
+    <li><strong>Emails:</strong> for as long as needed to handle your request and a reasonable period afterward.</li>
+    <li><strong>Analytics/logs:</strong> for a limited period, then deleted or aggregated.</li>
+    <li><strong>App data on your device:</strong> stays until you delete it or uninstall the app.</li>
+  </ul>
+
+  <h2 id="security">8. Security &amp; data breaches</h2>
+  <p>We apply reasonable technical and organizational measures appropriate to the risk — including encryption in transit, access controls, and data minimization — to protect your data against loss, misuse, and unauthorized access. No system is perfectly secure, but we work to keep risk low.</p>
+  <p>If a personal-data breach occurs that is likely to create a risk to your rights, we will notify the competent authority — including Chile's <strong>Agency for the Protection of Personal Data (APDP)</strong> within 72 hours of becoming aware of it, where required — and will inform affected individuals without undue delay where the risk is high.</p>
+
+  <h2 id="children">9. Children's privacy</h2>
+  <div class="callout"><strong>PaleoDex is loved by young dinosaur fans — so we are careful here.</strong> The waitlist and any future account are intended for users <strong>aged 16 and over</strong>. We do not knowingly collect personal data from children. If you are under 16 and want to be notified, please ask a parent or guardian to sign up for you.</div>
+  <p>Under Chilean law, the data of <em>niños</em> (under 14) and <em>adolescentes</em> (14–17) receives special protection, and a minor's own consent is not, by itself, valid — verifiable consent from a parent or legal guardian is required, always in the child's best interest. COPPA (US, under 13) and the GDPR (13–16 depending on country) take the same approach.</p>
+  <p>If you believe a child has provided us personal data, email <a href="mailto:hello@paleodex.co">hello@paleodex.co</a> and we will delete it promptly. Note that the app itself stores gameplay on the device and does not require children to provide personal information to play.</p>
+
+  <h2 id="rights">10. Your rights</h2>
+  <p>Depending on where you live, you have some or all of the following rights over your personal data. Chile's Law No. 21.719 guarantees the "ARCO+" rights, which closely mirror the GDPR:</p>
+  <ul>
+    <li><strong>Access</strong> — get a copy of the data we hold about you.</li>
+    <li><strong>Rectification</strong> — correct inaccurate or incomplete data.</li>
+    <li><strong>Erasure / cancellation</strong> — have your data deleted when it is no longer needed.</li>
+    <li><strong>Objection &amp; restriction / blocking</strong> — object to or limit certain processing.</li>
+    <li><strong>Portability</strong> — receive your data in a portable format, or have it sent to another provider.</li>
+    <li><strong>Withdraw consent</strong> — at any time, without affecting prior processing (e.g., unsubscribe from emails using the link in any message).</li>
+    <li><strong>Not be subject to solely automated decisions</strong> that significantly affect you (we don't make any such decisions).</li>
+  </ul>
+  <p>To exercise any right, email <a href="mailto:hello@paleodex.co">hello@paleodex.co</a>. We will respond within the timeframe required by applicable law (and aim to do so promptly). Exercising your rights is free, and we will not discriminate against you for doing so.</p>
+
+  <h2 id="regional">11. Regional notices</h2>
+  <h3>Chile</h3>
+  <p>We process personal data in accordance with Law No. 19.628 as amended by Law No. 21.719. If you believe we have not handled your data lawfully, you may complain to the <strong>Agencia de Protección de Datos Personales (APDP)</strong> once it is operational, in addition to contacting us directly.</p>
+  <h3>European Union / EEA &amp; United Kingdom</h3>
+  <p>If you are in the EU/EEA or the UK, the GDPR (and UK GDPR) applies to data we collect about you. You have the right to lodge a complaint with your local supervisory authority. As a small operator outside the EU, we currently rely on direct contact at <a href="mailto:hello@paleodex.co">hello@paleodex.co</a> for data-protection requests.</p>
+  <h3>United States (California &amp; others)</h3>
+  <p>We do not sell or "share" personal information as those terms are defined under the CCPA/CPRA. California and other US residents may request access to or deletion of their personal information by contacting us.</p>
+
+  <h2 id="changes">12. Changes to this policy &amp; how to contact us</h2>
+  <p>We may update this policy as the product and the law evolve (Chile's Law No. 21.719 takes full effect on 1 December 2026, and we are aligning ahead of that date). We will post the new version here with an updated date and, for material changes, give prominent notice.</p>
+  <p>Questions, requests, or concerns: <a href="mailto:hello@paleodex.co">hello@paleodex.co</a>.</p>
+
+  <div class="callout"><strong>Note.</strong> This policy is provided as a thorough, good-faith starting point and general information, not legal advice. Given the children's-data dimension and Chile's new framework, we recommend a review by a qualified data-protection professional before launch.</div>
+</main>
+
+<!-- ============================== ESPAÑOL ============================== -->
+<main class="doc" data-lang="es">
+  <div class="eyebrow">// MANUAL DE CAMPO · DATOS</div>
+  <h1>Política de Privacidad</h1>
+  <p class="updated">Última actualización: 28 de junio de 2026 · Vigencia: 28 de junio de 2026</p>
+
+  <p class="lead">PaleoDex se basa en un principio simple: nada se inventa y nada se oculta. Eso también vale para tus datos. Esta política explica qué datos personales recopilamos, por qué, cómo los protegemos y qué derechos tienes sobre ellos — redactada para cumplir con el RGPD de la UE/Reino Unido, la Ley N° 19.628 de Chile modificada por la Ley N° 21.719, y las buenas prácticas internacionales reconocidas.</p>
+
+  <div class="callout"><strong>Resumen en lenguaje simple.</strong> Por ahora, los únicos datos personales que recopilamos son los que nos entregas para unirte a la lista de espera (tu nombre y correo) y datos básicos sobre cómo usas este sitio. No vendemos tus datos, no recopilamos datos de niños a sabiendas, y puedes pedirnos ver, corregir o eliminar tus datos cuando quieras escribiendo a <a href="mailto:hello@paleodex.co">hello@paleodex.co</a>.</p></div>
+
+  <div class="toc">
+    <h2>Contenido</h2>
+    <ol>
+      <li><a href="#who-es">Quiénes somos</a></li>
+      <li><a href="#what-es">Qué datos recopilamos</a></li>
+      <li><a href="#why-es">Para qué los usamos y bases de licitud</a></li>
+      <li><a href="#cookies-es">Cookies y seguimiento</a></li>
+      <li><a href="#sharing-es">Con quién compartimos datos</a></li>
+      <li><a href="#transfers-es">Transferencias internacionales</a></li>
+      <li><a href="#retention-es">Cuánto conservamos los datos</a></li>
+      <li><a href="#security-es">Seguridad y vulneraciones</a></li>
+      <li><a href="#children-es">Privacidad de menores</a></li>
+      <li><a href="#rights-es">Tus derechos</a></li>
+      <li><a href="#regional-es">Avisos regionales</a></li>
+      <li><a href="#changes-es">Cambios y contacto</a></li>
+    </ol>
+  </div>
+
+  <h2 id="who-es">1. Quiénes somos</h2>
+  <p>PaleoDex ("PaleoDex", "nosotros") es una aplicación y sitio web de paleontología independiente, operada por un desarrollador individual con domicilio en Chile (<span class="placeholder">[NOMBRE COMPLETO / RUT — por completar]</span>). Para efectos del RGPD y de la Ley N° 21.719, somos el <strong>responsable del tratamiento</strong> de tus datos personales.</p>
+  <p>Puedes contactarnos sobre cualquier punto de esta política en <a href="mailto:hello@paleodex.co">hello@paleodex.co</a>. Esa es también la dirección para ejercer cualquiera de tus derechos (ver <a href="#rights-es">Sección 10</a>).</p>
+
+  <h2 id="what-es">2. Qué datos recopilamos</h2>
+  <h3>a. Información que nos entregas — el sitio web</h3>
+  <ul>
+    <li><strong>Registro en la lista de espera:</strong> tu <strong>nombre</strong> y <strong>correo electrónico</strong>, y el hecho de que marcaste la casilla de consentimiento. Se guarda en nuestro CRM (HubSpot).</li>
+    <li><strong>Correos y mensajes:</strong> si escribes a <a href="mailto:hello@paleodex.co">hello@paleodex.co</a> o nos contactas, conservamos tu mensaje y datos de contacto para responderte.</li>
+  </ul>
+  <h3>b. Información que recopilamos automáticamente — el sitio web</h3>
+  <ul>
+    <li><strong>Datos de uso y dispositivo:</strong> páginas vistas, enlaces de referencia, ubicación aproximada derivada de tu dirección IP, tipo de navegador y dispositivo, y datos de diagnóstico similares, mediante cookies y nuestras herramientas de analítica/CRM.</li>
+    <li><strong>Registros del servidor:</strong> nuestro proveedor de hosting registra direcciones IP y metadatos de las solicitudes por seguridad y estabilidad.</li>
+  </ul>
+  <h3>c. Información que recopila la app PaleoDex</h3>
+  <p class="muted">La app móvil de PaleoDex está en fase previa al lanzamiento. Cuando esté disponible, aplicará lo siguiente:</p>
+  <ul>
+    <li><strong>En el dispositivo por defecto:</strong> tu colección, tu progreso y tus ajustes se almacenan <strong>localmente en tu dispositivo</strong>, no en nuestros servidores.</li>
+    <li><strong>Ubicación (opcional):</strong> si activas el modo de campo por GPS, usamos la ubicación de tu dispositivo para encontrar sitios fósiles cercanos y consultar esa zona del mapa. Puedes usar la app y explorar cualquier región <em>sin</em> compartir tu ubicación, y revocar el permiso cuando quieras en los ajustes del dispositivo.</li>
+    <li><strong>Tabla de clasificación anónima (opcional):</strong> si decides unirte a la tabla en línea, procesamos un puntaje anónimo y un nombre que tú elijas. Es opcional y no requiere cuenta ni tu identidad real.</li>
+    <li><strong>Diagnóstico:</strong> podemos recopilar datos anonimizados de fallos y rendimiento para mantener la app estable.</li>
+  </ul>
+  <p>El contenido científico de PaleoDex (especies, ocurrencias, clasificaciones) proviene de bases de datos abiertas — no son tus datos personales.</p>
+
+  <h2 id="why-es">3. Para qué usamos tus datos y bases de licitud</h2>
+  <p>Solo tratamos datos personales cuando tenemos una base de licitud. Conforme al RGPD y a la Ley N° 21.719, nuestras bases son:</p>
+  <table>
+    <thead><tr><th>Finalidad</th><th>Datos</th><th>Base de licitud</th></tr></thead>
+    <tbody>
+      <tr><td>Gestionar la lista de espera y enviar novedades</td><td>Nombre, correo</td><td>Consentimiento (revocable)</td></tr>
+      <tr><td>Responder tus mensajes</td><td>Datos de contacto, mensaje</td><td>Interés legítimo / tu solicitud</td></tr>
+      <tr><td>Operar y proteger el sitio y la app</td><td>Uso, dispositivo, registros</td><td>Interés legítimo</td></tr>
+      <tr><td>Analítica para mejorar el producto</td><td>Uso, cookies</td><td>Consentimiento (cuando se requiere)</td></tr>
+      <tr><td>Funciones de la app que actives (sitios cercanos, tabla)</td><td>Ubicación, puntaje</td><td>Consentimiento / ejecución del servicio</td></tr>
+      <tr><td>Cumplir la ley</td><td>Lo necesario</td><td>Obligación legal</td></tr>
+    </tbody>
+  </table>
+  <p>Seguimos los principios de <strong>licitud y lealtad, finalidad, proporcionalidad (minimización), calidad (exactitud), limitación del plazo, seguridad, transparencia e información, y responsabilidad</strong> — el núcleo común del RGPD y de la Ley N° 21.719. Recopilamos lo mínimo necesario y no usamos tus datos para fines incompatibles sin avisarte antes.</p>
+
+  <h2 id="cookies-es">4. Cookies y seguimiento</h2>
+  <p>Usamos un número reducido de cookies y tecnologías similares:</p>
+  <ul>
+    <li><strong>Estrictamente necesarias</strong> — para que el sitio funcione y para recordar tus preferencias de cookies/consentimiento.</li>
+    <li><strong>Analítica y marketing</strong> — establecidas por nuestro proveedor de CRM/analítica (HubSpot) para entender el tráfico y medir el interés. Se usan solo con tu consentimiento, cuando este es exigible.</li>
+  </ul>
+  <p>Puedes controlar las cookies mediante nuestro banner (cuando se muestre) y la configuración de tu navegador. Bloquear algunas cookies puede afectar el funcionamiento del sitio. Nuestras páginas también cargan tipografías web desde un proveedor externo, que puede recibir tu dirección IP al servir esos archivos.</p>
+
+  <h2 id="sharing-es">5. Con quién compartimos datos</h2>
+  <p><strong>No</strong> vendemos tus datos personales ni los compartimos para publicidad de terceros. Solo los compartimos con proveedores de servicios ("encargados") que nos ayudan a operar PaleoDex, bajo contratos que les exigen protegerlos:</p>
+  <table>
+    <thead><tr><th>Proveedor</th><th>Finalidad</th><th>Región</th></tr></thead>
+    <tbody>
+      <tr><td>HubSpot</td><td>CRM, lista de espera, correo, analítica web</td><td>EE.UU. / UE</td></tr>
+      <tr><td>Zoho Mail</td><td>Nuestro buzón de correo (hello@paleodex.co)</td><td>UE / global</td></tr>
+      <tr><td>Cloudways / DigitalOcean</td><td>Hosting del sitio y registros del servidor</td><td>Región configurable</td></tr>
+      <tr><td>MapTiler (app)</td><td>Entrega de mosaicos de mapa en la app</td><td>UE</td></tr>
+    </tbody>
+  </table>
+  <p>También podríamos divulgar datos si la ley lo exige, para proteger nuestros derechos o la seguridad de los usuarios, o en relación con una futura transferencia del negocio — en cuyo caso te informaremos.</p>
+
+  <h2 id="transfers-es">6. Transferencias internacionales</h2>
+  <p>Algunos proveedores (por ejemplo HubSpot) tratan datos fuera de Chile y fuera de la UE/EEE, incluido EE.UU. Cuando hay transferencias transfronterizas, aplicamos las garantías adecuadas exigidas por el RGPD y la Ley N° 21.719 — como transferencias a países reconocidos con un nivel adecuado de protección, o <strong>Cláusulas Contractuales Tipo</strong> y garantías contractuales equivalentes. Puedes pedirnos detalle de las garantías aplicables.</p>
+
+  <h2 id="retention-es">7. Cuánto conservamos los datos</h2>
+  <ul>
+    <li><strong>Lista de espera:</strong> hasta que te des de baja o pidas eliminarlos, o hasta que termine la finalidad de la lista; luego los eliminamos o anonimizamos.</li>
+    <li><strong>Correos:</strong> el tiempo necesario para atender tu solicitud y un periodo razonable posterior.</li>
+    <li><strong>Analítica/registros:</strong> por un periodo limitado; luego se eliminan o agregan.</li>
+    <li><strong>Datos de la app en tu dispositivo:</strong> permanecen hasta que los borres o desinstales la app.</li>
+  </ul>
+
+  <h2 id="security-es">8. Seguridad y vulneraciones de datos</h2>
+  <p>Aplicamos medidas técnicas y organizativas razonables y acordes al riesgo — incluyendo cifrado en tránsito, controles de acceso y minimización de datos — para proteger tus datos contra pérdida, mal uso y acceso no autorizado. Ningún sistema es perfectamente seguro, pero trabajamos para mantener el riesgo bajo.</p>
+  <p>Si ocurre una vulneración de datos personales que pueda implicar un riesgo para tus derechos, notificaremos a la autoridad competente — incluida la <strong>Agencia de Protección de Datos Personales (APDP)</strong> de Chile dentro de las 72 horas desde que tengamos conocimiento, cuando corresponda — e informaremos a las personas afectadas sin dilación indebida cuando el riesgo sea alto.</p>
+
+  <h2 id="children-es">9. Privacidad de menores</h2>
+  <div class="callout"><strong>PaleoDex encanta a los jóvenes fanáticos de los dinosaurios — por eso aquí somos cuidadosos.</strong> La lista de espera y cualquier cuenta futura están dirigidas a personas de <strong>16 años o más</strong>. No recopilamos datos personales de niños a sabiendas. Si tienes menos de 16 y quieres recibir avisos, pide a tu madre, padre o tutor que se registre por ti.</div>
+  <p>Conforme a la ley chilena, los datos de <em>niños</em> (menores de 14) y <em>adolescentes</em> (14–17) reciben protección especial, y el consentimiento del propio menor no es, por sí solo, válido — se requiere consentimiento verificable de la madre, padre o tutor legal, siempre en el interés superior del menor. COPPA (EE.UU., menores de 13) y el RGPD (13–16 según el país) adoptan el mismo enfoque.</p>
+  <p>Si crees que un menor nos ha entregado datos personales, escribe a <a href="mailto:hello@paleodex.co">hello@paleodex.co</a> y los eliminaremos sin demora. La app almacena el juego en el dispositivo y no exige a los menores entregar información personal para jugar.</p>
+
+  <h2 id="rights-es">10. Tus derechos</h2>
+  <p>Según dónde vivas, tienes algunos o todos los siguientes derechos. La Ley N° 21.719 garantiza los derechos "ARCO+", muy similares a los del RGPD:</p>
+  <ul>
+    <li><strong>Acceso</strong> — obtener una copia de los datos que tenemos sobre ti.</li>
+    <li><strong>Rectificación</strong> — corregir datos inexactos o incompletos.</li>
+    <li><strong>Cancelación / supresión</strong> — eliminar tus datos cuando ya no sean necesarios.</li>
+    <li><strong>Oposición y limitación / bloqueo</strong> — oponerte o limitar ciertos tratamientos.</li>
+    <li><strong>Portabilidad</strong> — recibir tus datos en un formato portable o enviarlos a otro proveedor.</li>
+    <li><strong>Revocar el consentimiento</strong> — en cualquier momento, sin afectar tratamientos previos (por ejemplo, dándote de baja desde el enlace de cualquier correo).</li>
+    <li><strong>No ser objeto de decisiones automatizadas</strong> que te afecten significativamente (no tomamos ese tipo de decisiones).</li>
+  </ul>
+  <p>Para ejercer cualquier derecho, escribe a <a href="mailto:hello@paleodex.co">hello@paleodex.co</a>. Responderemos dentro del plazo que exija la ley aplicable (y procuramos hacerlo pronto). Ejercer tus derechos es gratuito y no te discriminaremos por hacerlo.</p>
+
+  <h2 id="regional-es">11. Avisos regionales</h2>
+  <h3>Chile</h3>
+  <p>Tratamos datos personales conforme a la Ley N° 19.628 modificada por la Ley N° 21.719. Si crees que no hemos tratado tus datos lícitamente, puedes reclamar ante la <strong>Agencia de Protección de Datos Personales (APDP)</strong> una vez que esté operativa, además de contactarnos directamente.</p>
+  <h3>Unión Europea / EEE y Reino Unido</h3>
+  <p>Si estás en la UE/EEE o el Reino Unido, el RGPD (y el RGPD del Reino Unido) aplica a los datos que recopilamos sobre ti. Tienes derecho a reclamar ante tu autoridad de control local. Como operador pequeño fuera de la UE, hoy gestionamos las solicitudes directamente en <a href="mailto:hello@paleodex.co">hello@paleodex.co</a>.</p>
+  <h3>Estados Unidos (California y otros)</h3>
+  <p>No vendemos ni "compartimos" información personal según definen esos términos la CCPA/CPRA. Residentes de California y otros estados pueden solicitar acceso o eliminación contactándonos.</p>
+
+  <h2 id="changes-es">12. Cambios a esta política y cómo contactarnos</h2>
+  <p>Podemos actualizar esta política a medida que evolucionen el producto y la ley (la Ley N° 21.719 entra en plena vigencia el 1 de diciembre de 2026, y nos estamos alineando con anticipación). Publicaremos la nueva versión aquí con fecha actualizada y, ante cambios relevantes, daremos aviso destacado.</p>
+  <p>Preguntas, solicitudes o inquietudes: <a href="mailto:hello@paleodex.co">hello@paleodex.co</a>.</p>
+
+  <div class="callout"><strong>Nota.</strong> Esta política se entrega como un punto de partida exhaustivo y de buena fe, e información general, no asesoría legal. Dada la dimensión de datos de menores y el nuevo marco chileno, recomendamos una revisión por un profesional especializado en protección de datos antes del lanzamiento.</div>
+</main>
+
+<footer>
+  <div class="foot-inner">
+    <span>© 2026 PALEODEX · DIG RESPONSIBLY</span>
+    <span style="display:flex; gap:18px; flex-wrap:wrap;">
+      <a href="/terms" id="terms-link">Terms</a>
+      <a href="/cookies" id="cookiepolicy-link">Cookies</a>
+      <a href="#" id="cookie-link" onclick="pdxManageCookies();return false;">Cookie settings</a>
+      <a href="/">paleodex.co</a>
+    </span>
+  </div>
+</footer>
+
+</div>
+<script>
+function setLang(lang){
+  document.querySelectorAll('[data-lang]').forEach(function(el){
+    el.classList.toggle('active', el.getAttribute('data-lang')===lang);
+  });
+  document.getElementById('btn-en').classList.toggle('active', lang==='en');
+  document.getElementById('btn-es').classList.toggle('active', lang==='es');
+  document.documentElement.lang = lang;
+  document.querySelector('.nav-back').textContent = lang==='es' ? '← VOLVER AL SITIO' : '← BACK TO SITE';
+  document.title = lang==='es' ? 'Política de Privacidad — PaleoDex' : 'Privacy Policy — PaleoDex';
+  var tl=document.getElementById('terms-link'); if(tl) tl.textContent = lang==='es' ? 'Términos' : 'Terms';
+  var cl=document.getElementById('cookie-link'); if(cl) cl.textContent = lang==='es' ? 'Preferencias de cookies' : 'Cookie settings';
+  try { localStorage.setItem('pdx_lang', lang); } catch(e){}
+}
+(function(){
+  var saved = null;
+  try { saved = localStorage.getItem('pdx_lang'); } catch(e){}
+  var lang = saved || ((navigator.language||'en').toLowerCase().indexOf('es')===0 ? 'es' : 'en');
+  setLang(lang);
+})();
+</script>
+
+<!-- ==== Cookie consent (bilingual) ==== -->
+<div id="pdx-cookie" role="dialog" aria-live="polite" hidden style="position:fixed; left:16px; right:16px; bottom:16px; z-index:9999; max-width:560px; margin:0 auto; background:#0a1610; border:1px solid rgba(70,224,138,.35); border-radius:14px; box-shadow:0 20px 60px rgba(0,0,0,.55); padding:18px 20px; font-family:'Hanken Grotesk',system-ui,sans-serif; color:#d8e8de;">
+  <p data-cc="msg" style="margin:0 0 14px; font-size:14px; line-height:1.55; color:#9fb6aa;"></p>
+  <div style="display:flex; flex-wrap:wrap; gap:10px; align-items:center;">
+    <button data-cc="accept" onclick="pdxCookie('granted')" style="font-family:'JetBrains Mono',monospace; font-weight:700; font-size:12px; letter-spacing:.04em; color:#06140c; background:#46e08a; border:none; padding:11px 18px; border-radius:9px; cursor:pointer;"></button>
+    <button data-cc="reject" onclick="pdxCookie('denied')" style="font-family:'JetBrains Mono',monospace; font-weight:700; font-size:12px; letter-spacing:.04em; color:#d8e8de; background:transparent; border:1px solid rgba(70,224,138,.3); padding:11px 18px; border-radius:9px; cursor:pointer;"></button>
+    <a data-cc="link" href="/cookies" style="font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.04em; color:#46e08a; margin-left:auto;"></a>
+  </div>
+</div>
+<script>
+(function(){
+  var PORTAL="50834246";
+  function lang(){ try{ return localStorage.getItem('pdx_lang') || ((navigator.language||'en').toLowerCase().indexOf('es')===0?'es':'en'); }catch(e){ return 'en'; } }
+  function loadHS(){ if(document.getElementById('hs-script-loader'))return; var s=document.createElement('script'); s.id='hs-script-loader'; s.async=true; s.defer=true; s.src='//js.hs-scripts.com/'+PORTAL+'.js'; document.head.appendChild(s); }
+  var T={ en:{ msg:'We use cookies to run this site and, with your consent, to measure interest and improve PaleoDex. You can change your choice anytime.', accept:'ACCEPT', reject:'REJECT', link:'Cookie policy →' },
+          es:{ msg:'Usamos cookies para operar este sitio y, con tu consentimiento, medir el interés y mejorar PaleoDex. Puedes cambiar tu elección cuando quieras.', accept:'ACEPTAR', reject:'RECHAZAR', link:'Política de cookies →' } };
+  function render(){ var t=T[lang()]||T.en; var el=document.getElementById('pdx-cookie'); if(!el)return; el.querySelector('[data-cc=msg]').textContent=t.msg; el.querySelector('[data-cc=accept]').textContent=t.accept; el.querySelector('[data-cc=reject]').textContent=t.reject; el.querySelector('[data-cc=link]').textContent=t.link; }
+  window.pdxCookie=function(choice){ try{ localStorage.setItem('pdx_cookie_consent',choice); }catch(e){} var el=document.getElementById('pdx-cookie'); if(el) el.hidden=true; if(choice==='granted') loadHS(); };
+  window.pdxManageCookies=function(){ render(); var el=document.getElementById('pdx-cookie'); if(el) el.hidden=false; };
+  var c=null; try{ c=localStorage.getItem('pdx_cookie_consent'); }catch(e){}
+  if(c==='granted'){ loadHS(); } else if(c!=='denied'){ render(); var el=document.getElementById('pdx-cookie'); if(el) el.hidden=false; }
+})();
+</script>
+<!-- ==== /Cookie consent ==== -->
+
+</body>
+</html>

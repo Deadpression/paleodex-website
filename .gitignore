@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Logs / temp
+*.log
+*.tmp
+
+# Keep assets/screenshots/web (optimized web images) but ignore the raw originals
+assets/screenshots/*.jpg
+assets/screenshots/*.mp4
+assets/screenshots/*.png
+
+# Reference docs (local use only, not part of the deployed site)
+BLOG_CONTENT_STRATEGY.md
+CURRENT_FEATURES.md
+WEBSITE_REFERENCE.md

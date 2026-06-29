@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/app-icons/apple-touch-icon-180.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terms of Service — PaleoDex</title>
+<meta name="description" content="The terms for using the PaleoDex website and app, including eligibility, field-safety, data accuracy, intellectual property, and governing law.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#07120c">
+<meta property="og:title" content="Terms of Service — PaleoDex">
+<meta property="og:description" content="The terms for using the PaleoDex website and app.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://paleodex.co/terms">
+<link rel="canonical" href="https://paleodex.co/terms">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+:root {
+  --bg:#07120c; --surface:#0c1a12; --panel:#0a1610;
+  --border:rgba(70,224,138,.16); --green:#46e08a; --greenglow:rgba(70,224,138,.4);
+  --amber:#e8a33d; --text:#d8e8de; --muted:#9fb6aa; --muted2:#7d978a; --ongreen:#06140c;
+}
+body { font-family:'Hanken Grotesk', system-ui, sans-serif; background:var(--bg); color:var(--text);
+  min-height:100vh; overflow-x:hidden; line-height:1.65; }
+a { color:var(--green); text-decoration:none; }
+a:hover { text-decoration:underline; }
+.pdx-scanlines { position:fixed; inset:0; pointer-events:none; z-index:0; opacity:.5;
+  background-image:repeating-linear-gradient(0deg, rgba(70,224,138,.035) 0 1px, transparent 1px 3px); }
+.pdx-haze { position:fixed; inset:0; pointer-events:none; z-index:0;
+  background:radial-gradient(120% 70% at 80% -10%, rgba(70,224,138,.09), transparent 60%); }
+.wrap { position:relative; z-index:1; }
+.nav { position:sticky; top:0; z-index:40; backdrop-filter:blur(12px);
+  background:rgba(7,18,12,.72); border-bottom:1px solid var(--border); }
+.nav-inner { max-width:880px; margin:0 auto; padding:15px clamp(20px,5vw,40px); display:flex; align-items:center; gap:18px; }
+.logo { display:flex; align-items:center; gap:10px; margin-right:auto; }
+.logo-icon { width:24px; height:24px; border:1.5px solid var(--green); border-radius:7px;
+  display:flex; align-items:center; justify-content:center; box-shadow:0 0 14px var(--greenglow); }
+.logo-tri { width:0; height:0; border-left:5px solid transparent; border-right:5px solid transparent; border-bottom:8px solid var(--green); }
+.logo-text { font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:18px; letter-spacing:-.01em; }
+.logo-text span { color:var(--green); }
+.nav-back { font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:.06em; color:var(--muted2); }
+.nav-back:hover { color:var(--green); text-decoration:none; }
+.lang-switch { display:flex; border:1px solid var(--border); border-radius:8px; overflow:hidden; }
+.lang-switch button { font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.06em;
+  background:transparent; color:var(--muted2); border:none; padding:7px 11px; cursor:pointer; transition:.15s; }
+.lang-switch button.active { background:var(--green); color:var(--ongreen); font-weight:700; }
+.doc { max-width:880px; margin:0 auto; padding:clamp(36px,6vw,72px) clamp(20px,5vw,40px) 96px; }
+.eyebrow { font-family:'JetBrains Mono',monospace; font-size:11.5px; letter-spacing:.18em; color:var(--green); }
+h1 { font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(32px,5vw,52px);
+  line-height:1.02; letter-spacing:-.02em; margin:14px 0 10px; }
+.updated { font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:.04em; color:var(--muted2); }
+.lead { font-size:17px; color:var(--muted); margin:22px 0 0; max-width:62ch; }
+h2 { font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(21px,2.6vw,27px);
+  letter-spacing:-.01em; margin:52px 0 14px; padding-top:14px; border-top:1px solid var(--border); }
+h3 { font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:17px; margin:24px 0 8px; }
+p { margin:12px 0; }
+.doc p, .doc li { font-size:15.5px; }
+ul, ol { margin:12px 0 12px 22px; }
+li { margin:7px 0; }
+strong { color:var(--text); font-weight:600; }
+.muted { color:var(--muted); }
+.callout { background:var(--panel); border:1px solid var(--border); border-left:3px solid var(--amber);
+  border-radius:12px; padding:18px 22px; margin:22px 0; font-size:15px; color:var(--muted); }
+.callout strong { color:var(--amber); }
+.toc { background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:22px 26px; margin:34px 0; }
+.toc h2 { border:none; margin:0 0 10px; padding:0; font-size:13px; font-family:'JetBrains Mono',monospace;
+  letter-spacing:.12em; color:var(--muted2); font-weight:500; }
+.toc ol { columns:2; column-gap:32px; margin-left:18px; }
+.toc a { font-size:14px; }
+@media (max-width:640px){ .toc ol{ columns:1; } }
+.placeholder { color:var(--amber); font-family:'JetBrains Mono',monospace; font-size:.92em; }
+footer { border-top:1px solid var(--border); background:var(--surface); }
+.foot-inner { max-width:880px; margin:0 auto; padding:32px clamp(20px,5vw,40px);
+  display:flex; flex-wrap:wrap; gap:18px; align-items:center; justify-content:space-between;
+  font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.06em; color:var(--muted2); }
+.foot-inner a { color:var(--muted2); } .foot-inner a:hover { color:var(--green); }
+[data-lang]{ display:none; } [data-lang].active{ display:block; }
+</style>
+</head>
+<body>
+<div class="pdx-scanlines"></div>
+<div class="pdx-haze"></div>
+<div class="wrap">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="logo" href="/">
+      <span class="logo-icon"><span class="logo-tri"></span></span>
+      <span class="logo-text">Paleo<span>Dex</span></span>
+    </a>
+    <a class="nav-back" href="/">← BACK TO SITE</a>
+    <div class="lang-switch">
+      <button id="btn-en" class="active" onclick="setLang('en')">EN</button>
+      <button id="btn-es" onclick="setLang('es')">ES</button>
+    </div>
+  </div>
+</nav>
+
+<!-- ============================== ENGLISH ============================== -->
+<main class="doc" data-lang="en">
+  <div class="eyebrow">// FIELD MANUAL · TERMS</div>
+  <h1>Terms of Service</h1>
+  <p class="updated">Last updated: 28 June 2026 · Effective: 28 June 2026</p>
+  <p class="lead">These Terms govern your use of the PaleoDex website and mobile app. By joining our waitlist or using PaleoDex, you agree to them. Please read them alongside our <a href="/privacy">Privacy Policy</a>.</p>
+
+  <div class="toc">
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#accept">Acceptance</a></li>
+      <li><a href="#who">Who can use PaleoDex</a></li>
+      <li><a href="#service">The service</a></li>
+      <li><a href="#account">Profiles &amp; leaderboard</a></li>
+      <li><a href="#use">Acceptable use</a></li>
+      <li><a href="#field">Fossil hunting &amp; field safety</a></li>
+      <li><a href="#data">Scientific data &amp; accuracy</a></li>
+      <li><a href="#ip">Intellectual property</a></li>
+      <li><a href="#third">Third-party services</a></li>
+      <li><a href="#privacy">Privacy</a></li>
+      <li><a href="#warranty">Disclaimers</a></li>
+      <li><a href="#liability">Limitation of liability</a></li>
+      <li><a href="#changes">Changes &amp; termination</a></li>
+      <li><a href="#law">Governing law &amp; contact</a></li>
+    </ol>
+  </div>
+
+  <h2 id="accept">1. Acceptance of these terms</h2>
+  <p>By accessing the PaleoDex website, joining the waitlist, or using the PaleoDex app, you confirm that you have read, understood, and agree to be bound by these Terms and our <a href="/privacy">Privacy Policy</a>. If you do not agree, please do not use PaleoDex.</p>
+
+  <h2 id="who">2. Who can use PaleoDex</h2>
+  <p>The waitlist and any account features are intended for people <strong>aged 16 or over</strong>. If you are under 16, a parent or legal guardian must agree to these Terms and act on your behalf. By using PaleoDex you confirm you meet this requirement and that the information you provide is accurate.</p>
+
+  <h2 id="service">3. The service</h2>
+  <p>PaleoDex is an educational paleontology explorer and collecting game for iOS and Android, plus this website. The app is currently <strong>pre-launch</strong>; features described on our site are planned and may change before and after release. We may add, modify, suspend, or discontinue any part of the service at any time. The waitlist simply lets you ask to be notified about launch — it is not a purchase and creates no obligation to provide the app by any particular date.</p>
+
+  <h2 id="account">4. Profiles &amp; leaderboard</h2>
+  <p>If you choose to join the app's optional, anonymous online leaderboard, you must not impersonate others, use offensive display names, or attempt to manipulate scores. We may remove entries or restrict access to protect the integrity of the leaderboard and other users.</p>
+
+  <h2 id="use">5. Acceptable use</h2>
+  <p>You agree not to:</p>
+  <ul>
+    <li>use PaleoDex for any unlawful purpose or in breach of these Terms;</li>
+    <li>copy, scrape, harvest, or bulk-extract content or data from the app or site except as expressly permitted;</li>
+    <li>reverse-engineer, decompile, or attempt to derive source code, except where the law expressly allows it;</li>
+    <li>interfere with, overload, or disrupt the service, its servers, or its security; or</li>
+    <li>resell, sublicense, or commercially exploit the service without our written permission.</li>
+  </ul>
+
+  <h2 id="field">6. Fossil hunting &amp; field safety</h2>
+  <div class="callout"><strong>Read this before you dig.</strong> PaleoDex shows real fossil localities and can guide you outdoors, but it is an educational tool — not permission to collect, and not a safety guarantee. <strong>Collecting fossils is restricted or illegal in many places</strong>, especially on public, protected, or private land, and rules vary by country and region.</div>
+  <p>You are solely responsible for: knowing and obeying all applicable laws, permits, and landowner permissions before collecting anything; your own safety and that of others in the field; and any consequences of acting on information in the app. PaleoDex does not authorize, encourage, or take responsibility for any collecting, trespassing, or unsafe activity. When in doubt, observe and record — do not remove — and consult local authorities or a museum.</p>
+
+  <h2 id="data">7. Scientific data &amp; accuracy</h2>
+  <p>PaleoDex draws on open scientific datasets and follows the principle of leaving a field blank rather than guessing. Even so, the content is provided for general education and enjoyment and may contain errors, gaps, or outdated information, and it is not a substitute for peer-reviewed sources or professional advice. We make no warranty that the data is complete, accurate, or current, and reconstructions (such as continental-drift maps) are approximations.</p>
+
+  <h2 id="ip">8. Intellectual property</h2>
+  <p>The PaleoDex name, logo, "Field-OS" design, original text, and software are owned by us or our licensors and are protected by intellectual-property laws. We grant you a personal, limited, non-exclusive, non-transferable, revocable license to use the app and site for their intended, non-commercial purpose.</p>
+  <p>Scientific data and media are sourced from open databases (such as the Paleobiology Database, GBIF, Wikipedia/Wikimedia, Wikidata, the Open Tree of Life, PhyloPic, and others) and remain subject to their respective licenses and attribution requirements. Those rights belong to their original creators and providers.</p>
+
+  <h2 id="third">9. Third-party services</h2>
+  <p>PaleoDex relies on and links to third-party services (for example map providers, our CRM/email tools, and news sources). We are not responsible for the content, availability, or practices of third parties, and your use of them may be governed by their own terms and policies.</p>
+
+  <h2 id="privacy">10. Privacy</h2>
+  <p>Our handling of personal data is described in our <a href="/privacy">Privacy Policy</a>, which forms part of these Terms.</p>
+
+  <h2 id="warranty">11. Disclaimers</h2>
+  <p>To the fullest extent permitted by law, PaleoDex is provided <strong>"as is" and "as available," without warranties of any kind</strong>, whether express or implied, including fitness for a particular purpose, merchantability, accuracy, and non-infringement. We do not warrant that the service will be uninterrupted, secure, or error-free. Nothing in these Terms excludes liability that cannot be excluded under applicable law, including mandatory consumer-protection rights.</p>
+
+  <h2 id="liability">12. Limitation of liability</h2>
+  <p>To the fullest extent permitted by law, PaleoDex and its operator will not be liable for any indirect, incidental, special, consequential, or punitive damages, or for any loss arising from your use of (or inability to use) the service, from fieldwork or collecting, or from reliance on its content. Where liability cannot be excluded, it is limited to the maximum extent permitted by law.</p>
+
+  <h2 id="changes">13. Changes &amp; termination</h2>
+  <p>We may update these Terms as the product and the law evolve; we will post the new version here with an updated date and, for material changes, give prominent notice. Continued use after changes means you accept them. We may suspend or end your access if you breach these Terms or to protect the service or other users.</p>
+
+  <h2 id="law">14. Governing law &amp; contact</h2>
+  <p>These Terms are governed by the laws of <strong>Chile</strong>, without prejudice to any mandatory consumer-protection or data-protection rights you have where you live. Questions about these Terms: <a href="mailto:hello@paleodex.co">hello@paleodex.co</a> (operated by a sole developer based in Chile, <span class="placeholder">[YOUR FULL NAME / RUT — to complete]</span>).</p>
+
+  <div class="callout"><strong>Note.</strong> These Terms are a thorough, good-faith starting point and general information, not legal advice. We recommend a review by a qualified professional before launch.</div>
+</main>
+
+<!-- ============================== ESPAÑOL ============================== -->
+<main class="doc" data-lang="es">
+  <div class="eyebrow">// MANUAL DE CAMPO · TÉRMINOS</div>
+  <h1>Términos de Servicio</h1>
+  <p class="updated">Última actualización: 28 de junio de 2026 · Vigencia: 28 de junio de 2026</p>
+  <p class="lead">Estos Términos regulan tu uso del sitio web y la app de PaleoDex. Al unirte a la lista de espera o usar PaleoDex, los aceptas. Léelos junto con nuestra <a href="/privacy">Política de Privacidad</a>.</p>
+
+  <div class="toc">
+    <h2>Contenido</h2>
+    <ol>
+      <li><a href="#accept-es">Aceptación</a></li>
+      <li><a href="#who-es">Quién puede usar PaleoDex</a></li>
+      <li><a href="#service-es">El servicio</a></li>
+      <li><a href="#account-es">Perfiles y tabla de clasificación</a></li>
+      <li><a href="#use-es">Uso aceptable</a></li>
+      <li><a href="#field-es">Búsqueda de fósiles y seguridad</a></li>
+      <li><a href="#data-es">Datos científicos y exactitud</a></li>
+      <li><a href="#ip-es">Propiedad intelectual</a></li>
+      <li><a href="#third-es">Servicios de terceros</a></li>
+      <li><a href="#privacy-es">Privacidad</a></li>
+      <li><a href="#warranty-es">Exenciones</a></li>
+      <li><a href="#liability-es">Limitación de responsabilidad</a></li>
+      <li><a href="#changes-es">Cambios y terminación</a></li>
+      <li><a href="#law-es">Ley aplicable y contacto</a></li>
+    </ol>
+  </div>
+
+  <h2 id="accept-es">1. Aceptación de estos términos</h2>
+  <p>Al acceder al sitio web de PaleoDex, unirte a la lista de espera o usar la app, confirmas que leíste, entendiste y aceptas estos Términos y nuestra <a href="/privacy">Política de Privacidad</a>. Si no estás de acuerdo, por favor no uses PaleoDex.</p>
+
+  <h2 id="who-es">2. Quién puede usar PaleoDex</h2>
+  <p>La lista de espera y las funciones de cuenta están dirigidas a personas de <strong>16 años o más</strong>. Si tienes menos de 16, tu madre, padre o tutor legal debe aceptar estos Términos y actuar en tu representación. Al usar PaleoDex confirmas que cumples este requisito y que la información que entregas es exacta.</p>
+
+  <h2 id="service-es">3. El servicio</h2>
+  <p>PaleoDex es un explorador de paleontología educativo y juego de colección para iOS y Android, además de este sitio web. La app está actualmente <strong>en fase previa al lanzamiento</strong>; las funciones descritas son planificadas y pueden cambiar antes y después del lanzamiento. Podemos agregar, modificar, suspender o discontinuar cualquier parte del servicio en cualquier momento. La lista de espera solo permite pedir aviso del lanzamiento — no es una compra ni obliga a entregar la app en una fecha determinada.</p>
+
+  <h2 id="account-es">4. Perfiles y tabla de clasificación</h2>
+  <p>Si decides unirte a la tabla de clasificación en línea, opcional y anónima, no debes suplantar a otras personas, usar nombres ofensivos ni manipular los puntajes. Podemos eliminar entradas o restringir el acceso para proteger la integridad de la tabla y a los demás usuarios.</p>
+
+  <h2 id="use-es">5. Uso aceptable</h2>
+  <p>Te comprometes a no:</p>
+  <ul>
+    <li>usar PaleoDex con fines ilícitos o infringiendo estos Términos;</li>
+    <li>copiar, raspar (scraping) o extraer en masa contenido o datos de la app o el sitio, salvo lo expresamente permitido;</li>
+    <li>realizar ingeniería inversa, descompilar o intentar derivar el código fuente, salvo cuando la ley lo permita expresamente;</li>
+    <li>interferir, sobrecargar o alterar el servicio, sus servidores o su seguridad; ni</li>
+    <li>revender, sublicenciar o explotar comercialmente el servicio sin nuestro permiso por escrito.</li>
+  </ul>
+
+  <h2 id="field-es">6. Búsqueda de fósiles y seguridad en terreno</h2>
+  <div class="callout"><strong>Lee esto antes de excavar.</strong> PaleoDex muestra localidades fósiles reales y puede guiarte al aire libre, pero es una herramienta educativa — no es un permiso para recolectar ni una garantía de seguridad. <strong>Recolectar fósiles está restringido o es ilegal en muchos lugares</strong>, especialmente en terrenos públicos, protegidos o privados, y las reglas varían según el país y la región.</div>
+  <p>Eres el único responsable de: conocer y cumplir todas las leyes, permisos y autorizaciones del propietario antes de recolectar; tu propia seguridad y la de otras personas en terreno; y cualquier consecuencia de actuar según la información de la app. PaleoDex no autoriza, fomenta ni se responsabiliza por recolección, ingreso no autorizado o actividades inseguras. Ante la duda, observa y registra — no extraigas — y consulta a las autoridades locales o a un museo.</p>
+
+  <h2 id="data-es">7. Datos científicos y exactitud</h2>
+  <p>PaleoDex se basa en conjuntos de datos científicos abiertos y aplica el principio de dejar un campo en blanco antes que adivinar. Aun así, el contenido se ofrece con fines educativos y de entretenimiento, puede contener errores, vacíos o información desactualizada, y no sustituye fuentes revisadas por pares ni asesoría profesional. No garantizamos que los datos sean completos, exactos o actuales, y las reconstrucciones (como los mapas de deriva continental) son aproximaciones.</p>
+
+  <h2 id="ip-es">8. Propiedad intelectual</h2>
+  <p>El nombre PaleoDex, el logo, el diseño "Field-OS", los textos originales y el software pertenecen a nosotros o a nuestros licenciantes y están protegidos por las leyes de propiedad intelectual. Te otorgamos una licencia personal, limitada, no exclusiva, intransferible y revocable para usar la app y el sitio con su finalidad prevista y no comercial.</p>
+  <p>Los datos y medios científicos provienen de bases de datos abiertas (como la Paleobiology Database, GBIF, Wikipedia/Wikimedia, Wikidata, el Open Tree of Life, PhyloPic y otras) y quedan sujetos a sus respectivas licencias y requisitos de atribución. Esos derechos pertenecen a sus creadores y proveedores originales.</p>
+
+  <h2 id="third-es">9. Servicios de terceros</h2>
+  <p>PaleoDex usa y enlaza a servicios de terceros (por ejemplo, proveedores de mapas, nuestras herramientas de CRM/correo y fuentes de noticias). No somos responsables del contenido, disponibilidad o prácticas de terceros, y tu uso de ellos puede regirse por sus propios términos y políticas.</p>
+
+  <h2 id="privacy-es">10. Privacidad</h2>
+  <p>El tratamiento de tus datos personales se describe en nuestra <a href="/privacy">Política de Privacidad</a>, que forma parte de estos Términos.</p>
+
+  <h2 id="warranty-es">11. Exenciones de responsabilidad</h2>
+  <p>En la máxima medida permitida por la ley, PaleoDex se proporciona <strong>"tal cual" y "según disponibilidad", sin garantías de ningún tipo</strong>, expresas o implícitas, incluyendo idoneidad para un fin particular, comerciabilidad, exactitud y no infracción. No garantizamos que el servicio sea ininterrumpido, seguro o libre de errores. Nada en estos Términos excluye responsabilidades que no puedan excluirse según la ley aplicable, incluidos los derechos imperativos de protección al consumidor.</p>
+
+  <h2 id="liability-es">12. Limitación de responsabilidad</h2>
+  <p>En la máxima medida permitida por la ley, PaleoDex y su operador no serán responsables por daños indirectos, incidentales, especiales, consecuentes o punitivos, ni por pérdidas derivadas del uso (o la imposibilidad de uso) del servicio, del trabajo en terreno o la recolección, o de la confianza en su contenido. Cuando la responsabilidad no pueda excluirse, se limitará al máximo permitido por la ley.</p>
+
+  <h2 id="changes-es">13. Cambios y terminación</h2>
+  <p>Podemos actualizar estos Términos a medida que evolucionen el producto y la ley; publicaremos la nueva versión aquí con fecha actualizada y, ante cambios relevantes, daremos aviso destacado. El uso continuado tras los cambios implica que los aceptas. Podemos suspender o terminar tu acceso si incumples estos Términos o para proteger el servicio o a otros usuarios.</p>
+
+  <h2 id="law-es">14. Ley aplicable y contacto</h2>
+  <p>Estos Términos se rigen por las leyes de <strong>Chile</strong>, sin perjuicio de los derechos imperativos de protección al consumidor o de datos que tengas en tu lugar de residencia. Consultas sobre estos Términos: <a href="mailto:hello@paleodex.co">hello@paleodex.co</a> (operado por un desarrollador individual con domicilio en Chile, <span class="placeholder">[NOMBRE COMPLETO / RUT — por completar]</span>).</p>
+
+  <div class="callout"><strong>Nota.</strong> Estos Términos son un punto de partida exhaustivo y de buena fe, e información general, no asesoría legal. Recomendamos una revisión por un profesional calificado antes del lanzamiento.</div>
+</main>
+
+<footer>
+  <div class="foot-inner">
+    <span>© 2026 PALEODEX · DIG RESPONSIBLY</span>
+    <span style="display:flex; gap:18px; flex-wrap:wrap;">
+      <a href="/privacy" id="privacy-link">Privacy</a>
+      <a href="/cookies" id="cookiepolicy-link">Cookies</a>
+      <a href="#" id="cookie-link" onclick="pdxManageCookies();return false;">Cookie settings</a>
+      <a href="/">paleodex.co</a>
+    </span>
+  </div>
+</footer>
+
+</div>
+
+<!-- ==== Cookie consent (bilingual) ==== -->
+<div id="pdx-cookie" role="dialog" aria-live="polite" hidden style="position:fixed; left:16px; right:16px; bottom:16px; z-index:9999; max-width:560px; margin:0 auto; background:#0a1610; border:1px solid rgba(70,224,138,.35); border-radius:14px; box-shadow:0 20px 60px rgba(0,0,0,.55); padding:18px 20px; font-family:'Hanken Grotesk',system-ui,sans-serif; color:#d8e8de;">
+  <p data-cc="msg" style="margin:0 0 14px; font-size:14px; line-height:1.55; color:#9fb6aa;"></p>
+  <div style="display:flex; flex-wrap:wrap; gap:10px; align-items:center;">
+    <button data-cc="accept" onclick="pdxCookie('granted')" style="font-family:'JetBrains Mono',monospace; font-weight:700; font-size:12px; letter-spacing:.04em; color:#06140c; background:#46e08a; border:none; padding:11px 18px; border-radius:9px; cursor:pointer;"></button>
+    <button data-cc="reject" onclick="pdxCookie('denied')" style="font-family:'JetBrains Mono',monospace; font-weight:700; font-size:12px; letter-spacing:.04em; color:#d8e8de; background:transparent; border:1px solid rgba(70,224,138,.3); padding:11px 18px; border-radius:9px; cursor:pointer;"></button>
+    <a data-cc="link" href="/cookies" style="font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.04em; color:#46e08a; margin-left:auto;"></a>
+  </div>
+</div>
+<script>
+(function(){
+  var PORTAL="50834246";
+  function lang(){ try{ return localStorage.getItem('pdx_lang') || ((navigator.language||'en').toLowerCase().indexOf('es')===0?'es':'en'); }catch(e){ return 'en'; } }
+  function loadHS(){ if(document.getElementById('hs-script-loader'))return; var s=document.createElement('script'); s.id='hs-script-loader'; s.async=true; s.defer=true; s.src='//js.hs-scripts.com/'+PORTAL+'.js'; document.head.appendChild(s); }
+  var T={ en:{ msg:'We use cookies to run this site and, with your consent, to measure interest and improve PaleoDex. You can change your choice anytime.', accept:'ACCEPT', reject:'REJECT', link:'Cookie policy →' },
+          es:{ msg:'Usamos cookies para operar este sitio y, con tu consentimiento, medir el interés y mejorar PaleoDex. Puedes cambiar tu elección cuando quieras.', accept:'ACEPTAR', reject:'RECHAZAR', link:'Política de cookies →' } };
+  function render(){ var t=T[lang()]||T.en; var el=document.getElementById('pdx-cookie'); if(!el)return; el.querySelector('[data-cc=\"msg\"]').textContent=t.msg; el.querySelector('[data-cc=\"accept\"]').textContent=t.accept; el.querySelector('[data-cc=\"reject\"]').textContent=t.reject; el.querySelector('[data-cc=\"link\"]').textContent=t.link; }
+  window.pdxCookie=function(choice){ try{ localStorage.setItem('pdx_cookie_consent',choice); }catch(e){} var el=document.getElementById('pdx-cookie'); if(el) el.hidden=true; if(choice==='granted') loadHS(); };
+  window.pdxManageCookies=function(){ render(); var el=document.getElementById('pdx-cookie'); if(el) el.hidden=false; };
+  var c=null; try{ c=localStorage.getItem('pdx_cookie_consent'); }catch(e){}
+  if(c==='granted'){ loadHS(); } else if(c!=='denied'){ render(); var el=document.getElementById('pdx-cookie'); if(el) el.hidden=false; }
+})();
+</script>
+<!-- ==== /Cookie consent ==== -->
+
+<script>
+function setLang(lang){
+  document.querySelectorAll('[data-lang]').forEach(function(el){
+    el.classList.toggle('active', el.getAttribute('data-lang')===lang);
+  });
+  document.getElementById('btn-en').classList.toggle('active', lang==='en');
+  document.getElementById('btn-es').classList.toggle('active', lang==='es');
+  document.documentElement.lang = lang;
+  document.querySelector('.nav-back').textContent = lang==='es' ? '← VOLVER AL SITIO' : '← BACK TO SITE';
+  document.title = lang==='es' ? 'Términos de Servicio — PaleoDex' : 'Terms of Service — PaleoDex';
+  var pl=document.getElementById('privacy-link'); if(pl) pl.textContent = lang==='es' ? 'Privacidad' : 'Privacy';
+  var cl=document.getElementById('cookie-link'); if(cl) cl.textContent = lang==='es' ? 'Preferencias de cookies' : 'Cookie settings';
+  try { localStorage.setItem('pdx_lang', lang); } catch(e){}
+}
+(function(){
+  var saved=null; try{ saved=localStorage.getItem('pdx_lang'); }catch(e){}
+  var lang = saved || ((navigator.language||'en').toLowerCase().indexOf('es')===0 ? 'es' : 'en');
+  setLang(lang);
+})();
+</script>
+</body>
+</html>
