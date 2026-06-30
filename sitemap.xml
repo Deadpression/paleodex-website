@@ -243,6 +243,9 @@
   <url>
     <loc>https://paleodex.co/terms</loc>
     <lastmod>2026-06-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
   <url>
     <loc>https://paleodex.co/features/radar/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/features/radar/"/>
