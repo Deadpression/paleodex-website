@@ -35,4 +35,4 @@
 [[headers]]
   for = "/es/*.html"
   [headers.values]
-    Cache-Control = "public, m
+    Cache-Control = "public, max-age=3600, must-revalidate"
