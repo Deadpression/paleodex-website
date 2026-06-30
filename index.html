@@ -668,57 +668,36 @@ function toggleFaq(i) {
   btn.setAttribute('aria-expanded', !isOpen);
 }
 
-// Waitlist -> HubSpot Forms Submission API
-// SETUP: In HubSpot, create a form (Marketing > Forms) with fields email + firstname,
-// copy its Form GUID and paste it below. Portal ID is already wired.
-const HUBSPOT_PORTAL_ID = "50834246";
-const HUBSPOT_FORM_GUID = "fb11dbe1-d089-49ad-aa43-90ea7169a1ba";
-
+// Waitlist -> Netlify function (sends bilingual confirmation email + forwards to HubSpot)
 async function handleWaitlist(e) {
   e.preventDefault();
   const form = e.target;
-  // Honeypot: if this hidden field is filled, it's a bot — fake success, send nothing.
+  // Honeypot: if filled, it's a bot — fake success
   if (form.pdx_company && form.pdx_company.value) { showWaitlistSuccess(); return; }
-  // Require explicit consent.
   if (!form.consent.checked) return;
 
   const btn = form.querySelector('button[type="submit"]');
   const original = btn.textContent;
-  btn.disabled = true; btn.textContent = "SENDING\u2026";
-
-  if (HUBSPOT_FORM_GUID === "REPLACE_WITH_FORM_GUID") { showWaitlistSuccess(); return; }
-
-  const endpoint = "https://api.hsforms.com/submissions/v3/integration/submit/" + HUBSPOT_PORTAL_ID + "/" + HUBSPOT_FORM_GUID;
-  const fields = [
-    { name: "email", value: form.email.value.trim() },
-    { name: "firstname", value: form.firstname.value.trim() }
-  ];
-  const consentText = "I agree to receive launch updates from PaleoDex and accept the Privacy Policy.";
-  const context = { pageUri: location.href, pageName: document.title };
-
-  function send(withConsent) {
-    const body = withConsent
-      ? { fields, context, legalConsentOptions: { consent: { consentToProcess: true, text: consentText } } }
-      : { fields, context };
-    return fetch(endpoint, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(body)
-    });
-  }
+  btn.disabled = true; btn.textContent = "SENDING…";
 
   try {
-    let res = await send(true);
-    // If the portal has no consent/GDPR config, retry without it so the email is still captured.
-    if (res.status === 400) {
-      const txt = await res.text();
-      if (/consent|legalConsent|gdpr/i.test(txt)) res = await send(false);
-    }
-    if (!res.ok) throw new Error("HubSpot " + res.status);
+    const res = await fetch("/.netlify/functions/waitlist", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        email: form.email.value.trim(),
+        firstname: form.firstname.value.trim(),
+        lang: "en",
+        pageUri: location.href,
+        pageName: document.title,
+        honeypot: (form.pdx_company && form.pdx_company.value) || ""
+      })
+    });
+    if (!res.ok) throw new Error("status " + res.status);
     showWaitlistSuccess();
   } catch (err) {
     btn.disabled = false; btn.textContent = original;
-    alert("Something went wrong \u2014 please try again in a moment.");
+    alert("Something went wrong — please try again in a moment.");
   }
 }
 function showWaitlistSuccess() {

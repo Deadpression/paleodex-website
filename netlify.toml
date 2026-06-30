@@ -1,6 +1,10 @@
 [build]
   publish = "."
 
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "nft"
+
 # Custom 404
 [[redirects]]
   from = "/*"
@@ -30,5 +34,4 @@
 
 [[headers]]
   for = "/es/*.html"
-  [headers.values]
-    Cache-Control = "public, max-age=3600, must-revalidate"
+  [header
