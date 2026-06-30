@@ -25,7 +25,7 @@ function emailEN(firstname) {
     `You're in. We'll reach out the moment PaleoDex is ready to download on iOS and Android.\n\n` +
     `In the meantime, explore what's coming at paleodex.co — a live fossil map, ` +
     `74,000+ real prehistoric genera, an excavation game, and 540 million years of continental drift.\n\n` +
-    `Talk soon,\nThe PaleoDex Team`;
+    `Talk soon,\nThe PaleoDex Team\n\nDon't really want emails? Reply with "Unsubscribe" or email hello@paleodex.co`;
   const html = `<!DOCTYPE html>
 <html lang="en">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -51,7 +51,8 @@ function emailEN(firstname) {
         <tr><td style="padding:20px 40px;border-top:1px solid rgba(70,224,138,.12);">
           <p style="margin:0;font-size:12px;color:#7d978a;line-height:1.6;">
             You're receiving this because you signed up at <a href="https://paleodex.co" style="color:#46e08a;text-decoration:none;">paleodex.co</a>.<br>
-            The PaleoDex Team · Santiago, Chile
+            The PaleoDex Team · Santiago, Chile<br><br>
+            Don't really want emails? <a href="mailto:hello@paleodex.co?subject=Unsubscribe" style="color:#46e08a;text-decoration:none;">Unsubscribe here</a>
           </p>
         </td></tr>
       </table>
@@ -69,7 +70,7 @@ function emailES(firstname) {
     `Ya estás dentro. Te avisamos en cuanto PaleoDex esté disponible para descargar en iOS y Android.\n\n` +
     `Mientras tanto, explora lo que viene en paleodex.co — un mapa fósil en vivo, más de 74.000 géneros ` +
     `prehistóricos reales, un juego de excavación y 540 millones de años de deriva continental.\n\n` +
-    `Hasta pronto,\nEl equipo de PaleoDex`;
+    `Hasta pronto,\nEl equipo de PaleoDex\n\n¿No quieres recibir más correos? Responde con "Unsubscribe" o escríbenos a hello@paleodex.co`;
   const html = `<!DOCTYPE html>
 <html lang="es">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -95,7 +96,8 @@ function emailES(firstname) {
         <tr><td style="padding:20px 40px;border-top:1px solid rgba(70,224,138,.12);">
           <p style="margin:0;font-size:12px;color:#7d978a;line-height:1.6;">
             Recibiste este correo porque te registraste en <a href="https://paleodex.co/es/" style="color:#46e08a;text-decoration:none;">paleodex.co</a>.<br>
-            El equipo de PaleoDex · Santiago, Chile
+            El equipo de PaleoDex · Santiago, Chile<br><br>
+            ¿No quieres recibir más correos? <a href="mailto:hello@paleodex.co?subject=Unsubscribe" style="color:#46e08a;text-decoration:none;">Cancela tu suscripción aquí</a>
           </p>
         </td></tr>
       </table>
@@ -189,25 +191,4 @@ exports.handler = async (event) => {
       secure: true,
       auth: {
         user: process.env.ZOHO_USER,
-        pass: process.env.ZOHO_PASS,
-      },
-    });
-    const tpl = isES ? emailES(firstname) : emailEN(firstname);
-    await transporter.sendMail({
-      from: `"PaleoDex Team" <${process.env.ZOHO_USER}>`,
-      to: email,
-      subject: tpl.subject,
-      text: tpl.text,
-      html: tpl.html,
-    });
-  } catch (err) {
-    console.error("Email error:", err.message);
-    // Don't fail the request — lead is already in HubSpot
-  }
-
-  return {
-    statusCode: 200,
-    headers: CORS,
-    body: JSON.stringify({ ok: true }),
-  };
-};
+   
