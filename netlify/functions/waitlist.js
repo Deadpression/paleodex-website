@@ -1,7 +1,7 @@
 // PaleoDex waitlist handler
 // Sends bilingual confirmation email via Zoho SMTP + forwards lead to HubSpot.
 // Env vars required in Netlify dashboard:
-//   ZOHO_USER  = hello@paleodex.co
+//   ZOHO_USER  = your Zoho sender address
 //   ZOHO_PASS  = Zoho app password (not your main password)
 
 const nodemailer = require("nodemailer");
