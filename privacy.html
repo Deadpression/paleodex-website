@@ -118,11 +118,11 @@ footer { border-top:1px solid var(--border); background:var(--surface); }
 <main class="doc" data-lang="en">
   <div class="eyebrow">// FIELD MANUAL · DATA</div>
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: 28 June 2026 · Effective: 28 June 2026</p>
+  <p class="updated">Last updated: 3 July 2026 · Effective: 3 July 2026</p>
 
   <p class="lead">PaleoDex is built on a simple principle: nothing is invented, and nothing is hidden. That applies to your data too. This policy explains what personal data we collect, why, how we protect it, and the rights you have over it — written to meet the EU/UK GDPR, Chile's Law No. 19.628 as amended by Law No. 21.719, and recognized global best practice.</p>
 
-  <div class="callout"><strong>Plain-language summary.</strong> Right now, the only personal data we collect is what you give us to join the waitlist (your first name and email) plus standard analytics about how you use this website. We don't sell your data, we don't knowingly collect data from children, and you can ask us to show, correct, or delete your data at any time by emailing <a href="mailto:hello@paleodex.co">hello@paleodex.co</a>.</p></div>
+  <div class="callout"><strong>Plain-language summary.</strong> We collect very little. On this website: what you give us to join the waitlist (first name and email) plus standard website analytics. In the app, everything is on your device by default — we only receive your approximate location if you use "fossils near me" (for a single search, never stored), a display name if you join the leaderboard, and your email if you choose to sign in with Google to back up your progress. We don't sell your data, we run no ads or tracking, we don't knowingly collect data from children, and you can show, correct, or delete your data at any time — in the app via <strong>Settings → "Delete my data"</strong>, or by emailing <a href="mailto:hello@paleodex.co">hello@paleodex.co</a>.</p></div>
 
   <div class="toc">
     <h2>Contents</h2>
@@ -161,12 +161,13 @@ footer { border-top:1px solid var(--border); background:var(--surface); }
   </ul>
 
   <h3>c. Information collected by the PaleoDex app</h3>
-  <p class="muted">The PaleoDex mobile app is in pre-launch. When it is available, the following will apply:</p>
+  <p class="muted">In the PaleoDex mobile app:</p>
   <ul>
     <li><strong>On-device by default:</strong> your collection, in-game progress, and settings are stored <strong>locally on your device</strong>, not on our servers.</li>
-    <li><strong>Location (optional):</strong> if you turn on GPS field mode, your device location is used to find fossil sites near you and to query that map region. You can use the app, pan, and scan any region <em>without</em> sharing your location, and you can revoke the permission at any time in your device settings.</li>
+    <li><strong>Location (optional):</strong> if you turn on GPS field mode, your device's <strong>approximate</strong> location is used to find fossil sites near you and to query that map region. It is used for that one search and <strong>never stored</strong>. You can use the app, pan, and scan any region <em>without</em> sharing your location, and you can revoke the permission at any time in your device settings.</li>
     <li><strong>Anonymous leaderboard (opt-in):</strong> if you choose to join the online leaderboard, we process an anonymous skill score and a display name of your choosing. It is opt-in and does not require an account or your real identity.</li>
-    <li><strong>Diagnostics:</strong> we may collect anonymized crash and performance data to keep the app stable.</li>
+    <li><strong>Cloud backup &amp; Google sign-in (optional):</strong> you can sign in with Google to back up your collection and progress to our servers and restore them on another device. When you do, Google provides your <strong>email address</strong> to identify your account, which we store only for that purpose. If you don't sign in, none of this leaves your device.</li>
+    <li><strong>No analytics or ads:</strong> the app contains no third-party analytics, advertising, or crash-reporting tools, and sends no usage telemetry.</li>
   </ul>
   <p>The scientific content in PaleoDex (species, occurrences, classifications) comes from open databases — it is not your personal data. See the data sources listed on our site.</p>
 
@@ -201,7 +202,10 @@ footer { border-top:1px solid var(--border); background:var(--surface); }
       <tr><td>HubSpot</td><td>CRM, waitlist, email, website analytics</td><td>USA / EU</td></tr>
       <tr><td>Zoho Mail</td><td>Our email inbox (hello@paleodex.co)</td><td>EU / global</td></tr>
       <tr><td>Cloudways / DigitalOcean</td><td>Website hosting &amp; server logs</td><td>Configurable region</td></tr>
-      <tr><td>MapTiler (app)</td><td>Serving map tiles in the app</td><td>EU</td></tr>
+      <tr><td>MapTiler (app)</td><td>Serving map tiles in the app (by map area — never your personal location)</td><td>EU</td></tr>
+      <tr><td>Supabase (app)</td><td>App backend — the online leaderboard, optional cloud backup, and the one-off "nearby fossils" location query (not stored)</td><td>Global</td></tr>
+      <tr><td>Google (app)</td><td>"Sign in with Google" — authentication and your email, only if you enable cloud backup</td><td>USA / global</td></tr>
+      <tr><td>Wikimedia / wsrv.nl (app)</td><td>Serving and resizing fossil photos in the app — no personal data is sent</td><td>Global</td></tr>
     </tbody>
   </table>
   <p>We may also disclose data if required by law, to protect our rights or users' safety, or in connection with a future business transfer — in which case we will tell you.</p>
@@ -215,6 +219,7 @@ footer { border-top:1px solid var(--border); background:var(--surface); }
     <li><strong>Emails:</strong> for as long as needed to handle your request and a reasonable period afterward.</li>
     <li><strong>Analytics/logs:</strong> for a limited period, then deleted or aggregated.</li>
     <li><strong>App data on your device:</strong> stays until you delete it or uninstall the app.</li>
+    <li><strong>App data on our servers</strong> (your leaderboard handle and scores, and — if you enabled it — your cloud backup): kept until you delete it. You can erase all of it from the app via <strong>Settings → "Delete my data"</strong>, which removes your on-device data, your leaderboard profile and scores, and your cloud backup, and signs you out — or email us to request deletion.</li>
   </ul>
 
   <h2 id="security">8. Security &amp; data breaches</h2>
@@ -237,7 +242,7 @@ footer { border-top:1px solid var(--border); background:var(--surface); }
     <li><strong>Withdraw consent</strong> — at any time, without affecting prior processing (e.g., unsubscribe from emails using the link in any message).</li>
     <li><strong>Not be subject to solely automated decisions</strong> that significantly affect you (we don't make any such decisions).</li>
   </ul>
-  <p>To exercise any right, email <a href="mailto:hello@paleodex.co">hello@paleodex.co</a>. We will respond within the timeframe required by applicable law (and aim to do so promptly). Exercising your rights is free, and we will not discriminate against you for doing so.</p>
+  <p>To exercise any right, email <a href="mailto:hello@paleodex.co">hello@paleodex.co</a> — or, for data the app holds, use <strong>Settings → "Delete my data"</strong> in the app to erase it immediately. We will respond within the timeframe required by applicable law (and aim to do so promptly). Exercising your rights is free, and we will not discriminate against you for doing so.</p>
 
   <h2 id="regional">11. Regional notices</h2>
   <h3>Chile</h3>
@@ -258,11 +263,11 @@ footer { border-top:1px solid var(--border); background:var(--surface); }
 <main class="doc" data-lang="es">
   <div class="eyebrow">// MANUAL DE CAMPO · DATOS</div>
   <h1>Política de Privacidad</h1>
-  <p class="updated">Última actualización: 28 de junio de 2026 · Vigencia: 28 de junio de 2026</p>
+  <p class="updated">Última actualización: 3 de julio de 2026 · Vigencia: 3 de julio de 2026</p>
 
   <p class="lead">PaleoDex se basa en un principio simple: nada se inventa y nada se oculta. Eso también vale para tus datos. Esta política explica qué datos personales recopilamos, por qué, cómo los protegemos y qué derechos tienes sobre ellos — redactada para cumplir con el RGPD de la UE/Reino Unido, la Ley N° 19.628 de Chile modificada por la Ley N° 21.719, y las buenas prácticas internacionales reconocidas.</p>
 
-  <div class="callout"><strong>Resumen en lenguaje simple.</strong> Por ahora, los únicos datos personales que recopilamos son los que nos entregas para unirte a la lista de espera (tu nombre y correo) y datos básicos sobre cómo usas este sitio. No vendemos tus datos, no recopilamos datos de niños a sabiendas, y puedes pedirnos ver, corregir o eliminar tus datos cuando quieras escribiendo a <a href="mailto:hello@paleodex.co">hello@paleodex.co</a>.</p></div>
+  <div class="callout"><strong>Resumen en lenguaje simple.</strong> Recopilamos muy poco. En este sitio web: lo que nos entregas para unirte a la lista de espera (nombre y correo) y analítica web estándar. En la app, todo queda en tu dispositivo por defecto — solo recibimos tu ubicación aproximada si usas "fósiles cerca de mí" (para una sola búsqueda, nunca almacenada), un nombre visible si te unes a la tabla de clasificación, y tu correo si eliges iniciar sesión con Google para respaldar tu progreso. No vendemos tus datos, no usamos publicidad ni seguimiento, no recopilamos datos de niños a sabiendas, y puedes ver, corregir o eliminar tus datos cuando quieras — en la app con <strong>Ajustes → "Eliminar mis datos"</strong>, o escribiendo a <a href="mailto:hello@paleodex.co">hello@paleodex.co</a>.</p></div>
 
   <div class="toc">
     <h2>Contenido</h2>
@@ -298,12 +303,13 @@ footer { border-top:1px solid var(--border); background:var(--surface); }
     <li><strong>Registros del servidor:</strong> nuestro proveedor de hosting registra direcciones IP y metadatos de las solicitudes por seguridad y estabilidad.</li>
   </ul>
   <h3>c. Información que recopila la app PaleoDex</h3>
-  <p class="muted">La app móvil de PaleoDex está en fase previa al lanzamiento. Cuando esté disponible, aplicará lo siguiente:</p>
+  <p class="muted">En la app móvil de PaleoDex:</p>
   <ul>
     <li><strong>En el dispositivo por defecto:</strong> tu colección, tu progreso y tus ajustes se almacenan <strong>localmente en tu dispositivo</strong>, no en nuestros servidores.</li>
-    <li><strong>Ubicación (opcional):</strong> si activas el modo de campo por GPS, usamos la ubicación de tu dispositivo para encontrar sitios fósiles cercanos y consultar esa zona del mapa. Puedes usar la app y explorar cualquier región <em>sin</em> compartir tu ubicación, y revocar el permiso cuando quieras en los ajustes del dispositivo.</li>
+    <li><strong>Ubicación (opcional):</strong> si activas el modo de campo por GPS, usamos la ubicación <strong>aproximada</strong> de tu dispositivo para encontrar sitios fósiles cercanos y consultar esa zona del mapa. Se usa para esa única búsqueda y <strong>nunca se almacena</strong>. Puedes usar la app y explorar cualquier región <em>sin</em> compartir tu ubicación, y revocar el permiso cuando quieras en los ajustes del dispositivo.</li>
     <li><strong>Tabla de clasificación anónima (opcional):</strong> si decides unirte a la tabla en línea, procesamos un puntaje anónimo y un nombre que tú elijas. Es opcional y no requiere cuenta ni tu identidad real.</li>
-    <li><strong>Diagnóstico:</strong> podemos recopilar datos anonimizados de fallos y rendimiento para mantener la app estable.</li>
+    <li><strong>Respaldo en la nube e inicio de sesión con Google (opcional):</strong> puedes iniciar sesión con Google para respaldar tu colección y tu progreso en nuestros servidores y restaurarlos en otro dispositivo. Al hacerlo, Google nos entrega tu <strong>correo electrónico</strong> para identificar tu cuenta, que guardamos solo para ese fin. Si no inicias sesión, nada de esto sale de tu dispositivo.</li>
+    <li><strong>Sin analítica ni publicidad:</strong> la app no incluye herramientas de analítica, publicidad ni reporte de fallos de terceros, y no envía telemetría de uso.</li>
   </ul>
   <p>El contenido científico de PaleoDex (especies, ocurrencias, clasificaciones) proviene de bases de datos abiertas — no son tus datos personales.</p>
 
@@ -338,7 +344,10 @@ footer { border-top:1px solid var(--border); background:var(--surface); }
       <tr><td>HubSpot</td><td>CRM, lista de espera, correo, analítica web</td><td>EE.UU. / UE</td></tr>
       <tr><td>Zoho Mail</td><td>Nuestro buzón de correo (hello@paleodex.co)</td><td>UE / global</td></tr>
       <tr><td>Cloudways / DigitalOcean</td><td>Hosting del sitio y registros del servidor</td><td>Región configurable</td></tr>
-      <tr><td>MapTiler (app)</td><td>Entrega de mosaicos de mapa en la app</td><td>UE</td></tr>
+      <tr><td>MapTiler (app)</td><td>Entrega de mosaicos de mapa en la app (por zona del mapa — nunca tu ubicación personal)</td><td>UE</td></tr>
+      <tr><td>Supabase (app)</td><td>Backend de la app — la tabla de clasificación, el respaldo en la nube opcional y la consulta única de "fósiles cercanos" (no almacenada)</td><td>Global</td></tr>
+      <tr><td>Google (app)</td><td>"Iniciar sesión con Google" — autenticación y tu correo, solo si activas el respaldo en la nube</td><td>EE.UU. / global</td></tr>
+      <tr><td>Wikimedia / wsrv.nl (app)</td><td>Entrega y redimensionado de fotos de fósiles en la app — no se envían datos personales</td><td>Global</td></tr>
     </tbody>
   </table>
   <p>También podríamos divulgar datos si la ley lo exige, para proteger nuestros derechos o la seguridad de los usuarios, o en relación con una futura transferencia del negocio — en cuyo caso te informaremos.</p>
@@ -352,6 +361,7 @@ footer { border-top:1px solid var(--border); background:var(--surface); }
     <li><strong>Correos:</strong> el tiempo necesario para atender tu solicitud y un periodo razonable posterior.</li>
     <li><strong>Analítica/registros:</strong> por un periodo limitado; luego se eliminan o agregan.</li>
     <li><strong>Datos de la app en tu dispositivo:</strong> permanecen hasta que los borres o desinstales la app.</li>
+    <li><strong>Datos de la app en nuestros servidores</strong> (tu nombre y puntajes de la tabla, y — si lo activaste — tu respaldo en la nube): se conservan hasta que los elimines. Puedes borrar todo desde la app con <strong>Ajustes → "Eliminar mis datos"</strong>, que elimina tus datos locales, tu perfil y puntajes de la tabla y tu respaldo en la nube, y cierra tu sesión — o escríbenos para solicitar la eliminación.</li>
   </ul>
 
   <h2 id="security-es">8. Seguridad y vulneraciones de datos</h2>
@@ -374,7 +384,7 @@ footer { border-top:1px solid var(--border); background:var(--surface); }
     <li><strong>Revocar el consentimiento</strong> — en cualquier momento, sin afectar tratamientos previos (por ejemplo, dándote de baja desde el enlace de cualquier correo).</li>
     <li><strong>No ser objeto de decisiones automatizadas</strong> que te afecten significativamente (no tomamos ese tipo de decisiones).</li>
   </ul>
-  <p>Para ejercer cualquier derecho, escribe a <a href="mailto:hello@paleodex.co">hello@paleodex.co</a>. Responderemos dentro del plazo que exija la ley aplicable (y procuramos hacerlo pronto). Ejercer tus derechos es gratuito y no te discriminaremos por hacerlo.</p>
+  <p>Para ejercer cualquier derecho, escribe a <a href="mailto:hello@paleodex.co">hello@paleodex.co</a> — o, para los datos que guarda la app, usa <strong>Ajustes → "Eliminar mis datos"</strong> en la app para borrarlos de inmediato. Responderemos dentro del plazo que exija la ley aplicable (y procuramos hacerlo pronto). Ejercer tus derechos es gratuito y no te discriminaremos por hacerlo.</p>
 
   <h2 id="regional-es">11. Avisos regionales</h2>
   <h3>Chile</h3>
