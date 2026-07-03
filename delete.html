@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/app-icons/apple-touch-icon-180.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delete Your Data — PaleoDex</title>
+<meta name="description" content="How to permanently delete your PaleoDex account and all associated data — in the app or by email.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#07120c">
+<meta property="og:title" content="Delete Your Data — PaleoDex">
+<meta property="og:description" content="How to permanently delete your PaleoDex account and all associated data.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://paleodex.co/delete">
+<link rel="canonical" href="https://paleodex.co/delete">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+:root {
+  --bg:#07120c; --surface:#0c1a12; --panel:#0a1610;
+  --border:rgba(70,224,138,.16); --green:#46e08a; --greenglow:rgba(70,224,138,.4);
+  --amber:#e8a33d; --text:#d8e8de; --muted:#9fb6aa; --muted2:#7d978a; --ongreen:#06140c;
+}
+body {
+  font-family:'Hanken Grotesk', system-ui, sans-serif;
+  background:var(--bg); color:var(--text); min-height:100vh; overflow-x:hidden;
+  line-height:1.65;
+}
+a { color:var(--green); text-decoration:none; }
+a:hover { text-decoration:underline; }
+.pdx-scanlines { position:fixed; inset:0; pointer-events:none; z-index:0; opacity:.5;
+  background-image:repeating-linear-gradient(0deg, rgba(70,224,138,.035) 0 1px, transparent 1px 3px); }
+.pdx-haze { position:fixed; inset:0; pointer-events:none; z-index:0;
+  background:radial-gradient(120% 70% at 80% -10%, rgba(70,224,138,.09), transparent 60%); }
+.wrap { position:relative; z-index:1; }
+
+/* Nav */
+.nav { position:sticky; top:0; z-index:40; backdrop-filter:blur(12px);
+  background:rgba(7,18,12,.72); border-bottom:1px solid var(--border); }
+.nav-inner { max-width:880px; margin:0 auto; padding:15px clamp(20px,5vw,40px);
+  display:flex; align-items:center; gap:18px; }
+.logo { display:flex; align-items:center; gap:10px; margin-right:auto; }
+.logo-icon{width:24px;height:24px;border-radius:7px;display:block;box-shadow:0 0 14px var(--greenglow)}
+.logo-text { font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:18px; letter-spacing:-.01em; }
+.logo-text span { color:var(--green); }
+.nav-back { font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:.06em; color:var(--muted2); }
+.nav-back:hover { color:var(--green); text-decoration:none; }
+.lang-switch { display:flex; gap:0; border:1px solid var(--border); border-radius:8px; overflow:hidden; }
+.lang-switch button { font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.06em;
+  background:transparent; color:var(--muted2); border:none; padding:7px 11px; cursor:pointer; transition:.15s; }
+.lang-switch button.active { background:var(--green); color:var(--ongreen); font-weight:700; }
+
+/* Content */
+.doc { max-width:880px; margin:0 auto; padding:clamp(36px,6vw,72px) clamp(20px,5vw,40px) 96px; }
+.eyebrow { font-family:'JetBrains Mono',monospace; font-size:11.5px; letter-spacing:.18em; color:var(--green); }
+h1 { font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(32px,5vw,52px);
+  line-height:1.02; letter-spacing:-.02em; margin:14px 0 10px; }
+.updated { font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:.04em; color:var(--muted2); }
+.lead { font-size:17px; color:var(--muted); margin:22px 0 0; max-width:62ch; }
+h2 { font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(21px,2.6vw,27px);
+  letter-spacing:-.01em; margin:52px 0 14px; padding-top:14px; border-top:1px solid var(--border); color:var(--text); }
+h3 { font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:17px; margin:24px 0 8px; color:var(--text); }
+p { margin:12px 0; color:var(--text); }
+.doc p, .doc li { font-size:15.5px; }
+ul, ol { margin:12px 0 12px 22px; }
+li { margin:7px 0; color:var(--text); }
+strong { color:var(--text); font-weight:600; }
+.muted { color:var(--muted); }
+.callout { background:var(--panel); border:1px solid var(--border); border-left:3px solid var(--green);
+  border-radius:12px; padding:18px 22px; margin:22px 0; font-size:15px; color:var(--muted); }
+.callout strong { color:var(--green); }
+.toc { background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:22px 26px; margin:34px 0; }
+.toc h2 { border:none; margin:0 0 10px; padding:0; font-size:13px; font-family:'JetBrains Mono',monospace;
+  letter-spacing:.12em; color:var(--muted2); font-weight:500; }
+.toc ol { columns:2; column-gap:32px; margin-left:18px; }
+.toc a { font-size:14px; }
+@media (max-width:640px){ .toc ol{ columns:1; } }
+table { width:100%; border-collapse:collapse; margin:16px 0; font-size:14px; display:block; overflow-x:auto; }
+th { font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:.1em; color:var(--muted2);
+  text-align:left; padding:10px 14px; border-bottom:1px solid var(--border); white-space:nowrap; }
+td { padding:11px 14px; border-bottom:1px solid rgba(70,224,138,.08); color:var(--muted); vertical-align:top; }
+td:first-child { color:var(--text); font-weight:600; }
+.placeholder { color:var(--amber); font-family:'JetBrains Mono',monospace; font-size:.92em; }
+footer { border-top:1px solid var(--border); background:var(--surface); }
+.foot-inner { max-width:880px; margin:0 auto; padding:32px clamp(20px,5vw,40px);
+  display:flex; flex-wrap:wrap; gap:18px; align-items:center; justify-content:space-between;
+  font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.06em; color:var(--muted2); }
+[data-lang]{ display:none; }
+[data-lang].active{ display:block; }
+</style>
+</head>
+<body>
+<div class="pdx-scanlines"></div>
+<div class="pdx-haze"></div>
+<div class="wrap">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="logo" href="/">
+      <img class="logo-icon" src="/assets/favicons/favicon-64.png" alt="PaleoDex">
+      <span class="logo-text">Paleo<span>Dex</span></span>
+    </a>
+    <a class="nav-back" href="/" data-t="back">← BACK TO SITE</a>
+    <div class="lang-switch">
+      <button id="btn-en" class="active" onclick="setLang('en')">EN</button>
+      <button id="btn-es" onclick="setLang('es')">ES</button>
+    </div>
+  </div>
+</nav>
+
+<!-- ============================== ENGLISH ============================== -->
+<main class="doc" data-lang="en">
+  <div class="eyebrow">// FIELD MANUAL · DATA</div>
+  <h1>Delete your data</h1>
+  <p class="updated">Last updated: 3 July 2026</p>
+  <p class="lead">You can permanently delete your PaleoDex account and everything tied to it at any time — in two ways. PaleoDex accounts are anonymous by default, so there is no personal profile to manage.</p>
+
+  <h2>1. In the app (fastest)</h2>
+  <p>Open PaleoDex and go to <strong>Settings → "Delete my data."</strong> This immediately and permanently erases:</p>
+  <ul>
+    <li>your on-device collection, progress, and settings;</li>
+    <li>your online leaderboard profile and scores;</li>
+    <li>your cloud backup (collection + economy), if you ever signed in with Google;</li>
+  </ul>
+  <p>…and signs you out. Nothing that identifies you survives it.</p>
+
+  <h2>2. By email (if you've uninstalled the app)</h2>
+  <p>Email <a href="mailto:hello@paleodex.co?subject=Delete%20my%20data">hello@paleodex.co</a> with the subject <strong>"Delete my data."</strong> Because accounts are anonymous, please include whatever you have so we can locate your records:</p>
+  <ul>
+    <li>your <strong>leaderboard display name</strong>, and/or</li>
+    <li>the <strong>Google email</strong> you used to sign in (only if you enabled cloud backup).</li>
+  </ul>
+  <p>We will confirm and complete the deletion within <strong>30 days</strong> — usually much sooner.</p>
+
+  <h2>3. What gets deleted</h2>
+  <p>Your leaderboard profile and scores, your cloud backup (collection + economy), and your anonymous account identifier are removed from our servers. On-device data is erased by the in-app button or by uninstalling the app. Your device location is <strong>never stored</strong>, so there is nothing to delete there — and we run no ads, analytics, or tracking.</p>
+
+  <div class="callout"><strong>Questions?</strong> Anything about your data or this process: <a href="mailto:hello@paleodex.co">hello@paleodex.co</a>. See also our <a href="/privacy">Privacy Policy</a>.</div>
+</main>
+
+<!-- ============================== ESPAÑOL ============================== -->
+<main class="doc" data-lang="es">
+  <div class="eyebrow">// MANUAL DE CAMPO · DATOS</div>
+  <h1>Elimina tus datos</h1>
+  <p class="updated">Última actualización: 3 de julio de 2026</p>
+  <p class="lead">Puedes eliminar de forma permanente tu cuenta de PaleoDex y todo lo asociado a ella cuando quieras — de dos maneras. Las cuentas de PaleoDex son anónimas por defecto, así que no hay un perfil personal que gestionar.</p>
+
+  <h2>1. En la app (lo más rápido)</h2>
+  <p>Abre PaleoDex y ve a <strong>Ajustes → "Eliminar mis datos."</strong> Esto borra de inmediato y de forma permanente:</p>
+  <ul>
+    <li>tu colección, progreso y ajustes en el dispositivo;</li>
+    <li>tu perfil y puntajes de la tabla de clasificación en línea;</li>
+    <li>tu respaldo en la nube (colección + economía), si alguna vez iniciaste sesión con Google;</li>
+  </ul>
+  <p>…y cierra tu sesión. Nada que te identifique sobrevive.</p>
+
+  <h2>2. Por correo (si desinstalaste la app)</h2>
+  <p>Escribe a <a href="mailto:hello@paleodex.co?subject=Eliminar%20mis%20datos">hello@paleodex.co</a> con el asunto <strong>"Eliminar mis datos."</strong> Como las cuentas son anónimas, incluye lo que tengas para poder ubicar tus registros:</p>
+  <ul>
+    <li>tu <strong>nombre en la tabla de clasificación</strong>, y/o</li>
+    <li>el <strong>correo de Google</strong> con el que iniciaste sesión (solo si activaste el respaldo en la nube).</li>
+  </ul>
+  <p>Confirmaremos y completaremos la eliminación en un plazo de <strong>30 días</strong> — normalmente mucho antes.</p>
+
+  <h2>3. Qué se elimina</h2>
+  <p>Tu perfil y puntajes de la tabla, tu respaldo en la nube (colección + economía) y tu identificador de cuenta anónimo se eliminan de nuestros servidores. Los datos en el dispositivo se borran con el botón dentro de la app o al desinstalarla. La ubicación de tu dispositivo <strong>nunca se almacena</strong>, así que no hay nada que eliminar allí — y no usamos publicidad, analítica ni seguimiento.</p>
+
+  <div class="callout"><strong>¿Dudas?</strong> Cualquier cosa sobre tus datos o este proceso: <a href="mailto:hello@paleodex.co">hello@paleodex.co</a>. Consulta también nuestra <a href="/privacy">Política de Privacidad</a>.</div>
+</main>
+
+<footer>
+  <div class="foot-inner">
+    <span>© 2026 PALEODEX · DIG RESPONSIBLY</span>
+    <span style="display:flex; gap:18px; flex-wrap:wrap;">
+      <a href="/privacy" id="privacy-link">Privacy</a>
+      <a href="/terms" id="terms-link">Terms</a>
+      <a href="/cookies" id="cookiepolicy-link">Cookies</a>
+      <a href="#" id="cookie-link" onclick="pdxManageCookies();return false;">Cookie settings</a>
+      <a href="/">paleodex.co</a>
+    </span>
+  </div>
+</footer>
+
+</div>
+<script>
+function setLang(lang){
+  document.querySelectorAll('[data-lang]').forEach(function(el){
+    el.classList.toggle('active', el.getAttribute('data-lang')===lang);
+  });
+  document.getElementById('btn-en').classList.toggle('active', lang==='en');
+  document.getElementById('btn-es').classList.toggle('active', lang==='es');
+  document.documentElement.lang = lang;
+  document.querySelector('.nav-back').textContent = lang==='es' ? '← VOLVER AL SITIO' : '← BACK TO SITE';
+  document.title = lang==='es' ? 'Elimina tus datos — PaleoDex' : 'Delete Your Data — PaleoDex';
+  var pl=document.getElementById('privacy-link'); if(pl) pl.textContent = lang==='es' ? 'Privacidad' : 'Privacy';
+  var tl=document.getElementById('terms-link'); if(tl) tl.textContent = lang==='es' ? 'Términos' : 'Terms';
+  var cl=document.getElementById('cookie-link'); if(cl) cl.textContent = lang==='es' ? 'Preferencias de cookies' : 'Cookie settings';
+  try { localStorage.setItem('pdx_lang', lang); } catch(e){}
+}
+(function(){
+  var saved = null;
+  try { saved = localStorage.getItem('pdx_lang'); } catch(e){}
+  var lang = saved || ((navigator.language||'en').toLowerCase().indexOf('es')===0 ? 'es' : 'en');
+  setLang(lang);
+})();
+</script>
+
+<!-- ==== Cookie consent (bilingual) ==== -->
+<div id="pdx-cookie" role="dialog" aria-live="polite" hidden style="position:fixed; left:16px; right:16px; bottom:16px; z-index:9999; max-width:560px; margin:0 auto; background:#0a1610; border:1px solid rgba(70,224,138,.35); border-radius:14px; box-shadow:0 20px 60px rgba(0,0,0,.55); padding:18px 20px; font-family:'Hanken Grotesk',system-ui,sans-serif; color:#d8e8de;">
+  <p data-cc="msg" style="margin:0 0 14px; font-size:14px; line-height:1.55; color:#9fb6aa;"></p>
+  <div style="display:flex; flex-wrap:wrap; gap:10px; align-items:center;">
+    <button data-cc="accept" onclick="pdxCookie('granted')" style="font-family:'JetBrains Mono',monospace; font-weight:700; font-size:12px; letter-spacing:.04em; color:#06140c; background:#46e08a; border:none; padding:11px 18px; border-radius:9px; cursor:pointer;"></button>
+    <button data-cc="reject" onclick="pdxCookie('denied')" style="font-family:'JetBrains Mono',monospace; font-weight:700; font-size:12px; letter-spacing:.04em; color:#d8e8de; background:transparent; border:1px solid rgba(70,224,138,.3); padding:11px 18px; border-radius:9px; cursor:pointer;"></button>
+    <a data-cc="link" href="/cookies" style="font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.04em; color:#46e08a; margin-left:auto;"></a>
+  </div>
+</div>
+<script>
+(function(){
+  var PORTAL="50834246";
+  function lang(){ try{ return localStorage.getItem('pdx_lang') || ((navigator.language||'en').toLowerCase().indexOf('es')===0?'es':'en'); }catch(e){ return 'en'; } }
+  function loadHS(){ if(document.getElementById('hs-script-loader'))return; var s=document.createElement('script'); s.id='hs-script-loader'; s.async=true; s.defer=true; s.src='//js.hs-scripts.com/'+PORTAL+'.js'; document.head.appendChild(s); }
+  var T={ en:{ msg:'We use cookies to run this site and, with your consent, to measure interest and improve PaleoDex. You can change your choice anytime.', accept:'ACCEPT', reject:'REJECT', link:'Cookie policy →' },
+          es:{ msg:'Usamos cookies para operar este sitio y, con tu consentimiento, medir el interés y mejorar PaleoDex. Puedes cambiar tu elección cuando quieras.', accept:'ACEPTAR', reject:'RECHAZAR', link:'Política de cookies →' } };
+  function render(){ var t=T[lang()]||T.en; var el=document.getElementById('pdx-cookie'); if(!el)return; el.querySelector('[data-cc=msg]').textContent=t.msg; el.querySelector('[data-cc=accept]').textContent=t.accept; el.querySelector('[data-cc=reject]').textContent=t.reject; el.querySelector('[data-cc=link]').textContent=t.link; }
+  window.pdxCookie=function(choice){ try{ localStorage.setItem('pdx_cookie_consent',choice); }catch(e){} var el=document.getElementById('pdx-cookie'); if(el) el.hidden=true; if(choice==='granted') loadHS(); };
+  window.pdxManageCookies=function(){ render(); var el=document.getElementById('pdx-cookie'); if(el) el.hidden=false; };
+  var c=null; try{ c=localStorage.getItem('pdx_cookie_consent'); }catch(e){}
+  if(c==='granted'){ loadHS(); } else if(c!=='denied'){ render(); var el=document.getElementById('pdx-cookie'); if(el) el.hidden=false; }
+})();
+</script>
+<!-- ==== /Cookie consent ==== -->
+
+</body>
+</html>
