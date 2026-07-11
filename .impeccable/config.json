@@ -1,0 +1,20 @@
+{
+  "detector": {
+    "ignoreRules": [
+      "hero-eyebrow-chip",
+      "repeated-section-kickers",
+      "dark-glow",
+      "wide-tracking",
+      "tiny-text"
+    ],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "space grotesk",
+        "reason": "Brand display font — site-wide + in the PaleoDex app",
+        "createdAt": "2026-07-11T04:29:10.372Z"
+      }
+    ]
+  }
+}

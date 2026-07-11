@@ -15,6 +15,10 @@ assets/screenshots/*.jpg
 assets/screenshots/*.mp4
 assets/screenshots/*.png
 
+# impeccable design-linter — keep shared ignore config, drop transient cache + local overrides
+.impeccable/hook.cache.json
+.impeccable/config.local.json
+
 # Reference docs (local use only, not part of the deployed site)
 BLOG_CONTENT_STRATEGY.md
 CURRENT_FEATURES.md
