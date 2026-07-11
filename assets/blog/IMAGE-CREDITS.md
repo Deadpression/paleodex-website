@@ -12,6 +12,16 @@ Standing rule: every blog post and informative page gets a relevant, **freely-li
 | jurassic-park-vs-the-fossil-record | Feathered Velociraptor restoration | Fred Wierum | CC BY-SA 4.0 |
 | every-creature-really-existed | Berlin Archaeopteryx specimen | H. Raab (User:Vesta) | CC BY-SA 3.0 |
 | field-log-001 | PaleoDex RADAR over Santiago | PaleoDex (own) | © PaleoDex |
+| wildest-fossil-discoveries-of-2025 | Hero — mounted dinosaur skeletons (`finds2025-cover.jpg`) | Gary Todd, via Wikimedia Commons | **CC0** |
+| wildest-fossil-discoveries-of-2025 | #7 *Diplodocus* life reconstruction (`diplodocus-2025.jpg`) | Fred Wierum, via Wikimedia Commons | CC BY-SA 4.0 |
+| wildest-fossil-discoveries-of-2025 | #6 plesiosaur fossil, *Plesiosaurus brachypterygius* (`plesionectes-2025.jpg`) | Ghedoghedo, via Wikimedia Commons | CC BY-SA 3.0 |
+| wildest-fossil-discoveries-of-2025 | #5 *Australopithecus sediba* skull recon (`australopithecus-2025.jpg`) | Profberger, via Wikimedia Commons | CC BY-SA 3.0 |
+| wildest-fossil-discoveries-of-2025 | #4 *Nanotyrannus* reconstruction (`nanotyrannus-2025.jpg`) | Connor Ashbridge, via Wikimedia Commons | CC BY 4.0 |
+| wildest-fossil-discoveries-of-2025 | #3 modern zombie-ant *Ophiocordyceps unilateralis* (`zombie-ant-2025.jpg`) | David P. Hughes & Maj-Britt Pontoppidan, via Wikimedia Commons | CC BY 2.5 |
+| wildest-fossil-discoveries-of-2025 | #2 *Khankhuuluu mongoliensis* reconstruction (`khankhuuluu-2025.jpg`) | TotalDino, via Wikimedia Commons | CC BY 4.0 |
+| wildest-fossil-discoveries-of-2025 | #1 *Spicomellus afer* reconstruction (`spicomellus-2025.jpg`) | Connor Ashbridge, via Wikimedia Commons | CC BY 4.0 |
+
+All eight above are **self-hosted** under `/assets/blog/` (downloaded + optimized to ≤1500px). The copyrighted Zhuang et al./NIGPAS *Paleoophiocordyceps* recon used in the video/carousel was **deliberately NOT used on the website** — replaced with the freely-licensed living-relative photo above, to keep the public page 100% CC.
 
 Source pages (Wikimedia Commons `File:` …):
 - `Mary_Anning_painting.jpg`
