@@ -9,8 +9,8 @@
 <script>try{localStorage.setItem('pdx_lang','en');}catch(e){}</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PaleoDex — Explore &amp; Collect Real Prehistoric Life</title>
-<meta name="description" content="Map real fossil sites, travel 540M years of life, and dig up genuine prehistoric species. 74,000+ genera from open paleontology data. iOS &amp; Android.">
-<meta name="keywords" content="fossil finder app, paleontology app, dinosaur app, fossil collection game, prehistoric life app, fossil map, real fossil data, paleobiology, fossil identification, continental drift map, deep time, prehistoric explorer, fossil dex">
+<meta name="description" content="Map real fossil sites, travel 540M years of life, and dig up genuine prehistoric species. 74,000+ genera from open paleontology data. Coming soon to iOS &amp; Android.">
+<meta name="keywords" content="fossil finder app, paleontology app, dinosaur app, fossil collection game, prehistoric life app, fossil map, real fossil data, paleobiology, fossil identification, continental drift map, prehistoric explorer, fossil dex">
 <meta property="og:title" content="PaleoDex — Explore &amp; Collect Real Prehistoric Life">
 <meta property="og:description" content="Map real fossil sites, travel 540M years of life, and dig up genuine prehistoric species. 74,000+ genera from open paleontology data.">
 <meta property="og:type" content="website">
@@ -52,7 +52,7 @@
     {
       "@type": "SoftwareApplication",
       "name": "PaleoDex",
-      "operatingSystem": "iOS, Android",
+      "operatingSystem": "Android",
       "applicationCategory": "EducationalApplication",
       "description": "PaleoDex is a fossil-finder app that maps real prehistoric life from open science data and turns collecting it into a game. Over 74,000 genera from the Paleobiology Database and other open scientific sources.",
       "publisher": { "@id": "https://paleodex.co/#org" }
@@ -65,7 +65,7 @@
           "name": "What is PaleoDex?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "PaleoDex is a mobile app (iOS and Android) that lets you explore, learn about, and collect real prehistoric species. It maps genuine fossil sites, presents sourced scientific profiles for over 74,000 genera, and turns fossil-hunting into an arcade dig game."
+            "text": "PaleoDex is a mobile app for Android, with iOS coming, that lets you explore, learn about, and collect real prehistoric species. It maps genuine fossil sites, presents sourced scientific profiles for over 74,000 genera, and turns fossil-hunting into an arcade dig game."
           }
         },
         {
@@ -137,7 +137,7 @@
           "name": "What platforms is PaleoDex on?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "iOS and Android."
+            "text": "iOS and Android. Coming soon — join the waitlist to be notified at launch."
           }
         }
       ]
@@ -795,7 +795,7 @@ img { display: block; max-width: 100%; }
       label: "FOSSIL-DEX",
       eyebrow: "FOSSIL-DEX",
       heading: "74,000+ real species, properly sourced",
-      body: "Every genus in the 74,000+ species database has a sourced field dossier — real photo, scientific classification from the Open Tree of Life, age, formation, locality, diet, and rarity tier. Filter by category, era, or diet, and watch your own Museum count climb as you log real finds in the field.",
+      body: "Every genus in the 74,000+ species database has a sourced field dossier — scientific classification from the Open Tree of Life, age, formation, locality, diet, and rarity tier, plus a real photo or illustration for over 8,700 genera. Filter by category, era, or diet, and watch your own Museum count climb as you log real finds in the field.",
       image: "/assets/screenshots/web/dex.jpg",
       alt: "PaleoDex Fossil-Dex catalogue screen listing species cards with photos, eras, and rarity tags, with a personal-progress count of 23,137 catalogued."
     },
@@ -813,7 +813,7 @@ img { display: block; max-width: 100%; }
       label: "FOSSILRUN",
       eyebrow: "FOSSILRUN",
       heading: "Dig it out",
-      body: "Sweep a detector across a procedurally generated dig site, then excavate with a steady hand — your timing sets each specimen's condition. Every find is a real, photographed genus. Four biomes: Badlands (Hell Creek Formation), Inland Sea (Western Interior Seaway), Coal Forest (Carboniferous Swamp), and Ice Age Plains (Pleistocene Tundra).",
+      body: "Sweep a detector across the dig site, then excavate with a steady hand — your timing sets each specimen's condition. Every find is a real, photographed genus. Four biomes: Badlands (Hell Creek Formation), Inland Sea (Western Interior Seaway), Coal Forest (Carboniferous Swamp), and Ice Age Plains (Pleistocene Tundra).",
       image: "/assets/screenshots/web/fossil-run.jpg",
       alt: "FossilRun menu screen showing Collector Rank Site Rookie, Field Kit currency, Collected/Field/Perfect stat tiles, a Start Dig button, and a How It Works list: Sweep, Surface, Excavate, Upgrade."
     },
@@ -828,8 +828,8 @@ img { display: block; max-width: 100%; }
     },
     {
       id: "rank",
-      label: "COLLECTION RANK",
-      eyebrow: "COLLECTION RANK",
+      label: "COLLECTOR RANK",
+      eyebrow: "COLLECTOR RANK",
       heading: "Climb the ranks",
       body: "An 8-tier ladder scored on collection size, perfect specimens, field finds, and rarity — with 'next move' tips to guide your progress.",
       image: null,
@@ -1104,7 +1104,7 @@ img { display: block; max-width: 100%; }
 <script>
 // FAQ data (AEO-optimized from WEBSITE_REFERENCE.md)
 const faqs = [
-  { q: "What is PaleoDex?", a: "PaleoDex is a mobile app (iOS and Android) that lets you explore, learn about, and collect real prehistoric species. It maps genuine fossil sites, presents sourced scientific profiles for over 74,000 genera, and turns fossil-hunting into an arcade dig game." },
+  { q: "What is PaleoDex?", a: "PaleoDex is a mobile app for Android, with iOS coming, that lets you explore, learn about, and collect real prehistoric species. It maps genuine fossil sites, presents sourced scientific profiles for over 74,000 genera, and turns fossil-hunting into an arcade dig game." },
   { q: "Is the fossil data real?", a: "Yes. Every species is a real, documented genus. The data is drawn from open scientific sources — primarily the Paleobiology Database (PBDB), plus GBIF, Wikipedia/Wikidata, the Open Tree of Life, PhyloPic, and the Encyclopedia of Life. PaleoDex never invents information; if a fact isn't sourced, the field is left blank." },
   { q: "How many species and fossils are in PaleoDex?", a: "Over 74,000 prehistoric genera, backed by roughly 1.8 million real fossil occurrence records, spanning all 12 geological periods from the Cambrian to the Quaternary — about 540 million years." },
   { q: "Where does PaleoDex get its data?", a: "From open paleontology and biodiversity databases: the Paleobiology Database (occurrences, ages, locations), GBIF (extinct vs. living status), Wikipedia/Wikimedia and Wikidata (descriptions and photos), the Open Tree of Life (classification), PhyloPic (silhouettes), and a paleogeographic model for the continental-drift timeline." },

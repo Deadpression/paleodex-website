@@ -167,9 +167,10 @@ footer { border-top:1px solid var(--border); background:var(--surface); }
     <li><strong>Location (optional):</strong> if you turn on GPS field mode, your device's <strong>approximate</strong> location is used to find fossil sites near you and to query that map region. It is used for that one search and <strong>never stored</strong>. You can use the app, pan, and scan any region <em>without</em> sharing your location, and you can revoke the permission at any time in your device settings.</li>
     <li><strong>Anonymous leaderboard (opt-in):</strong> if you choose to join the online leaderboard, we process an anonymous skill score and a display name of your choosing. It is opt-in and does not require an account or your real identity.</li>
     <li><strong>Cloud backup &amp; Google sign-in (optional):</strong> you can sign in with Google to back up your collection and progress to our servers and restore them on another device. When you do, Google provides your <strong>email address</strong> to identify your account, which we store only for that purpose. If you don't sign in, none of this leaves your device.</li>
+    <li><strong>Purchases (optional):</strong> if you buy the Field Researcher License or a Dig Pack, our in-app purchase platform (RevenueCat) processes the transaction through the App Store / Google Play and links it to an anonymous purchaser ID — we never see your card details.</li>
     <li><strong>No analytics or ads:</strong> the app contains no third-party analytics, advertising, or crash-reporting tools, and sends no usage telemetry.</li>
   </ul>
-  <p>The scientific content in PaleoDex (species, occurrences, classifications) comes from open databases — it is not your personal data. See the data sources listed on our site.</p>
+  <p>The scientific content in PaleoDex (species, occurrences, classifications) comes from open databases — it is not your personal data. See the data sources listed on our site. The SIGNAL feed in the app also fetches public headlines from third-party science news outlets — see the sharing table below.</p>
 
   <h2 id="why">3. Why we use your data &amp; our legal bases</h2>
   <p>We only process personal data where we have a lawful basis to do so. Under the GDPR and Law No. 21.719, our bases are:</p>
@@ -205,7 +206,9 @@ footer { border-top:1px solid var(--border); background:var(--surface); }
       <tr><td>MapTiler (app)</td><td>Serving map tiles in the app (by map area — never your personal location)</td><td>EU</td></tr>
       <tr><td>Supabase (app)</td><td>App backend — the online leaderboard, optional cloud backup, and the one-off "nearby fossils" location query (not stored)</td><td>Global</td></tr>
       <tr><td>Google (app)</td><td>"Sign in with Google" — authentication and your email, only if you enable cloud backup</td><td>USA / global</td></tr>
+      <tr><td>RevenueCat (app)</td><td>Processing in-app purchases (Field Researcher License, Dig Packs), linked to an anonymous purchaser ID</td><td>USA / global</td></tr>
       <tr><td>Wikimedia / wsrv.nl (app)</td><td>Serving and resizing fossil photos in the app — no personal data is sent</td><td>Global</td></tr>
+      <tr><td>Science news RSS feeds (app)</td><td>The SIGNAL feed fetches public headlines from Phys.org, ScienceDaily, Sci.News, and Spanish-language science outlets through our own proxy server — no personal data is sent to these outlets</td><td>Global</td></tr>
     </tbody>
   </table>
   <p>We may also disclose data if required by law, to protect our rights or users' safety, or in connection with a future business transfer — in which case we will tell you.</p>
@@ -227,7 +230,7 @@ footer { border-top:1px solid var(--border); background:var(--surface); }
   <p>If a personal-data breach occurs that is likely to create a risk to your rights, we will notify the competent authority — including Chile's <strong>Agency for the Protection of Personal Data (APDP)</strong> within 72 hours of becoming aware of it, where required — and will inform affected individuals without undue delay where the risk is high.</p>
 
   <h2 id="children">9. Children's privacy</h2>
-  <div class="callout"><strong>PaleoDex is loved by young dinosaur fans — so we are careful here.</strong> The waitlist and any future account are intended for users <strong>aged 16 and over</strong>. We do not knowingly collect personal data from children. If you are under 16 and want to be notified, please ask a parent or guardian to sign up for you.</div>
+  <div class="callout"><strong>PaleoDex is loved by young dinosaur fans — so we are careful here.</strong> This website's waitlist (and any account created here) is intended for users <strong>aged 16 and over</strong>; if you're under 16 and want to be notified, please ask a parent or guardian to sign up for you. The PaleoDex <strong>app</strong> itself is intended for a general audience and is not directed to children under 13 — we do not knowingly collect personal information from children under 13, and because the leaderboard handle is public, children should not enter a real name or personal details there.</div>
   <p>Under Chilean law, the data of <em>niños</em> (under 14) and <em>adolescentes</em> (14–17) receives special protection, and a minor's own consent is not, by itself, valid — verifiable consent from a parent or legal guardian is required, always in the child's best interest. COPPA (US, under 13) and the GDPR (13–16 depending on country) take the same approach.</p>
   <p>If you believe a child has provided us personal data, email <a href="mailto:hello@paleodex.co">hello@paleodex.co</a> and we will delete it promptly. Note that the app itself stores gameplay on the device and does not require children to provide personal information to play.</p>
 
@@ -309,9 +312,10 @@ footer { border-top:1px solid var(--border); background:var(--surface); }
     <li><strong>Ubicación (opcional):</strong> si activas el modo de campo por GPS, usamos la ubicación <strong>aproximada</strong> de tu dispositivo para encontrar sitios fósiles cercanos y consultar esa zona del mapa. Se usa para esa única búsqueda y <strong>nunca se almacena</strong>. Puedes usar la app y explorar cualquier región <em>sin</em> compartir tu ubicación, y revocar el permiso cuando quieras en los ajustes del dispositivo.</li>
     <li><strong>Tabla de clasificación anónima (opcional):</strong> si decides unirte a la tabla en línea, procesamos un puntaje anónimo y un nombre que tú elijas. Es opcional y no requiere cuenta ni tu identidad real.</li>
     <li><strong>Respaldo en la nube e inicio de sesión con Google (opcional):</strong> puedes iniciar sesión con Google para respaldar tu colección y tu progreso en nuestros servidores y restaurarlos en otro dispositivo. Al hacerlo, Google nos entrega tu <strong>correo electrónico</strong> para identificar tu cuenta, que guardamos solo para ese fin. Si no inicias sesión, nada de esto sale de tu dispositivo.</li>
+    <li><strong>Compras (opcional):</strong> si compras la Licencia de Investigador de Campo o un Paquete de Excavación, nuestra plataforma de compras dentro de la app (RevenueCat) procesa la transacción a través de la App Store / Google Play y la vincula a un ID de comprador anónimo — nunca vemos los datos de tu tarjeta.</li>
     <li><strong>Sin analítica ni publicidad:</strong> la app no incluye herramientas de analítica, publicidad ni reporte de fallos de terceros, y no envía telemetría de uso.</li>
   </ul>
-  <p>El contenido científico de PaleoDex (especies, ocurrencias, clasificaciones) proviene de bases de datos abiertas — no son tus datos personales.</p>
+  <p>El contenido científico de PaleoDex (especies, ocurrencias, clasificaciones) proviene de bases de datos abiertas — no son tus datos personales. El canal SEÑAL de la app también obtiene titulares públicos de medios científicos externos — ver la tabla de más abajo.</p>
 
   <h2 id="why-es">3. Para qué usamos tus datos y bases de licitud</h2>
   <p>Solo tratamos datos personales cuando tenemos una base de licitud. Conforme al RGPD y a la Ley N° 21.719, nuestras bases son:</p>
@@ -347,7 +351,9 @@ footer { border-top:1px solid var(--border); background:var(--surface); }
       <tr><td>MapTiler (app)</td><td>Entrega de mosaicos de mapa en la app (por zona del mapa — nunca tu ubicación personal)</td><td>UE</td></tr>
       <tr><td>Supabase (app)</td><td>Backend de la app — la tabla de clasificación, el respaldo en la nube opcional y la consulta única de "fósiles cercanos" (no almacenada)</td><td>Global</td></tr>
       <tr><td>Google (app)</td><td>"Iniciar sesión con Google" — autenticación y tu correo, solo si activas el respaldo en la nube</td><td>EE.UU. / global</td></tr>
+      <tr><td>RevenueCat (app)</td><td>Procesamiento de compras dentro de la app (Licencia de Investigador de Campo, Paquetes de Excavación), vinculadas a un ID de comprador anónimo</td><td>EE.UU. / global</td></tr>
       <tr><td>Wikimedia / wsrv.nl (app)</td><td>Entrega y redimensionado de fotos de fósiles en la app — no se envían datos personales</td><td>Global</td></tr>
+      <tr><td>Feeds RSS de noticias científicas (app)</td><td>El canal SEÑAL obtiene titulares públicos de Phys.org, ScienceDaily, Sci.News y medios científicos en español a través de nuestro propio servidor proxy — no se envían datos personales a estos medios</td><td>Global</td></tr>
     </tbody>
   </table>
   <p>También podríamos divulgar datos si la ley lo exige, para proteger nuestros derechos o la seguridad de los usuarios, o en relación con una futura transferencia del negocio — en cuyo caso te informaremos.</p>
@@ -369,7 +375,7 @@ footer { border-top:1px solid var(--border); background:var(--surface); }
   <p>Si ocurre una vulneración de datos personales que pueda implicar un riesgo para tus derechos, notificaremos a la autoridad competente — incluida la <strong>Agencia de Protección de Datos Personales (APDP)</strong> de Chile dentro de las 72 horas desde que tengamos conocimiento, cuando corresponda — e informaremos a las personas afectadas sin dilación indebida cuando el riesgo sea alto.</p>
 
   <h2 id="children-es">9. Privacidad de menores</h2>
-  <div class="callout"><strong>PaleoDex encanta a los jóvenes fanáticos de los dinosaurios — por eso aquí somos cuidadosos.</strong> La lista de espera y cualquier cuenta futura están dirigidas a personas de <strong>16 años o más</strong>. No recopilamos datos personales de niños a sabiendas. Si tienes menos de 16 y quieres recibir avisos, pide a tu madre, padre o tutor que se registre por ti.</div>
+  <div class="callout"><strong>PaleoDex encanta a los jóvenes fanáticos de los dinosaurios — por eso aquí somos cuidadosos.</strong> La lista de espera de este sitio web (y cualquier cuenta creada aquí) está dirigida a personas de <strong>16 años o más</strong>; si tienes menos de 16 y quieres recibir avisos, pide a tu madre, padre o tutor que se registre por ti. La <strong>app</strong> de PaleoDex en sí está dirigida a público general y no está orientada a menores de 13 años — no recopilamos información personal de menores de 13 a sabiendas, y como el nombre en la tabla de clasificación es público, los menores no deberían ingresar su nombre real ni datos personales ahí.</div>
   <p>Conforme a la ley chilena, los datos de <em>niños</em> (menores de 14) y <em>adolescentes</em> (14–17) reciben protección especial, y el consentimiento del propio menor no es, por sí solo, válido — se requiere consentimiento verificable de la madre, padre o tutor legal, siempre en el interés superior del menor. COPPA (EE.UU., menores de 13) y el RGPD (13–16 según el país) adoptan el mismo enfoque.</p>
   <p>Si crees que un menor nos ha entregado datos personales, escribe a <a href="mailto:hello@paleodex.co">hello@paleodex.co</a> y los eliminaremos sin demora. La app almacena el juego en el dispositivo y no exige a los menores entregar información personal para jugar.</p>
 
