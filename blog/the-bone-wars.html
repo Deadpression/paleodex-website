@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>try{localStorage.setItem('pdx_lang','en');}catch(e){}</script>
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/app-icons/apple-touch-icon-180.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Bone Wars: How the Pettiest Feud in Science Built the Dinosaurs — PaleoDex</title>
+<meta name="description" content="Two 19th-century scientists hated each other so much they spent 20 years sabotaging fossil digs — bribery, spies, dynamite — and accidentally named most of the dinosaurs you know. The true story of Cope vs Marsh.">
+<meta name="keywords" content="Bone Wars, Cope vs Marsh, Edward Drinker Cope, Othniel Charles Marsh, history of paleontology, Como Bluff, Morrison Formation, who discovered dinosaurs, Elasmosaurus skull error, Brontosaurus mix-up">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#07120c">
+<meta property="og:title" content="The Bone Wars: How the Pettiest Feud in Science Built the Dinosaurs — PaleoDex">
+<meta property="og:description" content="Two 19th-century scientists hated each other so much they spent 20 years sabotaging fossil digs — and accidentally named most of the dinosaurs you know. The true story of Cope vs Marsh.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://paleodex.co/blog/the-bone-wars">
+<meta property="og:image" content="https://paleodex.co/assets/blog/bonewars-rivals.jpg">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://paleodex.co/blog/the-bone-wars">
+<link rel="alternate" hreflang="en" href="https://paleodex.co/blog/the-bone-wars">
+<link rel="alternate" hreflang="es" href="https://paleodex.co/es/blog/the-bone-wars">
+<link rel="alternate" hreflang="x-default" href="https://paleodex.co/blog/the-bone-wars">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+:root{--bg:#07120c;--surface:#0c1a12;--panel:#0a1610;--border:rgba(70,224,138,.16);--green:#46e08a;--greenglow:rgba(70,224,138,.4);--amber:#e8a33d;--text:#d8e8de;--muted:#9fb6aa;--muted2:#7d978a;--ongreen:#06140c}
+body{font-family:'Hanken Grotesk',system-ui,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;overflow-x:hidden;line-height:1.65}
+a{color:var(--green);text-decoration:none}a:hover{text-decoration:underline}
+.pdx-scanlines{position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.5;background-image:repeating-linear-gradient(0deg,rgba(70,224,138,.035) 0 1px,transparent 1px 3px)}
+.pdx-haze{position:fixed;inset:0;pointer-events:none;z-index:0;background:radial-gradient(120% 70% at 80% -10%,rgba(70,224,138,.09),transparent 60%)}
+.wrap{position:relative;z-index:1}
+.nav{position:sticky;top:0;z-index:40;backdrop-filter:blur(12px);background:rgba(7,18,12,.72);border-bottom:1px solid var(--border)}
+.nav-inner{max-width:1040px;margin:0 auto;padding:15px clamp(20px,5vw,40px);display:flex;align-items:center;gap:16px}
+.logo{display:flex;align-items:center;gap:10px;margin-right:auto}
+.logo-icon{width:24px;height:24px;border-radius:7px;display:block;box-shadow:0 0 14px var(--greenglow)}
+.logo-text{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:18px;letter-spacing:-.01em}
+.logo-text span{color:var(--green)}
+.nav-back{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.06em;color:var(--muted2)}
+.nav-back:hover{color:var(--green);text-decoration:none}
+.langsw{display:flex;gap:7px;align-items:center;font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.06em}
+.langsw a{color:var(--muted2)}.langsw .on{color:var(--green);font-weight:700}
+.doc{max-width:1040px;margin:0 auto;padding:clamp(28px,5vw,56px) clamp(20px,5vw,40px) 90px}
+.crumb{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.08em;color:var(--muted2);margin-bottom:22px}
+.crumb a{color:var(--muted2)}.crumb a:hover{color:var(--green)}
+.eyebrow{font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.18em;color:var(--green)}
+h1{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(34px,5.5vw,60px);line-height:1.0;letter-spacing:-.02em;margin:12px 0 6px}
+.sci{font-family:'Space Grotesk',sans-serif;font-style:italic;font-weight:500;font-size:clamp(17px,2vw,21px);color:var(--muted)}
+.lead{font-size:17px;color:var(--muted);margin:20px 0 0;max-width:66ch}
+.tags{display:flex;flex-wrap:wrap;gap:9px;margin:22px 0 0}
+.tag{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.06em;color:var(--text);border:1px solid var(--border);background:var(--surface);padding:7px 12px;border-radius:100px}
+.tag b{color:var(--green);font-weight:700}
+.rank{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.14em;color:var(--amber);display:block;margin-bottom:2px}
+h2{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(20px,2.4vw,26px);letter-spacing:-.01em;margin:48px 0 12px;padding-top:14px;border-top:1px solid var(--border)}
+h2 em{font-style:italic;color:var(--muted)}
+p{margin:12px 0}.doc p,.doc li,.doc td,.doc th{font-size:15.5px}
+ul{margin:12px 0 12px 22px}li{margin:7px 0}
+strong{color:var(--text);font-weight:600}.muted{color:var(--muted)}
+.cta{background:var(--panel);border:1px solid rgba(70,224,138,.22);border-radius:20px;padding:clamp(26px,4vw,44px);text-align:center;margin-top:48px}
+.cta a{display:inline-block;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:13px;letter-spacing:.05em;color:var(--ongreen);background:var(--green);padding:14px 26px;border-radius:11px;margin-top:16px;box-shadow:0 0 24px rgba(70,224,138,.4)}
+.cta a:hover{text-decoration:none}
+.note{background:var(--panel);border:1px solid var(--border);border-left:3px solid var(--green);border-radius:12px;padding:16px 20px;margin:22px 0;font-size:14.5px;color:var(--muted)}
+.note strong{color:var(--green)}
+footer{border-top:1px solid var(--border);background:var(--surface)}
+.foot-inner{max-width:1040px;margin:0 auto;padding:30px clamp(20px,5vw,40px);display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.06em;color:var(--muted2)}
+.foot-inner a{color:var(--muted2)}.foot-inner a:hover{color:var(--green)}
+</style>
+</head>
+<body>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Article",
+   "headline": "The Bone Wars: How the Pettiest Feud in Science Built the Dinosaurs",
+   "description": "Two 19th-century scientists hated each other so much they spent 20 years sabotaging fossil digs — bribery, spies, dynamite — and accidentally named most of the dinosaurs you know. The true story of Cope vs Marsh.",
+   "inLanguage": "en",
+   "datePublished": "2026-07-13",
+   "dateModified": "2026-07-13",
+   "image": "https://paleodex.co/assets/blog/bonewars-rivals.jpg",
+   "mainEntityOfPage": "https://paleodex.co/blog/the-bone-wars",
+   "articleSection": "Historical Feuds",
+   "author": { "@type": "Organization", "name": "PaleoDex", "url": "https://paleodex.co" },
+   "publisher": {
+    "@type": "Organization", "name": "PaleoDex", "url": "https://paleodex.co",
+    "logo": { "@type": "ImageObject", "url": "https://paleodex.co/logo.png" }
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://paleodex.co/" },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://paleodex.co/blog/" },
+    { "@type": "ListItem", "position": 3, "name": "The Bone Wars", "item": "https://paleodex.co/blog/the-bone-wars" }
+   ]
+  }
+ ]
+}
+</script>
+<div class="pdx-scanlines"></div><div class="pdx-haze"></div>
+<div class="wrap">
+<nav class="nav"><div class="nav-inner">
+<a class="logo" href="/"><img class="logo-icon" src="/assets/favicons/favicon-64.png" alt="PaleoDex"><span class="logo-text">Paleo<span>Dex</span></span></a>
+<a class="nav-back" href="/blog/">← BLOG</a>
+<div class="langsw"><span class="on">EN</span><span style="color:var(--muted2)">·</span><a href="/es/blog/the-bone-wars">ES</a></div>
+</div></nav>
+<main class="doc">
+  <div class="crumb"><a href="/">Home</a> / <a href="/blog/">Blog</a> / Historical Feuds</div>
+  <div class="eyebrow">// HISTORICAL FEUDS</div>
+  <h1>The Bone Wars</h1>
+  <p style="font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.06em;color:var(--muted2);margin-top:12px">PALEODEX · 13 July 2026 · 7 min read</p>
+  <p class="lead" style="font-style:italic">Nearly every dinosaur you can name came out of a twenty-year grudge match between two men who despised each other. They bribed, spied, stole, and dynamited their way across the American West — and built a science by accident.</p>
+  <figure style="margin:26px 0 4px"><img src="/assets/blog/bonewars-rivals.jpg" alt="Portraits of Edward Drinker Cope and Othniel Charles Marsh, the rivals of the Bone Wars" loading="lazy" style="width:100%;max-height:440px;object-fit:cover;object-position:center;border-radius:16px;border:1px solid var(--border)"><figcaption style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.04em;color:var(--muted2);margin-top:8px">Edward Drinker Cope (left) and Othniel Charles Marsh (right). Nineteenth-century photographic portraits, public domain by age (Cope d. 1897, Marsh d. 1899); two-up composite by PaleoDex.</figcaption></figure>
+
+<p>Picture the scientist who "discovered the dinosaurs," and you probably picture someone noble. The truth is pettier, and far more entertaining. Stegosaurus, Triceratops, Diplodocus, Allosaurus — almost every dinosaur on a child's bedroom wall was named by one of two men who spent twenty years trying to ruin each other. They called it a race. History calls it the Bone Wars.</p>
+
+<h2>The blunder, and the wrong culprit</h2>
+<figure style="margin:20px 0 4px"><img src="/assets/blog/bonewars-elasmosaurus.jpg" alt="Edward Cope's reconstruction of Elasmosaurus, with the skull placed on the wrong end" loading="lazy" style="width:100%;max-height:300px;object-fit:contain;background:#0a1610;border-radius:14px;border:1px solid var(--border);padding:14px"><figcaption style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.04em;color:var(--muted2);margin-top:8px">Cope's <em>Elasmosaurus</em> — the skull sits at the tip of what is actually the tail. Plate by Edward Drinker Cope, public domain, via Wikimedia Commons.</figcaption></figure>
+<p>The origin story is a humiliation. In <strong>1868</strong>, Edward Drinker Cope unveiled a spectacular new sea reptile, <em>Elasmosaurus</em>, and made one unforgettable mistake: he put the skull on the wrong end, mounting the head at the tip of what was actually the tail.</p>
+<p>Almost every popular retelling of the Bone Wars then says his rival Othniel Charles Marsh spotted it and made sure the world knew. He didn't. The correction was made in public by <strong>Joseph Leidy</strong>, the senior anatomist who had helped train Cope, at a meeting of the Academy of Natural Sciences of Philadelphia on <strong>8 March 1870</strong>, and printed in the Academy's <em>Proceedings</em> that year. Marsh was in the room. His claim to have caught it himself does not surface until <strong>1890</strong>, two decades later, in the middle of the newspaper war described further down this page.</p>
+<div class="note"><strong>We took this one apart separately.</strong> The reconstruction, Leidy's 1870 correction, and how Marsh ended up with the credit are in <a href="/blog/the-skull-on-the-wrong-end">The Skull on the Wrong End</a>. What it tells you about the feud is this: the Bone Wars became famous enough to start absorbing events it was not responsible for.</div>
+
+<h2>Cope versus Marsh</h2>
+<p>The two could hardly have been more evenly matched. Cope worked out of Philadelphia, a prodigy who published at a furious pace. Marsh had Yale, the Peabody Museum, and a wealthy uncle's fortune behind him. For roughly two decades, from the early 1870s into the 1890s, they raced each other across the fossil beds of the West: Como Bluff in Wyoming, the Morrison Formation in Colorado, each man desperate to out-collect and out-name the other. The rule of the game was brutally simple. Whoever published a name first, won.</p>
+
+<h2>No rules</h2>
+<p>And there were no rules. Marsh secretly paid the operators at Cope's own dig sites to reroute fossils to him; both men bribed away each other's field crews. They planted spies in rival camps. When a season ended, teams smashed leftover bones and filled quarries with rubble so the other side couldn't work them, and some sites were reportedly dynamited shut. Workers threw rocks across the pits.</p>
+<p>There is a quieter casualty in all this. <strong>Joseph Leidy</strong>, the man who had actually corrected the <em>Elasmosaurus</em> and the most careful describer of fossils in America, simply gave up on the West. He could not match two rivals who were buying whole quarries out from under him, and he withdrew from vertebrate paleontology altogether. The field's most scrupulous worker was pushed out by its two least scrupulous.</p>
+
+<h2>The war goes to Washington</h2>
+<p>By the 1880s the fight had left the quarries. In <strong>1882</strong> Marsh was appointed vertebrate paleontologist of the <strong>U.S. Geological Survey</strong> under John Wesley Powell: an official post, a federal budget, and a lever over his rival. In 1889 the government moved to claim the fossils Cope had collected on federally funded surveys as public property. Cope, by then close to broke, handed a journalist named <strong>William Hosea Ballou</strong> his accumulated file on Marsh.</p>
+<p>On <strong>12 January 1890</strong> the <em>New York Herald</em> ran it under the headline <strong>"Scientists Wage Bitter Warfare."</strong> Cope accused Marsh of plagiarising his own assistants and mismanaging public money; Marsh answered in print; the two spent roughly a fortnight tearing at each other in a daily newspaper. It worked, in the worst possible way. Congress took an interest, cut the Survey's appropriation, and in <strong>1892</strong> Powell, damaged by the whole affair, asked Marsh to resign. Marsh lost the post he had been using as a weapon.</p>
+
+<h2>What the war built</h2>
+<figure style="margin:20px 0 4px"><img src="/assets/blog/bonewars-triceratops.jpg" alt="Mounted Triceratops skeleton, one of the dinosaurs named during the Bone Wars" loading="lazy" style="width:100%;max-height:400px;object-fit:cover;object-position:center;border-radius:14px;border:1px solid var(--border)"><figcaption style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.04em;color:var(--muted2);margin-top:8px"><em>Triceratops</em>, named by Marsh in 1889 — one of more than 130 dinosaur species the feud produced. Photo: Allie_Caulfield, derivative by User:MathKnight, CC BY-SA 3.0, via Wikimedia Commons.</figcaption></figure>
+<p>Here is the twist that makes the ugly story worth telling: all that racing produced an avalanche of discovery. Between them, Cope and Marsh described more than 130 new dinosaur species, on a continent that had barely 9 named before they started. Stegosaurus, Triceratops, Diplodocus, Allosaurus, Apatosaurus, Camarasaurus, Coelophysis. The roll call of "classic" dinosaurs is essentially their box score. To a startling degree, the dinosaurs of your childhood are a list of creatures two enemies named to spite each other.</p>
+
+<h2>It ruined them both</h2>
+<figure style="margin:20px 0 4px"><img src="/assets/blog/bonewars-diplodocus.jpg" alt="Mounted Diplodocus skeleton in a museum hall" loading="lazy" style="width:100%;max-height:400px;object-fit:cover;object-position:center;border-radius:14px;border:1px solid var(--border)"><figcaption style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.04em;color:var(--muted2);margin-top:8px"><em>Diplodocus</em>, named by Marsh in 1878. The haste of the war also produced the famous <em>Brontosaurus</em> skull mix-up. Photo: Gary Todd, CC0, via Wikimedia Commons.</figcaption></figure>
+<p>The speed came at a price. Rushing to publish, Marsh mounted the wrong skull on a sauropod he called <em>Brontosaurus</em>, an error that tangled the Brontosaurus–Apatosaurus name for over a century. And the feud destroyed both men. By the time Cope died in 1897, he had sold off much of his fossil collection just to survive; Marsh had mortgaged his house and asked Yale for a salary to live on. Cope's final move was pure, magnificent spite: he willed his skull to science, hoping a measurement would prove his brain was larger — and so, he reasoned, that he was smarter — than Marsh's. Marsh never took the bet.</p>
+
+<h2>Why this belongs in PaleoDex</h2>
+<p>Strip away the sabotage and the Bone Wars is really a story about how knowledge gets made: messily, competitively, by flawed people chasing credit. The fossils the two men tore out of the ground are still in museums today, still real, still teaching us. That is the whole PaleoDex idea, the real record with the receipts attached. Browse the creatures they named in the <a href="/features/fossil-dex/">Fossil-DEX</a>, watch their world drift across the eras on the <a href="/features/continental-drift/">Continental Drift</a> map, and check <a href="/about-the-data">where every fact comes from</a>. Then settle the argument the two of them never could: Cope, or Marsh — whose side are you on?</p>
+
+  <h2>Sources</h2>
+  <p class="muted">Where each part of the story comes from, and which account we followed where the popular version and the record disagree:</p>
+  <ul>
+    <li>Leidy, J. (1870). "Remarks on <em>Elasmosaurus platyurus</em>." <em>Proceedings of the Academy of Natural Sciences of Philadelphia</em> 22:9–10 — the primary record of the public correction, made on 8 March 1870. Cope's original description is Cope, E. D. (1868), same <em>Proceedings</em>, 20:92–93.</li>
+    <li>Davidson, J. P. (2002). "Bonehead Mistakes: The Background in Scientific Literature and Illustrations for Edward Drinker Cope's First Restoration of <em>Elasmosaurus platyurus</em>." <em>Proceedings of the Academy of Natural Sciences of Philadelphia</em> 152. (<a href="https://www.researchgate.net/publication/232690093" rel="nofollow noopener" target="_blank">researchgate.net</a>)</li>
+    <li>Everhart, M. J., "The Tale of a Tail," oceansofkansas.com — on Marsh's 1890 claim to have caught the error, which it judges to have "no basis in fact." (<a href="http://oceansofkansas.com/tale-tail.html" rel="nofollow noopener" target="_blank">oceansofkansas.com</a>)</li>
+    <li>DJangi, P. (21 May 2024). "They were rock stars of paleontology—and their feud was legendary." <em>National Geographic</em> — the 1889 fossil seizure, Ballou, and the 12 January 1890 <em>Herald</em> exposé. (<a href="https://www.nationalgeographic.com/history/article/bone-wars-paleontology-feud" rel="nofollow noopener" target="_blank">nationalgeographic.com</a>)</li>
+    <li>"O.C. Marsh and E.D. Cope: A Rivalry," <em>American Experience</em>, PBS — the <em>Herald</em> headline, the congressional aftermath, and Cope's finances. (<a href="https://www.pbs.org/wgbh/americanexperience/features/dinosaur-rivalry/" rel="nofollow noopener" target="_blank">pbs.org</a>)</li>
+    <li>Jaffe, M. (2000). <em>The Gilded Dinosaur: The Fossil War Between E. D. Cope and O. C. Marsh and the Rise of American Science</em> — narrative background only; no figure in this article rests on it.</li>
+    <li><a href="https://en.wikipedia.org/wiki/Bone_Wars" rel="nofollow noopener" target="_blank">Wikipedia, "Bone Wars"</a> and <a href="https://en.wikipedia.org/wiki/Othniel_Charles_Marsh" rel="nofollow noopener" target="_blank">"Othniel Charles Marsh"</a> — species counts (80 to Marsh, 56 to Cope, against nine named in North America beforehand), Leidy's withdrawal from the West, and Marsh's 1882–1892 Survey post, each with primary citations.</li>
+  </ul>
+  <div class="note"><strong>A note on the sources themselves.</strong> Both the <em>National Geographic</em> feature and PBS's <em>American Experience</em> page, cited above and reliable on the rest of the feud, repeat the version in which Marsh caught the <em>Elasmosaurus</em> error. We followed Leidy's own 1870 paper instead. Where a popular account and the primary record disagree, we go with the record, and we say which is which.</div>
+  <div class="cta"><div class="eyebrow" style="text-align:center">// PALEODEX</div><h2 style="border:none;padding:0;margin:10px 0 0">The real record, in your pocket.</h2><p class="muted" style="max-width:48ch;margin:10px auto 0">PaleoDex catalogues the real fossil record — every creature real, every fact sourced. Join the waitlist.</p><a href="/#waitlist">JOIN THE WAITLIST →</a></div>
+</main>
+<footer><div class="foot-inner"><span>© 2026 PALEODEX · DIG RESPONSIBLY</span><span style="display:flex;gap:16px;flex-wrap:wrap;"><a href="/privacy">Privacy</a> <a href="/terms">Terms</a> <a href="/cookies">Cookies</a> <a href="#" onclick="pdxManageCookies();return false;">Cookie settings</a></span></div></footer>
+</div>
+
+<!-- ==== Cookie consent (bilingual) ==== -->
+<div id="pdx-cookie" role="dialog" aria-live="polite" hidden style="position:fixed; left:16px; right:16px; bottom:16px; z-index:9999; max-width:560px; margin:0 auto; background:#0a1610; border:1px solid rgba(70,224,138,.35); border-radius:14px; box-shadow:0 20px 60px rgba(0,0,0,.55); padding:18px 20px; font-family:'Hanken Grotesk',system-ui,sans-serif; color:#d8e8de;">
+  <p data-cc="msg" style="margin:0 0 14px; font-size:14px; line-height:1.55; color:#9fb6aa;"></p>
+  <div style="display:flex; flex-wrap:wrap; gap:10px; align-items:center;">
+    <button data-cc="accept" onclick="pdxCookie('granted')" style="font-family:'JetBrains Mono',monospace; font-weight:700; font-size:12px; letter-spacing:.04em; color:#06140c; background:#46e08a; border:none; padding:11px 18px; border-radius:9px; cursor:pointer;"></button>
+    <button data-cc="reject" onclick="pdxCookie('denied')" style="font-family:'JetBrains Mono',monospace; font-weight:700; font-size:12px; letter-spacing:.04em; color:#d8e8de; background:transparent; border:1px solid rgba(70,224,138,.3); padding:11px 18px; border-radius:9px; cursor:pointer;"></button>
+    <a data-cc="link" href="/cookies" style="font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.04em; color:#46e08a; margin-left:auto;"></a>
+  </div>
+</div>
+<script>
+(function(){
+  var PORTAL="50834246";
+  function lang(){ try{ return localStorage.getItem('pdx_lang') || ((navigator.language||'en').toLowerCase().indexOf('es')===0?'es':'en'); }catch(e){ return 'en'; } }
+  function loadHS(){ if(document.getElementById('hs-script-loader'))return; var s=document.createElement('script'); s.id='hs-script-loader'; s.async=true; s.defer=true; s.src='//js.hs-scripts.com/'+PORTAL+'.js'; document.head.appendChild(s); }
+  var T={ en:{ msg:'We use cookies to run this site and, with your consent, to measure interest and improve PaleoDex. You can change your choice anytime.', accept:'ACCEPT', reject:'REJECT', link:'Cookie policy →' },
+          es:{ msg:'Usamos cookies para operar este sitio y, con tu consentimiento, medir el interés y mejorar PaleoDex. Puedes cambiar tu elección cuando quieras.', accept:'ACEPTAR', reject:'RECHAZAR', link:'Política de cookies →' } };
+  function render(){ var t=T[lang()]||T.en; var el=document.getElementById('pdx-cookie'); if(!el)return; el.querySelector('[data-cc=msg]').textContent=t.msg; el.querySelector('[data-cc=accept]').textContent=t.accept; el.querySelector('[data-cc=reject]').textContent=t.reject; el.querySelector('[data-cc=link]').textContent=t.link; }
+  window.pdxCookie=function(choice){ try{ localStorage.setItem('pdx_cookie_consent',choice); }catch(e){} var el=document.getElementById('pdx-cookie'); if(el) el.hidden=true; if(choice==='granted') loadHS(); };
+  window.pdxManageCookies=function(){ render(); var el=document.getElementById('pdx-cookie'); if(el) el.hidden=false; };
+  var c=null; try{ c=localStorage.getItem('pdx_cookie_consent'); }catch(e){}
+  if(c==='granted'){ loadHS(); } else if(c!=='denied'){ render(); var el=document.getElementById('pdx-cookie'); if(el) el.hidden=false; }
+})();
+</script>
+
+</body></html>

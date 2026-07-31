@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/app-icons/apple-touch-icon-180.png">
+<link rel="manifest" href="/site.webmanifest">
+<script>try{localStorage.setItem('pdx_lang','es');}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>El cráneo en el lado equivocado: quién descubrió el error de Cope — PaleoDex</title>
+<meta name="description" content="En 1868 Edward Cope reconstruyó el reptil marino Elasmosaurus con el cráneo montado en la punta de la cola. La versión famosa dice que su rival Marsh descubrió el error, pero fue Joseph Leidy, en público, en 1870.">
+<meta name="keywords" content="Elasmosaurus, Edward Drinker Cope, Joseph Leidy, Othniel Charles Marsh, Guerra de los Huesos, cráneo en el lado equivocado, reptil marino, plesiosaurio, historia de la paleontología, Fort Wallace">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#07120c">
+<meta property="og:title" content="El cráneo en el lado equivocado: quién descubrió el error de Cope — PaleoDex">
+<meta property="og:description" content="En 1868 Edward Cope reconstruyó el reptil marino Elasmosaurus con el cráneo montado en la punta de la cola. La versión famosa dice que su rival Marsh descubrió el error, pero fue Joseph Leidy, en público, en 1870.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://paleodex.co/es/blog/the-skull-on-the-wrong-end">
+<meta property="og:image" content="https://paleodex.co/assets/blog/skull-on-the-wrong-end-hero.jpg">
+<meta property="og:locale" content="es_ES">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://paleodex.co/es/blog/the-skull-on-the-wrong-end">
+<link rel="alternate" hreflang="en" href="https://paleodex.co/blog/the-skull-on-the-wrong-end">
+<link rel="alternate" hreflang="es" href="https://paleodex.co/es/blog/the-skull-on-the-wrong-end">
+<link rel="alternate" hreflang="x-default" href="https://paleodex.co/blog/the-skull-on-the-wrong-end">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+:root{--bg:#07120c;--surface:#0c1a12;--panel:#0a1610;--border:rgba(70,224,138,.16);--green:#46e08a;--greenglow:rgba(70,224,138,.4);--amber:#e8a33d;--text:#d8e8de;--muted:#9fb6aa;--muted2:#7d978a;--ongreen:#06140c}
+body{font-family:'Hanken Grotesk',system-ui,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;overflow-x:hidden;line-height:1.65}
+a{color:var(--green);text-decoration:none}a:hover{text-decoration:underline}
+.pdx-scanlines{position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.5;background-image:repeating-linear-gradient(0deg,rgba(70,224,138,.035) 0 1px,transparent 1px 3px)}
+.pdx-haze{position:fixed;inset:0;pointer-events:none;z-index:0;background:radial-gradient(120% 70% at 80% -10%,rgba(70,224,138,.09),transparent 60%)}
+.wrap{position:relative;z-index:1}
+.nav{position:sticky;top:0;z-index:40;backdrop-filter:blur(12px);background:rgba(7,18,12,.72);border-bottom:1px solid var(--border)}
+.nav-inner{max-width:1040px;margin:0 auto;padding:15px clamp(20px,5vw,40px);display:flex;align-items:center;gap:16px}
+.logo{display:flex;align-items:center;gap:10px;margin-right:auto}
+.logo-icon{width:24px;height:24px;border-radius:7px;display:block;box-shadow:0 0 14px var(--greenglow)}
+.logo-text{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:18px;letter-spacing:-.01em}
+.logo-text span{color:var(--green)}
+.nav-back{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.06em;color:var(--muted2)}
+.nav-back:hover{color:var(--green);text-decoration:none}
+.langsw{display:flex;gap:7px;align-items:center;font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.06em}
+.langsw a{color:var(--muted2)}.langsw .on{color:var(--green);font-weight:700}
+.doc{max-width:1040px;margin:0 auto;padding:clamp(28px,5vw,56px) clamp(20px,5vw,40px) 90px}
+.crumb{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.08em;color:var(--muted2);margin-bottom:22px}
+.crumb a{color:var(--muted2)}.crumb a:hover{color:var(--green)}
+.eyebrow{font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.18em;color:var(--green)}
+h1{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(34px,5.5vw,60px);line-height:1.0;letter-spacing:-.02em;margin:12px 0 6px}
+.lead{font-size:17px;color:var(--muted);margin:20px 0 0;max-width:66ch}
+h2{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(20px,2.4vw,26px);letter-spacing:-.01em;margin:48px 0 12px;padding-top:14px;border-top:1px solid var(--border)}
+p{margin:12px 0}.doc p,.doc li,.doc td,.doc th{font-size:15.5px}
+ul{margin:12px 0 12px 22px}li{margin:7px 0}
+strong{color:var(--text);font-weight:600}.muted{color:var(--muted)}
+.cta{background:var(--panel);border:1px solid rgba(70,224,138,.22);border-radius:20px;padding:clamp(26px,4vw,44px);text-align:center;margin-top:48px}
+.cta a{display:inline-block;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:13px;letter-spacing:.05em;color:var(--ongreen);background:var(--green);padding:14px 26px;border-radius:11px;margin-top:16px;box-shadow:0 0 24px rgba(70,224,138,.4)}
+.cta a:hover{text-decoration:none}
+.note{background:var(--panel);border:1px solid var(--border);border-left:3px solid var(--green);border-radius:12px;padding:16px 20px;margin:22px 0;font-size:14.5px;color:var(--muted)}
+.note strong{color:var(--green)}
+footer{border-top:1px solid var(--border);background:var(--surface)}
+.foot-inner{max-width:1040px;margin:0 auto;padding:30px clamp(20px,5vw,40px);display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.06em;color:var(--muted2)}
+.foot-inner a{color:var(--muted2)}.foot-inner a:hover{color:var(--green)}
+</style>
+</head>
+<body>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Article",
+   "headline": "El cráneo en el lado equivocado: quién descubrió el error de Cope",
+   "description": "En 1868 Edward Cope reconstruyó el reptil marino Elasmosaurus con el cráneo montado en la punta de la cola. La versión famosa dice que su rival Marsh descubrió el error, pero fue Joseph Leidy, en público, en 1870.",
+   "inLanguage": "es",
+   "datePublished": "2026-07-24",
+   "dateModified": "2026-07-24",
+   "image": "https://paleodex.co/assets/blog/skull-on-the-wrong-end-hero.jpg",
+   "mainEntityOfPage": "https://paleodex.co/es/blog/the-skull-on-the-wrong-end",
+   "articleSection": "From the Record",
+   "author": { "@type": "Organization", "name": "PaleoDex", "url": "https://paleodex.co" },
+   "publisher": {
+    "@type": "Organization", "name": "PaleoDex", "url": "https://paleodex.co",
+    "logo": { "@type": "ImageObject", "url": "https://paleodex.co/logo.png" }
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://paleodex.co/es/" },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://paleodex.co/es/blog/" },
+    { "@type": "ListItem", "position": 3, "name": "El cráneo en el lado equivocado", "item": "https://paleodex.co/es/blog/the-skull-on-the-wrong-end" }
+   ]
+  }
+ ]
+}
+</script>
+<div class="pdx-scanlines"></div><div class="pdx-haze"></div>
+<div class="wrap">
+<nav class="nav"><div class="nav-inner">
+<a class="logo" href="/es/"><img class="logo-icon" src="/assets/favicons/favicon-64.png" alt="PaleoDex"><span class="logo-text">Paleo<span>Dex</span></span></a>
+<a class="nav-back" href="/es/blog/">← BLOG</a>
+<div class="langsw"><a href="/blog/the-skull-on-the-wrong-end">EN</a><span style="color:var(--muted2)">·</span><span class="on">ES</span></div>
+</div></nav>
+<main class="doc">
+  <div class="crumb"><a href="/es/">Inicio</a> / <a href="/es/blog/">Blog</a> / Del registro</div>
+  <div class="eyebrow">// DEL REGISTRO</div>
+  <h1>El cráneo en el lado equivocado</h1>
+  <p style="font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.06em;color:var(--muted2);margin-top:12px">PALEODEX · 24 de julio de 2026 · 7 min de lectura</p>
+  <p class="lead" style="font-style:italic">En 1868, el cazador de fósiles más famoso de Estados Unidos presentó un reptil marino con un cuello más largo que todo su cuerpo — y montó el cráneo en la punta de la cola. La versión famosa de esta historia le atribuye el hallazgo del error a su rival. Esa parte es falsa, y desenredarla es más interesante que el error mismo.</p>
+  <figure style="margin:26px 0 4px"><img src="/assets/blog/skull-on-the-wrong-end-hero.jpg" alt="Una pintura del reptil marino de cuello largo Elasmosaurus cazando bajo el agua" loading="lazy" style="width:100%;max-height:440px;object-fit:cover;object-position:center 38%;border-radius:16px;border:1px solid var(--border)"><figcaption style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.04em;color:var(--muted2);margin-top:8px">Reconstrucción en vida de <em>Elasmosaurus platyurus</em>, el animal en el centro del error. Arte: MakairodonX, CC BY-SA 4.0, vía Wikimedia Commons.</figcaption></figure>
+
+<p>Algunos errores científicos son famosos porque fueron desastrosos. Este es famoso porque fue <em>gracioso</em> — y porque, más de un siglo y medio después, la mayoría de la gente todavía recuerda mal el final.</p>
+
+<h2>Un cuello confundido con una cola</h2>
+<p>El animal es <strong><em>Elasmosaurus platyurus</em></strong>, un reptil marino — no un dinosaurio — que nadaba en el mar poco profundo que partía Norteamérica en dos durante el Cretácico Tardío. Su rasgo definitorio es el <strong>cuello</strong>: absurdamente largo, formado por decenas de vértebras, más largo que todo el resto del cuerpo junto. Es uno de los cuellos más extremos que ha desarrollado cualquier animal con columna vertebral.</p>
+<p>Ese cuello es justo lo que causó el problema. Cuando los primeros huesos llegaron a la costa este a finales de la década de 1860, la persona que los estudió nunca había visto nada igual — e hizo una suposición muy humana sobre cuál era cada extremo.</p>
+
+<h2>Cope, a las prisas</h2>
+<p>Esa persona era <strong>Edward Drinker Cope</strong>, un paleontólogo brillante, prolífico y famoso por trabajar rápido, en la Academia de Ciencias Naturales de Filadelfia. El fósil había sido extraído de la creta cerca de <strong>Fort Wallace, Kansas</strong>, por un cirujano del ejército llamado <strong>Theophilus Turner</strong>, que envió los huesos al este. Cope publicó una descripción a toda prisa en <strong>1868</strong> y se puso a reconstruir el esqueleto.</p>
+<p>Trabajando deprisa, dispuso la larga cadena de vértebras del cuello como si fuera una <strong>cola</strong> — y puso el extremo corto, con el cráneo, al frente. Para la época era una suposición razonable, y completamente al revés.</p>
+
+<h2>El cráneo en el lado equivocado</h2>
+<p>La reconstrucción publicada de Cope muestra a <em>Elasmosaurus</em> con la <strong>cabeza montada en la punta de lo que en realidad es su cola</strong>, y el enorme cuello arrastrándose detrás del cuerpo como la cola de un lagarto gigante. El rasgo anatómico más llamativo del animal entero — ese cuello imposible — había quedado plegado en el lugar equivocado.</p>
+<div class="note"><strong>Por qué es un error fácil de imaginar:</strong> el plan corporal de un elasmosaurio es genuinamente extraño. Quita la cabeza del extremo largo y ponla en el corto, y sigues teniendo una criatura marina de aspecto plausible — solo que una que nunca existió. Eso es lo que hace el error tan memorable: no es obviamente incorrecto a primera vista.</div>
+
+<h2>Joseph Leidy lo descubrió — en público</h2>
+<p>La corrección llegó en una reunión de la Academia de Ciencias Naturales el <strong>8 de marzo de 1870</strong>. Quien la hizo fue <strong>Joseph Leidy</strong>, el naturalista veterano que había ayudado a formar a Cope, y uno de los anatomistas más cuidadosos de Estados Unidos. Leidy señaló que el cráneo estaba en el extremo equivocado de la columna vertebral, y trasladó la cabeza a lo que Cope había estado llamando la cola. No fue una nota discreta pasada en privado. Ocurrió en la sala, delante de los colegas de Cope.</p>
+<p>Se <em>cuenta</em> que Cope, humillado, intentó recomprar y reimprimir las copias de su artículo apresurado para enterrar el error — una historia repetida durante más de un siglo, aunque procede de una biografía posterior y no de un registro contemporáneo, así que conviene tomarla como probable pero no probada. En cualquier caso, el esqueleto que sobrevivió fue el corregido.</p>
+
+<h2>El hombre que se llevó el crédito</h2>
+<p>Aquí es donde la versión popular se descarrila. Pregúntale a casi cualquiera quién descubrió el error de Cope y oirás el nombre de su gran rival, <strong>Othniel Charles Marsh</strong> — la otra mitad de la "Guerra de los Huesos", la disputa de décadas entre los dos hombres. Marsh, según la historia, detectó el cráneo invertido y humilló a Cope con ello.</p>
+<p>No fue así. Marsh estaba presente en la reunión de 1870, pero la corrección pública fue de Leidy, no suya. La afirmación de Marsh de haber detectado él mismo el error aparece solo <strong>unos veinte años más tarde</strong>, en una guerra periodística de la década de 1890 con Cope, cuando ambos aireaban todos los agravios que podían desenterrar. Los historiadores que han vuelto al registro leen la versión de Marsh como <strong>revisionismo interesado</strong> — una historia que se contó a sí mismo mucho después, no algo que hizo en su momento.</p>
+
+<h2>Por qué lo recordamos mal</h2>
+<p>El error es real; el crédito casi siempre se asigna mal. Es un ejemplo pequeño y claro de cómo se aplana la historia: un error memorable, una rivalidad famosa y una narrativa ordenada que enfrenta directamente a los dos rivales. La verdad es más desordenada y mejor — quien realmente descubrió a Cope fue su viejo mentor, corrigiéndolo con suavidad y en público, mientras que el rival que se lleva el crédito simplemente le sobrevivió y reescribió la historia.</p>
+<p>Contamos la historia de esa rivalidad en <a href="/es/blog/the-bone-wars">La Guerra de los Huesos</a> — y si te gustan los buenos errores científicos, el <a href="/es/blog/piltdown-man-the-40-year-hoax">fraude del Hombre de Piltdown</a> es el que engañó a todos durante cuarenta años. En PaleoDex nos importa acertar en estos detalles, porque el registro es más interesante cuando es exacto que cuando es cómodo.</p>
+
+  <h2>Fuentes</h2>
+  <p class="muted">Cada dato anterior proviene de fuentes primarias e institucionales:</p>
+  <ul>
+    <li>Cope, E. D. (1868). Descripción original de <em>Elasmosaurus platyurus</em>. <em>Proceedings of the Academy of Natural Sciences of Philadelphia</em> 20:92–93.</li>
+    <li>Leidy, J. (1870). La corrección pública de la reconstrucción. <em>Proceedings of the Academy of Natural Sciences of Philadelphia</em> 22:9–10.</li>
+    <li>Davidson, J. P. (2002). "Bonehead Mistakes: The Background in Scientific Literature and Illustrations for Edward Drinker Cope's First Restoration of <em>Elasmosaurus platyurus</em>." <em>Proceedings of the Academy of Natural Sciences of Philadelphia</em> 152. (<a href="https://www.researchgate.net/publication/232690093" rel="nofollow noopener" target="_blank">researchgate.net</a>)</li>
+    <li>Everhart, M. J., "The Tale of a Tail" y "Elasmosaurus platyurus — Rest of Story", oceansofkansas.com (el hallazgo de Turner cerca de Fort Wallace; la corrección de Leidy en 1870; la afirmación muy posterior de Marsh). (<a href="http://oceansofkansas.com/tale-tail.html" rel="nofollow noopener" target="_blank">oceansofkansas.com</a>)</li>
+    <li>Wikipedia, "Elasmosaurus" (el error de reconstrucción, el cráneo invertido y la historiografía de quién lo corrigió). (<a href="https://en.wikipedia.org/wiki/Elasmosaurus" rel="nofollow noopener" target="_blank">en.wikipedia.org</a>)</li>
+  </ul>
+  <div class="cta"><div class="eyebrow" style="text-align:center">// PALEODEX</div><h2 style="border:none;padding:0;margin:10px 0 0">El registro real, en tu bolsillo.</h2><p class="muted" style="max-width:48ch;margin:10px auto 0">PaleoDex cataloga el registro fósil real: con fuentes, y honesto sobre lo que aún se debate. Únete a la lista de espera.</p><a href="/es/#waitlist">ÚNETE A LA LISTA →</a></div>
+</main>
+<footer><div class="foot-inner"><span>© 2026 PALEODEX · EXCAVA CON RESPONSABILIDAD</span><span style="display:flex;gap:16px;flex-wrap:wrap;"><a href="/privacy">Privacidad</a> <a href="/terms">Términos</a> <a href="/cookies">Cookies</a> <a href="#" onclick="pdxManageCookies();return false;">Configuración de cookies</a></span></div></footer>
+</div>
+
+<!-- ==== Cookie consent (bilingual) ==== -->
+<div id="pdx-cookie" role="dialog" aria-live="polite" hidden style="position:fixed; left:16px; right:16px; bottom:16px; z-index:9999; max-width:560px; margin:0 auto; background:#0a1610; border:1px solid rgba(70,224,138,.35); border-radius:14px; box-shadow:0 20px 60px rgba(0,0,0,.55); padding:18px 20px; font-family:'Hanken Grotesk',system-ui,sans-serif; color:#d8e8de;">
+  <p data-cc="msg" style="margin:0 0 14px; font-size:14px; line-height:1.55; color:#9fb6aa;"></p>
+  <div style="display:flex; flex-wrap:wrap; gap:10px; align-items:center;">
+    <button data-cc="accept" onclick="pdxCookie('granted')" style="font-family:'JetBrains Mono',monospace; font-weight:700; font-size:12px; letter-spacing:.04em; color:#06140c; background:#46e08a; border:none; padding:11px 18px; border-radius:9px; cursor:pointer;"></button>
+    <button data-cc="reject" onclick="pdxCookie('denied')" style="font-family:'JetBrains Mono',monospace; font-weight:700; font-size:12px; letter-spacing:.04em; color:#d8e8de; background:transparent; border:1px solid rgba(70,224,138,.3); padding:11px 18px; border-radius:9px; cursor:pointer;"></button>
+    <a data-cc="link" href="/cookies" style="font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.04em; color:#46e08a; margin-left:auto;"></a>
+  </div>
+</div>
+<script>
+(function(){
+  var PORTAL="50834246";
+  function lang(){ try{ return localStorage.getItem('pdx_lang') || ((navigator.language||'en').toLowerCase().indexOf('es')===0?'es':'en'); }catch(e){ return 'es'; } }
+  function loadHS(){ if(document.getElementById('hs-script-loader'))return; var s=document.createElement('script'); s.id='hs-script-loader'; s.async=true; s.defer=true; s.src='//js.hs-scripts.com/'+PORTAL+'.js'; document.head.appendChild(s); }
+  var T={ en:{ msg:'We use cookies to run this site and, with your consent, to measure interest and improve PaleoDex. You can change your choice anytime.', accept:'ACCEPT', reject:'REJECT', link:'Cookie policy →' },
+          es:{ msg:'Usamos cookies para operar este sitio y, con tu consentimiento, medir el interés y mejorar PaleoDex. Puedes cambiar tu elección cuando quieras.', accept:'ACEPTAR', reject:'RECHAZAR', link:'Política de cookies →' } };
+  function render(){ var t=T[lang()]||T.es; var el=document.getElementById('pdx-cookie'); if(!el)return; el.querySelector('[data-cc=msg]').textContent=t.msg; el.querySelector('[data-cc=accept]').textContent=t.accept; el.querySelector('[data-cc=reject]').textContent=t.reject; el.querySelector('[data-cc=link]').textContent=t.link; }
+  window.pdxCookie=function(choice){ try{ localStorage.setItem('pdx_cookie_consent',choice); }catch(e){} var el=document.getElementById('pdx-cookie'); if(el) el.hidden=true; if(choice==='granted') loadHS(); };
+  window.pdxManageCookies=function(){ render(); var el=document.getElementById('pdx-cookie'); if(el) el.hidden=false; };
+  var c=null; try{ c=localStorage.getItem('pdx_cookie_consent'); }catch(e){}
+  if(c==='granted'){ loadHS(); } else if(c!=='denied'){ render(); var el=document.getElementById('pdx-cookie'); if(el) el.hidden=false; }
+})();
+</script>
+
+</body></html>

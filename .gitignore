@@ -20,6 +20,14 @@ assets/screenshots/*.png
 .impeccable/config.local.json
 
 # Reference docs (local use only, not part of the deployed site)
+# netlify.toml sets publish = "." so ANY committed file at the repo root is
+# publicly fetchable — /assets/blog/IMAGE-CREDITS.md and /social/*.md both
+# return HTTP 200 today (checked 2026-07-30). Internal planning docs must
+# therefore stay out of the commit, not merely out of the nav.
 BLOG_CONTENT_STRATEGY.md
 CURRENT_FEATURES.md
 WEBSITE_REFERENCE.md
+BLOG-PUSH-PRIORITY.md
+BLOG_WORKFLOW.md
+indexing-url-list.txt
+tester-update-email.html

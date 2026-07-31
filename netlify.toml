@@ -8,6 +8,59 @@
   directory = "netlify/functions"
   node_bundler = "nft"
 
+# --- Legacy path redirects -------------------------------------------------
+# /library/ and /continental-drift/ have never existed in this repo (git ls-files
+# returns 0 for both) and both returned HTTP 404 in production, verified by curl
+# on 2026-07-30. The content they were meant to point at lives under /features/.
+# Source links were repointed in the same commit; these redirects catch anything
+# already indexed or linked externally. Order matters - Netlify takes the first
+# match, so these must stay ABOVE the catch-all 404 below.
+[[redirects]]
+  from = "/library/*"
+  to = "/features/fossil-dex/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/es/library/*"
+  to = "/es/features/fossil-dex/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/continental-drift/*"
+  to = "/features/continental-drift/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/es/continental-drift/*"
+  to = "/es/features/continental-drift/"
+  status = 301
+  force = true
+
+# The three legal pages are deliberately single-file and bilingual with an
+# in-page EN/ES toggle (BLOG_WORKFLOW.md section 2), so there is no /es/ copy.
+# 14 Spanish posts linked to /es/privacy, /es/terms and /es/cookies anyway, and
+# all three returned HTTP 404 in production - verified by curl on 2026-07-30.
+[[redirects]]
+  from = "/es/privacy"
+  to = "/privacy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/es/terms"
+  to = "/terms"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/es/cookies"
+  to = "/cookies"
+  status = 301
+  force = true
+
 # Custom 404
 [[redirects]]
   from = "/*"

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<script>try{localStorage.setItem('pdx_lang','es');}catch(e){}</script>
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/app-icons/apple-touch-icon-180.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>El Reptil de Dos Cabezas del Cretácico — PaleoDex</title>
+<meta name="description" content="Un fósil de hace 120 millones de años de China conserva un reptil bebé que nació con dos cabezas. Conoce a Hyphalosaurus (no es un dinosaurio) y el error del desarrollo que todavía crea serpientes y tortugas de dos cabezas hoy.">
+<meta name="keywords" content="reptil de dos cabezas, Hyphalosaurus, bifurcación axial, policefalia, coristodero, Biota de Jehol, Formación Yixian, fósiles de Liaoning, fósil de dos cabezas, tortuga Janus">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#07120c">
+<meta property="og:title" content="El Reptil de Dos Cabezas del Cretácico — PaleoDex">
+<meta property="og:description" content="Un fósil de hace 120 millones de años conserva un reptil bebé que nació con dos cabezas. La historia real de Hyphalosaurus y el error que todavía ocurre hoy.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://paleodex.co/es/blog/two-headed-reptile">
+<meta property="og:image" content="https://paleodex.co/assets/blog/two-headed-reptile.jpg">
+<meta property="og:locale" content="es_ES">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://paleodex.co/es/blog/two-headed-reptile">
+<link rel="alternate" hreflang="en" href="https://paleodex.co/blog/two-headed-reptile">
+<link rel="alternate" hreflang="es" href="https://paleodex.co/es/blog/two-headed-reptile">
+<link rel="alternate" hreflang="x-default" href="https://paleodex.co/blog/two-headed-reptile">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+:root{--bg:#07120c;--surface:#0c1a12;--panel:#0a1610;--border:rgba(70,224,138,.16);--green:#46e08a;--greenglow:rgba(70,224,138,.4);--amber:#e8a33d;--text:#d8e8de;--muted:#9fb6aa;--muted2:#7d978a;--ongreen:#06140c}
+body{font-family:'Hanken Grotesk',system-ui,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;overflow-x:hidden;line-height:1.65}
+a{color:var(--green);text-decoration:none}a:hover{text-decoration:underline}
+.pdx-scanlines{position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.5;background-image:repeating-linear-gradient(0deg,rgba(70,224,138,.035) 0 1px,transparent 1px 3px)}
+.pdx-haze{position:fixed;inset:0;pointer-events:none;z-index:0;background:radial-gradient(120% 70% at 80% -10%,rgba(70,224,138,.09),transparent 60%)}
+.wrap{position:relative;z-index:1}
+.nav{position:sticky;top:0;z-index:40;backdrop-filter:blur(12px);background:rgba(7,18,12,.72);border-bottom:1px solid var(--border)}
+.nav-inner{max-width:1040px;margin:0 auto;padding:15px clamp(20px,5vw,40px);display:flex;align-items:center;gap:16px}
+.logo{display:flex;align-items:center;gap:10px;margin-right:auto}
+.logo-icon{width:24px;height:24px;border-radius:7px;display:block;box-shadow:0 0 14px var(--greenglow)}
+.logo-text{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:18px;letter-spacing:-.01em}
+.logo-text span{color:var(--green)}
+.nav-back{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.06em;color:var(--muted2)}
+.nav-back:hover{color:var(--green);text-decoration:none}
+.langsw{display:flex;gap:7px;align-items:center;font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.06em}
+.langsw a{color:var(--muted2)}.langsw .on{color:var(--green);font-weight:700}
+.doc{max-width:1040px;margin:0 auto;padding:clamp(28px,5vw,56px) clamp(20px,5vw,40px) 90px}
+.crumb{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.08em;color:var(--muted2);margin-bottom:22px}
+.crumb a{color:var(--muted2)}.crumb a:hover{color:var(--green)}
+.eyebrow{font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.18em;color:var(--green)}
+h1{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(34px,5.5vw,60px);line-height:1.0;letter-spacing:-.02em;margin:12px 0 6px}
+.sci{font-family:'Space Grotesk',sans-serif;font-style:italic;font-weight:500;font-size:clamp(17px,2vw,21px);color:var(--muted)}
+.lead{font-size:17px;color:var(--muted);margin:20px 0 0;max-width:66ch}
+.tags{display:flex;flex-wrap:wrap;gap:9px;margin:22px 0 0}
+.tag{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.06em;color:var(--text);border:1px solid var(--border);background:var(--surface);padding:7px 12px;border-radius:100px}
+.tag b{color:var(--green);font-weight:700}
+.rank{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.14em;color:var(--amber);display:block;margin-bottom:2px}
+h2{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(20px,2.4vw,26px);letter-spacing:-.01em;margin:48px 0 12px;padding-top:14px;border-top:1px solid var(--border)}
+h2 em{font-style:italic;color:var(--muted)}
+p{margin:12px 0}.doc p,.doc li,.doc td,.doc th{font-size:15.5px}
+ul{margin:12px 0 12px 22px}li{margin:7px 0}
+strong{color:var(--text);font-weight:600}.muted{color:var(--muted)}
+.cta{background:var(--panel);border:1px solid rgba(70,224,138,.22);border-radius:20px;padding:clamp(26px,4vw,44px);text-align:center;margin-top:48px}
+.cta a{display:inline-block;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:13px;letter-spacing:.05em;color:var(--ongreen);background:var(--green);padding:14px 26px;border-radius:11px;margin-top:16px;box-shadow:0 0 24px rgba(70,224,138,.4)}
+.cta a:hover{text-decoration:none}
+.note{background:var(--panel);border:1px solid var(--border);border-left:3px solid var(--green);border-radius:12px;padding:16px 20px;margin:22px 0;font-size:14.5px;color:var(--muted)}
+.note strong{color:var(--green)}
+footer{border-top:1px solid var(--border);background:var(--surface)}
+.foot-inner{max-width:1040px;margin:0 auto;padding:30px clamp(20px,5vw,40px);display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.06em;color:var(--muted2)}
+.foot-inner a{color:var(--muted2)}.foot-inner a:hover{color:var(--green)}
+</style>
+</head>
+<body>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Article",
+   "headline": "El Reptil de Dos Cabezas del Cretácico",
+   "description": "Un fósil de hace 120 millones de años de China conserva un reptil bebé que nació con dos cabezas. Conoce a Hyphalosaurus y el error del desarrollo que todavía crea serpientes y tortugas de dos cabezas hoy.",
+   "inLanguage": "es",
+   "datePublished": "2026-07-14",
+   "dateModified": "2026-07-14",
+   "image": "https://paleodex.co/assets/blog/two-headed-reptile.jpg",
+   "mainEntityOfPage": "https://paleodex.co/es/blog/two-headed-reptile",
+   "articleSection": "Del Registro",
+   "author": { "@type": "Organization", "name": "PaleoDex", "url": "https://paleodex.co" },
+   "publisher": {
+    "@type": "Organization", "name": "PaleoDex", "url": "https://paleodex.co",
+    "logo": { "@type": "ImageObject", "url": "https://paleodex.co/logo.png" }
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://paleodex.co/es/" },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://paleodex.co/es/blog/" },
+    { "@type": "ListItem", "position": 3, "name": "El Reptil de Dos Cabezas", "item": "https://paleodex.co/es/blog/two-headed-reptile" }
+   ]
+  }
+ ]
+}
+</script>
+<div class="pdx-scanlines"></div><div class="pdx-haze"></div>
+<div class="wrap">
+<nav class="nav"><div class="nav-inner">
+<a class="logo" href="/es/"><img class="logo-icon" src="/assets/favicons/favicon-64.png" alt="PaleoDex"><span class="logo-text">Paleo<span>Dex</span></span></a>
+<a class="nav-back" href="/es/blog/">← BLOG</a>
+<div class="langsw"><a href="/blog/two-headed-reptile">EN</a><span style="color:var(--muted2)">·</span><span class="on">ES</span></div>
+</div></nav>
+<main class="doc">
+  <div class="crumb"><a href="/es/">Inicio</a> / <a href="/es/blog/">Blog</a> / Del Registro</div>
+  <div class="eyebrow">// DEL REGISTRO</div>
+  <h1>El Reptil de Dos Cabezas del Cretácico</h1>
+  <p style="font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.06em;color:var(--muted2);margin-top:12px">PALEODEX · 14 de julio de 2026 · 6 min de lectura</p>
+  <p class="lead" style="font-style:italic">Un reptil bebé fosilizado hace 120 millones de años con dos cráneos, dos cuellos y un cuerpo diminuto. No es un engaño, y no son dos fósiles pegados: es el animal de dos cabezas más antiguo jamás hallado, y el mismo error que lo creó todavía ocurre hoy.</p>
+  <figure style="margin:26px 0 4px"><img src="/assets/blog/two-headed-reptile.jpg" alt="Un esqueleto fósil completo de Hyphalosaurus conservado plano sobre una losa de Liaoning, China" loading="lazy" style="width:100%;max-height:440px;object-fit:cover;object-position:center;border-radius:16px;border:1px solid var(--border)"><figcaption style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.04em;color:var(--muted2);margin-top:8px">Un fósil de <em>Hyphalosaurus</em> (BMNHC Ph325) del Cretácico Inferior de Liaoning, China. Tiouraren (Y.-C. Tsai), CC BY-SA 4.0, vía Wikimedia Commons.</figcaption></figure>
+
+<p>Algunos fósiles sorprenden por su tamaño, o por su antigüedad. Este sorprende porque tiene dos cabezas. Descubierto en los lagos del Cretácico Inferior del noreste de China, es un diminuto embrión o cría de reptil con dos cráneos completos, dos cuellos enteros y un solo cuerpo pequeño. Es real, está revisado por expertos y tiene unos 120 millones de años: el ejemplo más antiguo conocido de su condición en todo el registro fósil.</p>
+
+<h2>Lo que muestra el fósil</h2>
+<figure style="margin:20px 0 4px"><img src="/assets/blog/two-headed-specimen.jpg" alt="El fósil real de Hyphalosaurus de dos cabezas: dos cráneos y cuellos que salen de un solo cuerpo" loading="lazy" style="width:100%;max-height:460px;object-fit:contain;background:#070c14;border-radius:14px;border:1px solid var(--border);padding:14px"><figcaption style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.04em;color:var(--muted2);margin-top:8px">El espécimen real (R10): dos cráneos y cuellos se ramifican desde un solo cuerpo a la altura de los hombros. Buffetaut et al., <em>Biology Letters</em> 3(1):80–81, 2007 · © con crédito.</figcaption></figure>
+<p>El animal completo mide unos siete centímetros, del tamaño de tu dedo. Su columna recorre el cuerpo con normalidad y luego se divide en los hombros en dos cuellos separados, y cada cuello termina en su propio cráneo completamente formado. No es un espécimen con la cabeza mal conservada, ni dos animales aplastados juntos sobre la misma losa. Es un cuerpo con dos cabezas, y ambas están completas.</p>
+
+<h2>No es un dinosaurio</h2>
+<figure style="margin:20px 0 4px"><img src="/assets/blog/two-headed-recon-official.jpg" alt="Reconstrucción en vida del Hyphalosaurus de dos cabezas vivo, por Haiyan Tong" loading="lazy" style="width:100%;max-height:460px;object-fit:contain;background:#070c14;border-radius:14px;border:1px solid var(--border);padding:14px"><figcaption style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.04em;color:var(--muted2);margin-top:8px">Cómo se habría visto viva la cría de dos cabezas. Reconstrucción en vida por Haiyan Tong (Buffetaut et al. 2007) · © con crédito.</figcaption></figure>
+<p>En internet suelen llamarlo "dinosaurio de dos cabezas". No lo es. El animal es <em>Hyphalosaurus</em>, miembro de un grupo extinto de reptiles acuáticos llamados coristoderos: nadadores de agua dulce de cuerpo y cuello largos que vivieron junto a los dinosaurios pero no eran dinosaurios. <em>Hyphalosaurus</em> es uno de los vertebrados más abundantes de la Biota de Jehol en Liaoning, China, de hace unos 122 millones de años. Puedes ver dónde estaba China en el globo del Cretácico en nuestro mapa de <a href="/es/features/continental-drift/">Deriva Continental</a>, y revisar <a href="/es/about-the-data">de dónde viene cada dato de PaleoDex</a>.</p>
+
+<h2>Cómo un animal desarrolla dos cabezas</h2>
+<p>La condición tiene nombre: <strong>bifurcación axial</strong>. Al principio del desarrollo, un solo embrión empieza a dividirse en gemelos idénticos, el mismo proceso que produce gemelos normales en los animales vivos, pero la división no termina. El cuerpo se vuelve a unir en uno, mientras que el extremo de la cabeza ya se ha dividido en dos. El resultado es un solo animal con dos cabezas, y se entiende bastante bien: este fósil se describió en la revista científica <em>Biology Letters</em> en 2007, y los autores lo identificaron como el registro más antiguo conocido de bifurcación axial.</p>
+
+<h2>El mismo error todavía ocurre hoy</h2>
+<figure style="margin:20px 0 4px"><img src="/assets/blog/two-headed-janus.jpg" alt="Janus, una tortuga de dos cabezas viva en el Museo de Historia Natural de Ginebra" loading="lazy" style="width:100%;max-height:380px;object-fit:contain;background:#070c14;border-radius:14px;border:1px solid var(--border);padding:14px"><figcaption style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.04em;color:var(--muted2);margin-top:8px">Janus, una tortuga de dos cabezas viva cuidada en el Museo de Historia Natural de Ginebra. Philippe Wagneur / MHNG, CC BY-SA 4.0, vía Wikimedia Commons.</figcaption></figure>
+<p>Lo que hace tan inquietante al fósil es que este no es un problema extinto. Todavía nacen serpientes y tortugas de dos cabezas hoy. La policefalia aparece en los reptiles más o menos una vez en cada 100.000 nacimientos, y la mayoría no sobrevive mucho en la naturaleza: dos cabezas significan dos cerebros peleando por un cuerpo, movimientos más lentos y torpeza al comer. Pero en cautiverio algunas viven décadas. Una tortuga de dos cabezas llamada Janus, cuidada en el Museo de Historia Natural de Ginebra, lleva más de 22 años viva. El fósil de 120 millones de años simplemente demuestra que el accidente es muy, muy antiguo.</p>
+
+<h2>Por qué sobrevivió 120 millones de años</h2>
+<p>Un recién nacido con dos cabezas es frágil, y la mayoría desaparecería sin dejar rastro. Este llegó al registro por dónde murió. Los lagos de la Biota de Jehol, en la Formación Yixian, quedaban cubiertos periódicamente por ceniza volcánica fina y tenían aguas de fondo pobres en oxígeno, condiciones que entierran a los animales pequeños rápido y por completo, conservándolos con un detalle exquisito. Es el mismo escenario que nos dio los dinosaurios con plumas y aves tempranas como <em>Confuciusornis</em>. Sin un lagerstätte como Jehol, una cría blanda de siete centímetros nunca se habría convertido en fósil.</p>
+
+<h2>Por qué esto pertenece a PaleoDex</h2>
+<p>El reptil de dos cabezas es una historia perfecta para PaleoDex: no un mito, no un montaje viral, sino un espécimen real con un artículo detrás, y una línea recta desde un lecho de lago de hace 120 millones de años hasta la tortuga de dos cabezas que vive hoy en un museo. Esa es la idea completa: el registro real, con las pruebas. Explora las criaturas que compartieron su mundo en la <a href="/es/features/fossil-dex/">Biblioteca de Fósiles</a>, recorre el mapa de <a href="/es/features/continental-drift/">Deriva Continental</a>, y lee más rarezas <a href="/es/blog/">del registro</a>.</p>
+
+  <h2>Fuentes</h2>
+  <p class="muted">Cada dato anterior proviene de la descripción original y de referencias estándar:</p>
+  <ul>
+    <li>Buffetaut, E., Li, J., Tong, H. y Zhang, H. (2007). "A two-headed reptile from the Cretaceous of China." <em>Biology Letters</em> 3(1): 80–81. La descripción revisada por expertos del espécimen y su identificación como la bifurcación axial más antigua conocida. (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2373827/" rel="nofollow noopener" target="_blank">PMC2373827</a>)</li>
+    <li><a href="https://es.wikipedia.org/wiki/Hyphalosaurus" rel="nofollow noopener" target="_blank">Wikipedia, "Hyphalosaurus"</a>: el género, su clasificación como coristodero y su lugar en la Biota de Jehol.</li>
+    <li><a href="https://es.wikipedia.org/wiki/Policefalia" rel="nofollow noopener" target="_blank">Wikipedia, "Policefalia"</a>: la condición de dos cabezas en reptiles vivos, su frecuencia y la tortuga Janus.</li>
+  </ul>
+  <div class="cta"><div class="eyebrow" style="text-align:center">// PALEODEX</div><h2 style="border:none;padding:0;margin:10px 0 0">El registro real, en tu bolsillo.</h2><p class="muted" style="max-width:48ch;margin:10px auto 0">PaleoDex cataloga el registro fósil real, y cada dato está documentado. Únete a la lista de espera.</p><a href="/es/#waitlist">ÚNETE A LA LISTA →</a></div>
+</main>
+<footer><div class="foot-inner"><span>© 2026 PALEODEX · EXCAVA CON RESPONSABILIDAD</span><span style="display:flex;gap:16px;flex-wrap:wrap;"><a href="/privacy">Privacidad</a> <a href="/terms">Términos</a> <a href="/cookies">Cookies</a> <a href="#" onclick="pdxManageCookies();return false;">Config. cookies</a></span></div></footer>
+</div>
+
+<!-- ==== Cookie consent (bilingual) ==== -->
+<div id="pdx-cookie" role="dialog" aria-live="polite" hidden style="position:fixed; left:16px; right:16px; bottom:16px; z-index:9999; max-width:560px; margin:0 auto; background:#0a1610; border:1px solid rgba(70,224,138,.35); border-radius:14px; box-shadow:0 20px 60px rgba(0,0,0,.55); padding:18px 20px; font-family:'Hanken Grotesk',system-ui,sans-serif; color:#d8e8de;">
+  <p data-cc="msg" style="margin:0 0 14px; font-size:14px; line-height:1.55; color:#9fb6aa;"></p>
+  <div style="display:flex; flex-wrap:wrap; gap:10px; align-items:center;">
+    <button data-cc="accept" onclick="pdxCookie('granted')" style="font-family:'JetBrains Mono',monospace; font-weight:700; font-size:12px; letter-spacing:.04em; color:#06140c; background:#46e08a; border:none; padding:11px 18px; border-radius:9px; cursor:pointer;"></button>
+    <button data-cc="reject" onclick="pdxCookie('denied')" style="font-family:'JetBrains Mono',monospace; font-weight:700; font-size:12px; letter-spacing:.04em; color:#d8e8de; background:transparent; border:1px solid rgba(70,224,138,.3); padding:11px 18px; border-radius:9px; cursor:pointer;"></button>
+    <a data-cc="link" href="/cookies" style="font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.04em; color:#46e08a; margin-left:auto;"></a>
+  </div>
+</div>
+<script>
+(function(){
+  var PORTAL="50834246";
+  function lang(){ try{ return localStorage.getItem('pdx_lang') || ((navigator.language||'en').toLowerCase().indexOf('es')===0?'es':'en'); }catch(e){ return 'en'; } }
+  function loadHS(){ if(document.getElementById('hs-script-loader'))return; var s=document.createElement('script'); s.id='hs-script-loader'; s.async=true; s.defer=true; s.src='//js.hs-scripts.com/'+PORTAL+'.js'; document.head.appendChild(s); }
+  var T={ en:{ msg:'We use cookies to run this site and, with your consent, to measure interest and improve PaleoDex. You can change your choice anytime.', accept:'ACCEPT', reject:'REJECT', link:'Cookie policy →' },
+          es:{ msg:'Usamos cookies para operar este sitio y, con tu consentimiento, medir el interés y mejorar PaleoDex. Puedes cambiar tu elección cuando quieras.', accept:'ACEPTAR', reject:'RECHAZAR', link:'Política de cookies →' } };
+  function render(){ var t=T[lang()]||T.en; var el=document.getElementById('pdx-cookie'); if(!el)return; el.querySelector('[data-cc=msg]').textContent=t.msg; el.querySelector('[data-cc=accept]').textContent=t.accept; el.querySelector('[data-cc=reject]').textContent=t.reject; el.querySelector('[data-cc=link]').textContent=t.link; }
+  window.pdxCookie=function(choice){ try{ localStorage.setItem('pdx_cookie_consent',choice); }catch(e){} var el=document.getElementById('pdx-cookie'); if(el) el.hidden=true; if(choice==='granted') loadHS(); };
+  window.pdxManageCookies=function(){ render(); var el=document.getElementById('pdx-cookie'); if(el) el.hidden=false; };
+  var c=null; try{ c=localStorage.getItem('pdx_cookie_consent'); }catch(e){}
+  if(c==='granted'){ loadHS(); } else if(c!=='denied'){ render(); var el=document.getElementById('pdx-cookie'); if(el) el.hidden=false; }
+})();
+</script>
+
+</body></html>
