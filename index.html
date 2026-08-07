@@ -1227,4 +1227,17 @@ document.querySelectorAll('a[href*="play.google.com"]').forEach(function(a) {
 (function(){
   var PORTAL="50834246";
   function lang(){ try{ return localStorage.getItem('pdx_lang') || ((navigator.language||'en').toLowerCase().indexOf('es')===0?'es':'en'); }catch(e){ return 'en'; } }
-  function loadHS(){ if(document.getElementById('hs-script-loader'))return; var s=document.createElement('script'); s.id='hs-script-loader'; s.async=true; s.d
+  function loadHS(){ if(document.getElementById('hs-script-loader'))return; var s=document.createElement('script'); s.id='hs-script-loader'; s.async=true; s.defer=true; s.src='//js.hs-scripts.com/'+PORTAL+'.js'; document.head.appendChild(s); }
+  var T={ en:{ msg:'We use cookies to run this site and, with your consent, to measure interest and improve PaleoDex. You can change your choice anytime.', accept:'ACCEPT', reject:'REJECT', link:'Cookie policy →' },
+          es:{ msg:'Usamos cookies para operar este sitio y, con tu consentimiento, medir el interés y mejorar PaleoDex. Puedes cambiar tu elección cuando quieras.', accept:'ACEPTAR', reject:'RECHAZAR', link:'Política de cookies →' } };
+  function render(){ var t=T[lang()]||T.en; var el=document.getElementById('pdx-cookie'); if(!el)return; el.querySelector('[data-cc=msg]').textContent=t.msg; el.querySelector('[data-cc=accept]').textContent=t.accept; el.querySelector('[data-cc=reject]').textContent=t.reject; el.querySelector('[data-cc=link]').textContent=t.link; }
+  window.pdxCookie=function(choice){ try{ localStorage.setItem('pdx_cookie_consent',choice); }catch(e){} var el=document.getElementById('pdx-cookie'); if(el) el.hidden=true; if(choice==='granted') loadHS(); };
+  window.pdxManageCookies=function(){ render(); var el=document.getElementById('pdx-cookie'); if(el) el.hidden=false; };
+  var c=null; try{ c=localStorage.getItem('pdx_cookie_consent'); }catch(e){}
+  if(c==='granted'){ loadHS(); } else if(c!=='denied'){ render(); var el=document.getElementById('pdx-cookie'); if(el) el.hidden=false; }
+})();
+</script>
+<!-- ==== /Cookie consent ==== -->
+
+</body>
+</html>
