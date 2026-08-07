@@ -2,6 +2,14 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YXSKCZMYS8"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-YXSKCZMYS8');
+</script>
+
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/app-icons/apple-touch-icon-180.png">
@@ -105,7 +113,7 @@ strong{color:var(--text);font-weight:600}
       <a href="/blog/" class="nav-link">BLOG</a>
       <a href="/about-the-data" class="nav-link">THE DATA</a>
       <div class="langsw"><span class="on">EN</span><span style="color:var(--muted2)">·</span><a href="/es/features/radar/">ES</a></div>
-      <a href="https://play.google.com/store/apps/details?id=com.deadpression.paleodex" class="nav-cta" target="_blank" rel="noopener">GET THE APP</a>
+      <a href="https://play.google.com/store/apps/details?id=com.deadpression.paleodex&referrer=utm_source%3Dpaleodex.co%26utm_medium%3Dweb%26utm_campaign%3Dorganic%26utm_content%3Dfeature" class="nav-cta" target="_blank" rel="noopener">GET THE APP</a>
     </nav>
   </header>
   <main class="doc">
@@ -132,7 +140,7 @@ strong{color:var(--text);font-weight:600}
     <div class="cta-band">
       <h2>Explore the fossil record near you.</h2>
       <p>PaleoDex is live now on Android.</p>
-      <a href="https://play.google.com/store/apps/details?id=com.deadpression.paleodex" class="cta-btn" target="_blank" rel="noopener">Get it on Google Play</a>
+      <a href="https://play.google.com/store/apps/details?id=com.deadpression.paleodex&referrer=utm_source%3Dpaleodex.co%26utm_medium%3Dweb%26utm_campaign%3Dorganic%26utm_content%3Dfeature" class="cta-btn" target="_blank" rel="noopener">Get it on Google Play</a>
     </div>
   </main>
 
@@ -145,9 +153,20 @@ strong{color:var(--text);font-weight:600}
     <a href="/about-the-data">About the Data</a>
     <a href="/privacy">Privacy</a>
     <a href="/terms">Terms</a>
-    <a href="https://play.google.com/store/apps/details?id=com.deadpression.paleodex" target="_blank" rel="noopener">Get the App</a>
+    <a href="https://play.google.com/store/apps/details?id=com.deadpression.paleodex&referrer=utm_source%3Dpaleodex.co%26utm_medium%3Dweb%26utm_campaign%3Dorganic%26utm_content%3Dfeature" target="_blank" rel="noopener">Get the App</a>
   </div>
 </footer>
 </div>
+<script>
+document.querySelectorAll('a[href*="play.google.com"]').forEach(function(a) {
+  a.addEventListener('click', function() {
+    gtag('event', 'store_click', {
+      store: 'google_play',
+      page_path: location.pathname,
+      page_language: document.documentElement.lang
+    });
+  });
+});
+</script>
 </body>
 </html>

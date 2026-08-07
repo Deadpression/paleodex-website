@@ -2,6 +2,14 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YXSKCZMYS8"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-YXSKCZMYS8');
+</script>
+
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/app-icons/apple-touch-icon-180.png">
@@ -146,7 +154,7 @@ footer{border-top:1px solid var(--border);background:var(--surface)}
     <li>Penney, D., Wadsworth, C., Fox, G., Kennedy, S.L., Preziosi, R.F., &amp; Brown, T.A. (2013). "Absence of Ancient DNA in Sub-Fossil Insect Inclusions Preserved in 'Anthropocene' Colombian Copal." <em>PLOS ONE</em> 8(9):e73150. (<a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0073150" rel="nofollow noopener" target="_blank">journals.plos.org</a>)</li>
     <li>Ramírez, S.R., Gravendeel, B., Singer, R.B., Marshall, C.R., &amp; Pierce, N.E. (2007). "Dating the origin of the Orchidaceae from a fossil orchid with its pollinator." <em>Nature</em> 448:1042–1045. (<a href="https://www.nature.com/articles/nature06039" rel="nofollow noopener" target="_blank">nature.com/articles/nature06039</a>)</li>
   </ul>
-  <div class="cta"><div class="eyebrow" style="text-align:center">// PALEODEX</div><h2 style="border:none;padding:0;margin:10px 0 0">The real record, in your pocket.</h2><p class="muted" style="max-width:48ch;margin:10px auto 0">PaleoDex catalogues the real fossil record, and every fact in it is sourced. Get the app.</p><a href="https://play.google.com/store/apps/details?id=com.deadpression.paleodex" target="_blank" rel="noopener">GET IT ON GOOGLE PLAY →</a></div>
+  <div class="cta"><div class="eyebrow" style="text-align:center">// PALEODEX</div><h2 style="border:none;padding:0;margin:10px 0 0">The real record, in your pocket.</h2><p class="muted" style="max-width:48ch;margin:10px auto 0">PaleoDex catalogues the real fossil record, and every fact in it is sourced. Get the app.</p><a href="https://play.google.com/store/apps/details?id=com.deadpression.paleodex&referrer=utm_source%3Dpaleodex.co%26utm_medium%3Dweb%26utm_campaign%3Dorganic%26utm_content%3Dblog" target="_blank" rel="noopener">GET IT ON GOOGLE PLAY →</a></div>
 </main>
 <footer><div class="foot-inner"><span>© 2026 PALEODEX · DIG RESPONSIBLY</span><span style="display:flex;gap:16px;flex-wrap:wrap;"><a href="/privacy">Privacy</a> <a href="/terms">Terms</a> <a href="/cookies">Cookies</a> <a href="#" onclick="pdxManageCookies();return false;">Cookie settings</a></span></div></footer>
 </div>
@@ -175,4 +183,15 @@ footer{border-top:1px solid var(--border);background:var(--surface)}
 })();
 </script>
 
+<script>
+document.querySelectorAll('a[href*="play.google.com"]').forEach(function(a) {
+  a.addEventListener('click', function() {
+    gtag('event', 'store_click', {
+      store: 'google_play',
+      page_path: location.pathname,
+      page_language: document.documentElement.lang
+    });
+  });
+});
+</script>
 </body></html>

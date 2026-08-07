@@ -2,6 +2,14 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YXSKCZMYS8"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-YXSKCZMYS8');
+</script>
+
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/app-icons/apple-touch-icon-180.png">
@@ -148,7 +156,7 @@ footer{border-top:1px solid var(--border);background:var(--surface)}
     <li>Everhart, M. J., "The Tale of a Tail" y "Elasmosaurus platyurus — Rest of Story", oceansofkansas.com (el hallazgo de Turner cerca de Fort Wallace; la corrección de Leidy en 1870; la afirmación muy posterior de Marsh). (<a href="http://oceansofkansas.com/tale-tail.html" rel="nofollow noopener" target="_blank">oceansofkansas.com</a>)</li>
     <li>Wikipedia, "Elasmosaurus" (el error de reconstrucción, el cráneo invertido y la historiografía de quién lo corrigió). (<a href="https://en.wikipedia.org/wiki/Elasmosaurus" rel="nofollow noopener" target="_blank">en.wikipedia.org</a>)</li>
   </ul>
-  <div class="cta"><div class="eyebrow" style="text-align:center">// PALEODEX</div><h2 style="border:none;padding:0;margin:10px 0 0">El registro real, en tu bolsillo.</h2><p class="muted" style="max-width:48ch;margin:10px auto 0">PaleoDex cataloga el registro fósil real: con fuentes, y honesto sobre lo que aún se debate. Consíguela.</p><a href="https://play.google.com/store/apps/details?id=com.deadpression.paleodex" target="_blank" rel="noopener">CONSÍGUELA EN GOOGLE PLAY →</a></div>
+  <div class="cta"><div class="eyebrow" style="text-align:center">// PALEODEX</div><h2 style="border:none;padding:0;margin:10px 0 0">El registro real, en tu bolsillo.</h2><p class="muted" style="max-width:48ch;margin:10px auto 0">PaleoDex cataloga el registro fósil real: con fuentes, y honesto sobre lo que aún se debate. Consíguela.</p><a href="https://play.google.com/store/apps/details?id=com.deadpression.paleodex&referrer=utm_source%3Dpaleodex.co%26utm_medium%3Dweb%26utm_campaign%3Dorganic%26utm_content%3Dblog" target="_blank" rel="noopener">CONSÍGUELA EN GOOGLE PLAY →</a></div>
 </main>
 <footer><div class="foot-inner"><span>© 2026 PALEODEX · EXCAVA CON RESPONSABILIDAD</span><span style="display:flex;gap:16px;flex-wrap:wrap;"><a href="/privacy">Privacidad</a> <a href="/terms">Términos</a> <a href="/cookies">Cookies</a> <a href="#" onclick="pdxManageCookies();return false;">Configuración de cookies</a></span></div></footer>
 </div>
@@ -177,4 +185,15 @@ footer{border-top:1px solid var(--border);background:var(--surface)}
 })();
 </script>
 
+<script>
+document.querySelectorAll('a[href*="play.google.com"]').forEach(function(a) {
+  a.addEventListener('click', function() {
+    gtag('event', 'store_click', {
+      store: 'google_play',
+      page_path: location.pathname,
+      page_language: document.documentElement.lang
+    });
+  });
+});
+</script>
 </body></html>

@@ -2,6 +2,14 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YXSKCZMYS8"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-YXSKCZMYS8');
+</script>
+
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/app-icons/apple-touch-icon-180.png">
@@ -167,7 +175,7 @@ footer{border-top:1px solid var(--border);background:var(--surface)}
   <p>Found what looks like a bone, tooth, or skeleton on public land? Leave it in place, photograph it, mark the location, and report it to the local BLM office or a natural history museum.</p>
   <h2>Official resources</h2>
   <ul><li><a href="https://www.blm.gov/programs/paleontology/collecting-fossils" rel="nofollow noopener" target="_blank">BLM — Collecting Fossils</a></li><li><a href="https://www.nps.gov/subjects/fossils/fossil-protection.htm" rel="nofollow noopener" target="_blank">National Park Service — Fossils & the law</a></li></ul>
-  <div class="cta"><div class="eyebrow" style="text-align:center">// PALEODEX</div><h2 style="border:none;padding:0;margin:10px 0 0">Hunt the past — responsibly.</h2><p class="muted" style="max-width:48ch;margin:10px auto 0">PaleoDex lets you explore real fossil sites and collect species in-app, no permits required. Get the app.</p><a href="https://play.google.com/store/apps/details?id=com.deadpression.paleodex" target="_blank" rel="noopener">GET IT ON GOOGLE PLAY →</a></div>
+  <div class="cta"><div class="eyebrow" style="text-align:center">// PALEODEX</div><h2 style="border:none;padding:0;margin:10px 0 0">Hunt the past — responsibly.</h2><p class="muted" style="max-width:48ch;margin:10px auto 0">PaleoDex lets you explore real fossil sites and collect species in-app, no permits required. Get the app.</p><a href="https://play.google.com/store/apps/details?id=com.deadpression.paleodex&referrer=utm_source%3Dpaleodex.co%26utm_medium%3Dweb%26utm_campaign%3Dorganic%26utm_content%3Dguide" target="_blank" rel="noopener">GET IT ON GOOGLE PLAY →</a></div>
 </main>
 <footer><div class="foot-inner"><span>© 2026 PALEODEX · DIG RESPONSIBLY</span><span style="display:flex;gap:16px;flex-wrap:wrap;"><a href="/privacy">Privacy</a> <a href="/terms">Terms</a> <a href="/cookies">Cookies</a> <a href="#" onclick="pdxManageCookies();return false;">Cookie settings</a></span></div></footer>
 </div>
@@ -196,4 +204,15 @@ footer{border-top:1px solid var(--border);background:var(--surface)}
 })();
 </script>
 
+<script>
+document.querySelectorAll('a[href*="play.google.com"]').forEach(function(a) {
+  a.addEventListener('click', function() {
+    gtag('event', 'store_click', {
+      store: 'google_play',
+      page_path: location.pathname,
+      page_language: document.documentElement.lang
+    });
+  });
+});
+</script>
 </body></html>

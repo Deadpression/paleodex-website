@@ -2,6 +2,14 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YXSKCZMYS8"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-YXSKCZMYS8');
+</script>
+
 <script>try{localStorage.setItem('pdx_lang','es');}catch(e){}</script>
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16.png">
@@ -161,7 +169,7 @@ footer{border-top:1px solid var(--border);background:var(--surface)}
     <li><a href="https://en.wikipedia.org/wiki/Bone_Wars" rel="nofollow noopener" target="_blank">Wikipedia, "Bone Wars"</a> y <a href="https://en.wikipedia.org/wiki/Othniel_Charles_Marsh" rel="nofollow noopener" target="_blank">"Othniel Charles Marsh"</a> — recuentos de especies (80 de Marsh, 56 de Cope, frente a nueve nombradas antes en Norteamérica), el retiro de Leidy del Oeste y el cargo de Marsh en el Servicio entre 1882 y 1892, cada uno con citas primarias.</li>
   </ul>
   <div class="note"><strong>Una nota sobre las propias fuentes.</strong> Tanto el reportaje de <em>National Geographic</em> como la página de <em>American Experience</em> de PBS, citadas arriba y solventes en el resto de la disputa, repiten la versión en la que Marsh descubrió el error del <em>Elasmosaurus</em>. Nosotros seguimos el artículo de Leidy de 1870. Cuando un relato popular y el registro primario no coinciden, nos quedamos con el registro, y decimos cuál es cuál.</div>
-  <div class="cta"><div class="eyebrow" style="text-align:center">// PALEODEX</div><h2 style="border:none;padding:0;margin:10px 0 0">El registro real, en tu bolsillo.</h2><p class="muted" style="max-width:48ch;margin:10px auto 0">PaleoDex cataloga el registro fósil real — cada criatura real, cada dato con fuente. Consíguela.</p><a href="https://play.google.com/store/apps/details?id=com.deadpression.paleodex" target="_blank" rel="noopener">CONSÍGUELA EN GOOGLE PLAY →</a></div>
+  <div class="cta"><div class="eyebrow" style="text-align:center">// PALEODEX</div><h2 style="border:none;padding:0;margin:10px 0 0">El registro real, en tu bolsillo.</h2><p class="muted" style="max-width:48ch;margin:10px auto 0">PaleoDex cataloga el registro fósil real — cada criatura real, cada dato con fuente. Consíguela.</p><a href="https://play.google.com/store/apps/details?id=com.deadpression.paleodex&referrer=utm_source%3Dpaleodex.co%26utm_medium%3Dweb%26utm_campaign%3Dorganic%26utm_content%3Dblog" target="_blank" rel="noopener">CONSÍGUELA EN GOOGLE PLAY →</a></div>
 </main>
 <footer><div class="foot-inner"><span>© 2026 PALEODEX · DIG RESPONSIBLY</span><span style="display:flex;gap:16px;flex-wrap:wrap;"><a href="/privacy">Privacidad</a> <a href="/terms">Términos</a> <a href="/cookies">Cookies</a> <a href="#" onclick="pdxManageCookies();return false;">Configurar cookies</a></span></div></footer>
 </div>
@@ -190,4 +198,15 @@ footer{border-top:1px solid var(--border);background:var(--surface)}
 })();
 </script>
 
+<script>
+document.querySelectorAll('a[href*="play.google.com"]').forEach(function(a) {
+  a.addEventListener('click', function() {
+    gtag('event', 'store_click', {
+      store: 'google_play',
+      page_path: location.pathname,
+      page_language: document.documentElement.lang
+    });
+  });
+});
+</script>
 </body></html>

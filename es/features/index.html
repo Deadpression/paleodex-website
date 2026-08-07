@@ -2,6 +2,14 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YXSKCZMYS8"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-YXSKCZMYS8');
+</script>
+
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/app-icons/apple-touch-icon-180.png">
@@ -79,7 +87,7 @@ h1{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(34px,5
       <a href="/es/blog/" class="nav-link">BLOG</a>
       <a href="/es/about-the-data" class="nav-link">LOS DATOS</a>
       <div class="langsw"><a href="/features/">EN</a><span style="color:var(--muted2)">·</span><span class="on">ES</span></div>
-      <a href="https://play.google.com/store/apps/details?id=com.deadpression.paleodex" class="nav-cta" target="_blank" rel="noopener">DESCARGAR APP</a>
+      <a href="https://play.google.com/store/apps/details?id=com.deadpression.paleodex&referrer=utm_source%3Dpaleodex.co%26utm_medium%3Dweb%26utm_campaign%3Dorganic%26utm_content%3Dfeature" class="nav-cta" target="_blank" rel="noopener">DESCARGAR APP</a>
     </nav>
   </header>
   <main class="doc">
@@ -94,7 +102,7 @@ h1{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(34px,5
 <a class="fcard" href="/es/features/signal/"><img class="fcard-img" src="/assets/screenshots/web/signal-es.jpg" width="640" height="1386" loading="lazy" alt="SIGNAL"><div class="fcard-body"><div class="fcard-name">SIGNAL</div><div class="fcard-tagline">Noticias de paleontología. Bilingüe, continuo.</div><p class="fcard-desc">Un feed RSS en vivo — Phys.org, ScienceDaily y Sci.News en inglés, y un conjunto propio de medios científicos en español — con nuevas descripciones de especies, descubrimientos de sitios y hallazgos de investigación.</p><span class="fcard-link">Ver más →</span></div></a>
 <a class="fcard" href="/es/features/collection/"><div class="fcard-img-placeholder"><span>PALEODEX</span></div><div class="fcard-body"><div class="fcard-name">Colección y Rango</div><div class="fcard-tagline">Tu museo. Tu rango. Tus mejoras.</div><p class="fcard-desc">Cada espécimen excavado vive en tu Museo. Un Rango de Coleccionista de 8 niveles refleja lo que has recolectado. Los Fragmentos financian cinco mejoras de equipo. La tabla de clasificación es anónima y global.</p><span class="fcard-link">Ver más →</span></div></a>
     </div>
-    <div class="cta-band"><h2>Todo. En tu bolsillo.</h2><p>PaleoDex ya está disponible en Android.</p><a href="https://play.google.com/store/apps/details?id=com.deadpression.paleodex" class="cta-btn" target="_blank" rel="noopener">CONSÍGUELA EN GOOGLE PLAY</a></div>
+    <div class="cta-band"><h2>Todo. En tu bolsillo.</h2><p>PaleoDex ya está disponible en Android.</p><a href="https://play.google.com/store/apps/details?id=com.deadpression.paleodex&referrer=utm_source%3Dpaleodex.co%26utm_medium%3Dweb%26utm_campaign%3Dorganic%26utm_content%3Dfeature" class="cta-btn" target="_blank" rel="noopener">CONSÍGUELA EN GOOGLE PLAY</a></div>
   </main>
   <footer style="border-top:1px solid var(--border);margin-top:0">
     <div class="footer">
@@ -105,9 +113,20 @@ h1{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(34px,5
       <a href="/es/about-the-data">Los Datos</a>
       <a href="/privacy">Privacidad</a>
       <a href="/terms">Términos</a>
-      <a href="https://play.google.com/store/apps/details?id=com.deadpression.paleodex" target="_blank" rel="noopener">Descarga la App</a>
+      <a href="https://play.google.com/store/apps/details?id=com.deadpression.paleodex&referrer=utm_source%3Dpaleodex.co%26utm_medium%3Dweb%26utm_campaign%3Dorganic%26utm_content%3Dfeature" target="_blank" rel="noopener">Descarga la App</a>
     </div>
   </footer>
 </div>
+<script>
+document.querySelectorAll('a[href*="play.google.com"]').forEach(function(a) {
+  a.addEventListener('click', function() {
+    gtag('event', 'store_click', {
+      store: 'google_play',
+      page_path: location.pathname,
+      page_language: document.documentElement.lang
+    });
+  });
+});
+</script>
 </body>
 </html>

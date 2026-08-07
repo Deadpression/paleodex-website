@@ -2,6 +2,14 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YXSKCZMYS8"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-YXSKCZMYS8');
+</script>
+
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/app-icons/apple-touch-icon-180.png">
@@ -208,7 +216,7 @@ footer{border-top:1px solid var(--border);background:var(--surface)}
 
   <div class="note" style="border-left-color:var(--green)">Explora el catálogo con fuentes: <a href="/es/features/fossil-dex/">Fossil Library</a> · <a href="/es/features/continental-drift/">Deriva Continental</a></div>
 
-  <div class="cta"><div class="eyebrow" style="text-align:center">// PALEODEX</div><h2 style="border:none;padding:0;margin:10px 0 0">Compruébalo tú mismo.</h2><p class="muted" style="max-width:46ch;margin:10px auto 0">74.000+ géneros reales, cada uno rastreable hasta su fuente. Consíguela y empieza a explorar.</p><a href="https://play.google.com/store/apps/details?id=com.deadpression.paleodex" target="_blank" rel="noopener">CONSÍGUELA EN GOOGLE PLAY →</a></div>
+  <div class="cta"><div class="eyebrow" style="text-align:center">// PALEODEX</div><h2 style="border:none;padding:0;margin:10px 0 0">Compruébalo tú mismo.</h2><p class="muted" style="max-width:46ch;margin:10px auto 0">74.000+ géneros reales, cada uno rastreable hasta su fuente. Consíguela y empieza a explorar.</p><a href="https://play.google.com/store/apps/details?id=com.deadpression.paleodex&referrer=utm_source%3Dpaleodex.co%26utm_medium%3Dweb%26utm_campaign%3Dorganic%26utm_content%3Dabout" target="_blank" rel="noopener">CONSÍGUELA EN GOOGLE PLAY →</a></div>
 </main>
 <footer><div class="foot-inner"><span>© 2026 PALEODEX · EXCAVA RESPONSABLEMENTE</span><span style="display:flex;gap:16px;flex-wrap:wrap;"><a href="/privacy">Privacidad</a> <a href="/terms">Términos</a> <a href="/cookies">Cookies</a> <a href="#" onclick="pdxManageCookies();return false;">Preferencias de cookies</a></span></div></footer>
 </div>
@@ -237,4 +245,15 @@ footer{border-top:1px solid var(--border);background:var(--surface)}
 })();
 </script>
 
+<script>
+document.querySelectorAll('a[href*="play.google.com"]').forEach(function(a) {
+  a.addEventListener('click', function() {
+    gtag('event', 'store_click', {
+      store: 'google_play',
+      page_path: location.pathname,
+      page_language: document.documentElement.lang
+    });
+  });
+});
+</script>
 </body></html>

@@ -2,6 +2,14 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YXSKCZMYS8"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-YXSKCZMYS8');
+</script>
+
 <script>try{localStorage.setItem('pdx_lang','en');}catch(e){}</script>
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16.png">
@@ -161,7 +169,7 @@ footer{border-top:1px solid var(--border);background:var(--surface)}
     <li><a href="https://en.wikipedia.org/wiki/Bone_Wars" rel="nofollow noopener" target="_blank">Wikipedia, "Bone Wars"</a> and <a href="https://en.wikipedia.org/wiki/Othniel_Charles_Marsh" rel="nofollow noopener" target="_blank">"Othniel Charles Marsh"</a> — species counts (80 to Marsh, 56 to Cope, against nine named in North America beforehand), Leidy's withdrawal from the West, and Marsh's 1882–1892 Survey post, each with primary citations.</li>
   </ul>
   <div class="note"><strong>A note on the sources themselves.</strong> Both the <em>National Geographic</em> feature and PBS's <em>American Experience</em> page, cited above and reliable on the rest of the feud, repeat the version in which Marsh caught the <em>Elasmosaurus</em> error. We followed Leidy's own 1870 paper instead. Where a popular account and the primary record disagree, we go with the record, and we say which is which.</div>
-  <div class="cta"><div class="eyebrow" style="text-align:center">// PALEODEX</div><h2 style="border:none;padding:0;margin:10px 0 0">The real record, in your pocket.</h2><p class="muted" style="max-width:48ch;margin:10px auto 0">PaleoDex catalogues the real fossil record — every creature real, every fact sourced. Get the app.</p><a href="https://play.google.com/store/apps/details?id=com.deadpression.paleodex" target="_blank" rel="noopener">GET IT ON GOOGLE PLAY →</a></div>
+  <div class="cta"><div class="eyebrow" style="text-align:center">// PALEODEX</div><h2 style="border:none;padding:0;margin:10px 0 0">The real record, in your pocket.</h2><p class="muted" style="max-width:48ch;margin:10px auto 0">PaleoDex catalogues the real fossil record — every creature real, every fact sourced. Get the app.</p><a href="https://play.google.com/store/apps/details?id=com.deadpression.paleodex&referrer=utm_source%3Dpaleodex.co%26utm_medium%3Dweb%26utm_campaign%3Dorganic%26utm_content%3Dblog" target="_blank" rel="noopener">GET IT ON GOOGLE PLAY →</a></div>
 </main>
 <footer><div class="foot-inner"><span>© 2026 PALEODEX · DIG RESPONSIBLY</span><span style="display:flex;gap:16px;flex-wrap:wrap;"><a href="/privacy">Privacy</a> <a href="/terms">Terms</a> <a href="/cookies">Cookies</a> <a href="#" onclick="pdxManageCookies();return false;">Cookie settings</a></span></div></footer>
 </div>
@@ -190,4 +198,15 @@ footer{border-top:1px solid var(--border);background:var(--surface)}
 })();
 </script>
 
+<script>
+document.querySelectorAll('a[href*="play.google.com"]').forEach(function(a) {
+  a.addEventListener('click', function() {
+    gtag('event', 'store_click', {
+      store: 'google_play',
+      page_path: location.pathname,
+      page_language: document.documentElement.lang
+    });
+  });
+});
+</script>
 </body></html>
