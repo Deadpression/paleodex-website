@@ -19,12 +19,13 @@ const CORS = {
 
 function emailEN(firstname) {
   const name = firstname ? ` ${firstname}` : "";
-  const subject = "You're on the PaleoDex waitlist";
+  const subject = "You're on the PaleoDex iOS list";
   const text =
     `Hey${name},\n\n` +
-    `You're in. We'll reach out the moment PaleoDex is ready to download on iOS and Android.\n\n` +
-    `In the meantime, explore what's coming at paleodex.co — a live fossil map, ` +
-    `74,000+ real prehistoric genera, an excavation game, and 540 million years of continental drift.\n\n` +
+    `You're in. We'll email you the moment PaleoDex is ready to download on iOS.\n\n` +
+    `Good news in the meantime: PaleoDex is already live on Android. Get it now on Google Play: ` +
+    `https://play.google.com/store/apps/details?id=com.deadpression.paleodex\n\n` +
+    `It's a live fossil map, 74,000+ real prehistoric genera, an excavation game, and 540 million years of continental drift.\n\n` +
     `Talk soon,\nThe PaleoDex Team\n\nDon't really want emails? Reply with "Unsubscribe" or email hello@paleodex.co`;
   const html = `<!DOCTYPE html>
 <html lang="en">
@@ -41,12 +42,12 @@ function emailEN(firstname) {
         <tr><td style="padding:28px 40px 32px;">
           <p style="margin:0 0 16px;font-size:15px;line-height:1.65;color:#9fb6aa;">Hey${name},</p>
           <p style="margin:0 0 16px;font-size:15px;line-height:1.65;color:#9fb6aa;">
-            We'll reach out the moment PaleoDex is ready to download on <strong style="color:#d8e8de;">iOS and Android</strong>.
+            We'll email you the moment PaleoDex is ready to download on <strong style="color:#d8e8de;">iOS</strong>.
           </p>
           <p style="margin:0 0 28px;font-size:15px;line-height:1.65;color:#9fb6aa;">
-            In the meantime, explore what's coming — a live fossil map, 74,000+ real prehistoric genera, an excavation game, and 540 million years of continental drift.
+            Good news in the meantime: PaleoDex is already live on <strong style="color:#d8e8de;">Android</strong> — a live fossil map, 74,000+ real prehistoric genera, an excavation game, and 540 million years of continental drift.
           </p>
-          <a href="https://paleodex.co" style="display:inline-block;font-family:'Courier New',monospace;font-size:12px;font-weight:700;letter-spacing:.08em;color:#06140c;background:#46e08a;padding:13px 24px;border-radius:9px;text-decoration:none;">EXPLORE PALEODEX.CO →</a>
+          <a href="https://play.google.com/store/apps/details?id=com.deadpression.paleodex" style="display:inline-block;font-family:'Courier New',monospace;font-size:12px;font-weight:700;letter-spacing:.08em;color:#06140c;background:#46e08a;padding:13px 24px;border-radius:9px;text-decoration:none;">GET IT ON GOOGLE PLAY →</a>
         </td></tr>
         <tr><td style="padding:20px 40px;border-top:1px solid rgba(70,224,138,.12);">
           <p style="margin:0;font-size:12px;color:#7d978a;line-height:1.6;">
@@ -64,12 +65,13 @@ function emailEN(firstname) {
 
 function emailES(firstname) {
   const name = firstname ? ` ${firstname}` : "";
-  const subject = "Estás en la lista de espera de PaleoDex";
+  const subject = "Estás en la lista de iOS de PaleoDex";
   const text =
     `Hola${name},\n\n` +
-    `Ya estás dentro. Te avisamos en cuanto PaleoDex esté disponible para descargar en iOS y Android.\n\n` +
-    `Mientras tanto, explora lo que viene en paleodex.co — un mapa fósil en vivo, más de 74.000 géneros ` +
-    `prehistóricos reales, un juego de excavación y 540 millones de años de deriva continental.\n\n` +
+    `Ya estás dentro. Te avisamos por correo en cuanto PaleoDex esté disponible para descargar en iOS.\n\n` +
+    `Buenas noticias mientras tanto: PaleoDex ya está disponible en Android. Consíguela ahora en Google Play: ` +
+    `https://play.google.com/store/apps/details?id=com.deadpression.paleodex\n\n` +
+    `Es un mapa fósil en vivo, más de 74.000 géneros prehistóricos reales, un juego de excavación y 540 millones de años de deriva continental.\n\n` +
     `Hasta pronto,\nEl equipo de PaleoDex\n\n¿No quieres recibir más correos? Responde con "Unsubscribe" o escríbenos a hello@paleodex.co`;
   const html = `<!DOCTYPE html>
 <html lang="es">
@@ -86,12 +88,12 @@ function emailES(firstname) {
         <tr><td style="padding:28px 40px 32px;">
           <p style="margin:0 0 16px;font-size:15px;line-height:1.65;color:#9fb6aa;">Hola${name},</p>
           <p style="margin:0 0 16px;font-size:15px;line-height:1.65;color:#9fb6aa;">
-            Te avisamos en cuanto PaleoDex esté disponible para descargar en <strong style="color:#d8e8de;">iOS y Android</strong>.
+            Te avisamos por correo en cuanto PaleoDex esté disponible para descargar en <strong style="color:#d8e8de;">iOS</strong>.
           </p>
           <p style="margin:0 0 28px;font-size:15px;line-height:1.65;color:#9fb6aa;">
-            Mientras tanto, explora lo que viene — un mapa fósil en vivo, más de 74.000 géneros prehistóricos reales, un juego de excavación y 540 millones de años de deriva continental.
+            Buenas noticias mientras tanto: PaleoDex ya está disponible en <strong style="color:#d8e8de;">Android</strong> — un mapa fósil en vivo, más de 74.000 géneros prehistóricos reales, un juego de excavación y 540 millones de años de deriva continental.
           </p>
-          <a href="https://paleodex.co/es/" style="display:inline-block;font-family:'Courier New',monospace;font-size:12px;font-weight:700;letter-spacing:.08em;color:#06140c;background:#46e08a;padding:13px 24px;border-radius:9px;text-decoration:none;">EXPLORAR PALEODEX.CO →</a>
+          <a href="https://play.google.com/store/apps/details?id=com.deadpression.paleodex" style="display:inline-block;font-family:'Courier New',monospace;font-size:12px;font-weight:700;letter-spacing:.08em;color:#06140c;background:#46e08a;padding:13px 24px;border-radius:9px;text-decoration:none;">CONSÍGUELA EN GOOGLE PLAY →</a>
         </td></tr>
         <tr><td style="padding:20px 40px;border-top:1px solid rgba(70,224,138,.12);">
           <p style="margin:0;font-size:12px;color:#7d978a;line-height:1.6;">
