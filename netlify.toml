@@ -61,6 +61,17 @@
   status = 301
   force = true
 
+# SEO slug migration (P2-1, 2026-08-07): coprolites-fossil-poop is this site's
+# top-performing ES page (94 impressions, GSC-observed queries like "coprolito"
+# and "caca de dinosaurio"), so it got a keyword-matched Spanish slug. Deliberately
+# the only ES post migrated so far - see the audit note on watching this one for
+# 3-4 weeks before touching any other Spanish slugs.
+[[redirects]]
+  from = "/es/blog/coprolites-fossil-poop"
+  to = "/es/blog/coprolitos-caca-fosilizada"
+  status = 301
+  force = true
+
 # Custom 404
 [[redirects]]
   from = "/*"
