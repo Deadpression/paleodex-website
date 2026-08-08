@@ -38,7 +38,7 @@
   </url>
   <url>
     <loc>https://paleodex.co/blog/</loc>
-    <lastmod>2026-08-07</lastmod>
+    <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/blog/"/>
@@ -47,7 +47,7 @@
   </url>
   <url>
     <loc>https://paleodex.co/es/blog/</loc>
-    <lastmod>2026-08-07</lastmod>
+    <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/blog/"/>
@@ -218,7 +218,7 @@
   </url>
   <url>
     <loc>https://paleodex.co/blog/coprolites-fossil-poop</loc>
-    <lastmod>2026-08-07</lastmod>
+    <lastmod>2026-08-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/blog/coprolites-fossil-poop"/>
@@ -227,12 +227,66 @@
   </url>
   <url>
     <loc>https://paleodex.co/es/blog/coprolitos-caca-fosilizada</loc>
-    <lastmod>2026-08-07</lastmod>
+    <lastmod>2026-08-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/blog/coprolites-fossil-poop"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/blog/coprolitos-caca-fosilizada"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://paleodex.co/blog/coprolites-fossil-poop"/>
+  </url>
+  <url>
+    <loc>https://paleodex.co/blog/human-coprolites-ancient-poop-dna</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/blog/human-coprolites-ancient-poop-dna"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/blog/coprolitos-humanos-adn-antiguo"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paleodex.co/blog/human-coprolites-ancient-poop-dna"/>
+  </url>
+  <url>
+    <loc>https://paleodex.co/es/blog/coprolitos-humanos-adn-antiguo</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/blog/human-coprolites-ancient-poop-dna"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/blog/coprolitos-humanos-adn-antiguo"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paleodex.co/blog/human-coprolites-ancient-poop-dna"/>
+  </url>
+  <url>
+    <loc>https://paleodex.co/blog/dinosaur-poop-hadrosaur-rotten-wood</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/blog/dinosaur-poop-hadrosaur-rotten-wood"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/blog/caca-dinosaurio-hadrosaurio-madera-podrida"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paleodex.co/blog/dinosaur-poop-hadrosaur-rotten-wood"/>
+  </url>
+  <url>
+    <loc>https://paleodex.co/es/blog/caca-dinosaurio-hadrosaurio-madera-podrida</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/blog/dinosaur-poop-hadrosaur-rotten-wood"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/blog/caca-dinosaurio-hadrosaurio-madera-podrida"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paleodex.co/blog/dinosaur-poop-hadrosaur-rotten-wood"/>
+  </url>
+  <url>
+    <loc>https://paleodex.co/blog/how-coprolites-form-and-are-identified</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/blog/how-coprolites-form-and-are-identified"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/blog/como-se-forma-un-coprolito-identificacion"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paleodex.co/blog/how-coprolites-form-and-are-identified"/>
+  </url>
+  <url>
+    <loc>https://paleodex.co/es/blog/como-se-forma-un-coprolito-identificacion</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/blog/how-coprolites-form-and-are-identified"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/blog/como-se-forma-un-coprolito-identificacion"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paleodex.co/blog/how-coprolites-form-and-are-identified"/>
   </url>
   <url>
     <loc>https://paleodex.co/blog/jurassic-park-vs-the-fossil-record</loc>
