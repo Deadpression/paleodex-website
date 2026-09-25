@@ -143,4 +143,249 @@ Self-hosted under `/assets/blog/`. Same image + facts as the matching video + ca
 
 Self-hosted under `/assets/blog/`. Same image + facts as the matching video + carousel build (`paleodex-content/content-grid/2026-07-22-taung-child/`), not re-sourced. Full per-image credits for the video/carousel (19 distinct stills + 3 b-roll clips) are in that folder's `images/credits.json`.
 
+## oviraptor-was-not-an-egg-thief (Content Grid Day 8, 2026-08-02)
 
+| Post | Image | Author / Source | License |
+|---|---|---|---|
+| oviraptor-was-not-an-egg-thief | Hero — the nesting oviraptorid IGM 100/979, preserved over its own clutch (`oviraptor-citipati-nest.jpg`), self-hosted | Ghedoghedo, via Wikimedia Commons | **Public domain** |
+| oviraptor-was-not-an-egg-thief | In-body — Osborn's own Figure 6 from *American Museum Novitates* 144 (1924), the type skull AMNH 6517 (`oviraptor-osborn-1924-figure.jpg`), self-hosted | Osborn / Kaisen / Olsen, Central Asiatic Expedition, via Wikimedia Commons | **Public domain** |
+| oviraptor-was-not-an-egg-thief | Staged, unused in body — the *Oviraptor philoceratops* holotype skull in matrix (`oviraptor-holotype-skull.jpg`) | Internet Archive Book Images, via Wikimedia Commons | **Public domain** |
+| why-fossils-are-not-everywhere | Hero — a complete articulated fossil lizard, Green River Formation, Eocene (`why-fossils-are-not-everywhere.jpg`), self-hosted | Kenneth Carpenter, via Wikimedia Commons | **CC BY-SA 4.0** |
+| when-did-the-last-mammoth-die | Hero — a woolly mammoth reconstruction on open tundra (`when-did-the-last-mammoth-die.jpg`), self-hosted | Flying Puffin, via Wikimedia Commons | **CC BY-SA 2.0** |
+
+Self-hosted under `/assets/blog/`. Same images + facts as the matching video + carousel build (`paleodex-content/content-grid/2026-08-02-oviraptor-was-not-an-egg-thief/`), not re-sourced. Full per-image credits for the video/carousel (22 distinct stills + 1 b-roll clip) are in that folder's `images/multi/credits.json` and `images/broll/credits.json`, including written `note` labels on the two declared representatives.
+
+## are-birds-dinosaurs (Content Grid Day 11, 2026-08-05)
+
+| Post | Image | Author / Source | License |
+|---|---|---|---|
+| are-birds-dinosaurs | Hero — a southern cassowary (*Casuarius casuarius*) in dense vegetation (`are-birds-dinosaurs.jpg`), self-hosted | Buiobuione, via Wikimedia Commons | **CC BY-SA 4.0** |
+
+Self-hosted under `/assets/blog/`. Same images + facts as the matching video + carousel build (`paleodex-content/content-grid/2026-08-05-are-birds-dinosaurs/`), not re-sourced. Full per-image credits for the video/carousel (24 distinct stills + 2 b-roll clips) are in that folder's `images/multi/credits.json` and `images/broll/credits.json`, including written `note` labels on the two declared representatives (a Senckenberg museum mount standing in for a brooding oviraptorid, and the Wankel *T. rex* cast where the claim concerns MOR 1125).
+- **They Brought Back the Dire Wolf. Did They?** (`what-colossal-actually-brought-back`) — `what-colossal-actually-brought-back.jpg` — *Canis lupus & Aenocyon dirus* skeletons compared — Mariomassone & Momotarou2012 — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Canis_lupus_%26_Aenocyon_dirus.jpg
+- **A Whale With Legs: The 1990 Fossil That Settled It** (`basilosaurus-the-whale-that-still-had-legs`) — `basilosaurus-the-whale-that-still-had-legs.jpg` — hind limb of *Basilosaurus isis* (femur, lower leg, ankle, toes) — Ghedoghedo — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Basilosaurus_isis_hindlimb.jpg
+  Same images and facts as the matching video + carousel build (`paleodex-content/content-grid/2026-08-07-basilosaurus-the-whale-that-still-had-legs/`), not re-sourced; full per-image credits for the 18 shipped stills are in that folder's `images/multi/credits.json`.
+- **They Chose the Rock Before They Found the Fossil** (`tiktaalik-the-fossil-that-was-predicted`) — `tiktaalik-the-fossil-that-was-predicted.jpg` — *Tiktaalik roseae* specimen, Field Museum, Chicago — Eduard Solà — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Tiktaalik_Chicago.JPG
+  Same images and facts as the matching video + carousel build (`paleodex-content/content-grid/2026-08-09-tiktaalik-the-fossil-that-was-predicted/`), not re-sourced; full per-image credits for the 21 shipped stills are in that folder's `images/multi/credits.json`.
+- **The Last Thylacine, and the Body the Museum Lost** (`the-last-thylacine-and-the-lost-body`) — `the-last-thylacine-and-the-lost-body.jpg` — a thylacine at Beaumaris Zoo, Hobart, 1936 (Tasmanian Archives NS4371-1-1063) — Ben Sheppard — Public domain — https://commons.wikimedia.org/wiki/File:Thylacine_at_Beaumaris_Zoo,_1936_(NS4371-1-1063).jpg
+  Same images and facts as the matching video + carousel build (`paleodex-content/content-grid/2026-08-10-thylacine-the-last-one-and-the-lost-specimen/`), not re-sourced; full per-image credits for the 17 shipped stills are in that folder's `images/multi/credits.json`, the two public-domain films (David Fleay 1933; NFSA 1935) in `images/archival/credits.json`, and the b-roll in `images/broll/credits.json`. **The post's hero image is deliberately the public-domain 1936 photograph, not the ABC News photographs of the rediscovered specimen used in the video** — those are licensed news images, credited in the build, and this site self-hosts free-licensed imagery only.
+- **The Tadpole Came Later** (`when-did-the-tadpole-stage-evolve`) — `when-did-the-tadpole-stage-evolve.jpg` — two halves of a split Mazon Creek concretion (Francis Creek Shale, Middle Pennsylvanian, Illinois) — James St. John — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Bivalve_in_concretion_(Mazon_Creek_Lagerst%C3%A4tte,_Middle_Pennsylvanian;_Mazon_Creek_area,_Illinois,_USA).jpg
+  Same images and facts as the matching video + carousel build (`paleodex-content/content-grid/2026-08-14-when-did-the-tadpole-stage-evolve/`), not re-sourced; full per-image credits for the 25 shipped stills are in that folder's `images/multi/credits.json` and the 3 b-roll clips in `images/broll/credits.json`. **The hero is a concretion containing a bivalve, not one of the study's hatchlings** — no photograph of those exists outside the paywalled paper, and the post's alt text says so rather than letting the image imply otherwise.
+- **Is a Fossil Still Bone, or Just Rock?** (`is-a-fossil-still-bone`) — `is-a-fossil-still-bone.jpg` — a modern femur head cut open to show the trabecular interior (caput femoris, vertical cut) — MAKY.OREL — CC0 — https://commons.wikimedia.org/wiki/File%3AFemur_%28caput_femoris%29_-_bone_structure_detail_%28vertical_cut%29_2.jpg
+  Same images and facts as the matching video + carousel build (`paleodex-content/content-grid/2026-08-18-is-a-fossil-still-bone/`), not re-sourced; full per-image credits for the 27 shipped stills are in that folder's `images/multi/credits.json` and the b-roll in `images/broll/credits.json`. **The hero is deliberately a MODERN bone, not a fossil** — the post's argument starts from the porosity of living bone, and the caption and alt text both say so rather than letting a reader take it for a fossil. **Petrified wood appears in the post only as the COUNTER-example**: the source of record states that petrification replaces the wood itself, so no original wood remains, which is the opposite of what happens to most fossil bone.
+
+## why-crocodiles-survived-the-extinction.jpg
+American alligator (*Alligator mississippiensis*), photographed from above.
+James St. John · CC BY 2.0 · Wikimedia Commons.
+
+## trilobite-eyes-made-of-calcite.jpg
+Schizochroal eye of *Phacops rana crassituberculata*, showing the large separated lenses.
+Dwergenpaartje · CC BY-SA 3.0 · Wikimedia Commons.
+
+## how-we-proved-the-continents-were-joined.jpg
+*Mesosaurus* sp. skeleton molds weathering out of the Whitehill Formation (Artinskian, Lower
+Permian) near Keetmanshoop, southeastern Namibia — the southern-African half of the two-region
+distribution the post turns on.
+Olga Ernst & Hp.Baumeler · CC BY-SA 4.0 · Wikimedia Commons.
+
+## homo-floresiensis-face.jpg
+Forensic facial approximation of *Homo floresiensis*, built from the LB1 cranium (digital
+reconstruction, not a photograph of a living person) - the post's hero and the face the whole
+argument was about.
+Cicero Moraes et alii · CC BY 4.0 · Wikimedia Commons.
+
+## boomplaas-cave.jpg
+Boomplaas Cave, Cango Valley, South Africa — the site that produced the roughly 50,000-year-old
+mountain reedbuck molar, the post's record-holder. Hero of
+`ancient-dna-does-not-only-survive-in-the-cold` (EN + ES).
+Bakkesc · CC0 (public-domain dedication; credit is courtesy) · Wikimedia Commons —
+https://commons.wikimedia.org/wiki/File:Boomplaas_Cave.jpg
+Self-hosted under `/assets/blog/`; same image as the matching video build
+(`paleodex-content/content-grid/2026-08-24-ancient-dna-does-not-only-survive-in-the-cold/images/multi/boomplaas_02.jpg`),
+not re-sourced.
+
+## is-nanotyrannus-a-baby-t-rex (2026-08-25)
+- `nanotyrannus-skull-cleveland.jpg` — Cast of the Nanotyrannus lancensis skull (CMNH 7541), Cleveland Museum of Natural History. Photo: Tim Evanson — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File%3ANanotyrannus_cast_-_Cleveland_Museum_of_Natural_History_%2834800625535%29.jpg
+
+## how-hot-was-titanoboas-swamp (2026-08-28)
+- `how-hot-was-titanoboas-swamp.jpg` — Life-size sculptural model of the giant fossil snake Titanoboa cerrejonensis, OC Harfa, Prague — the post's hero. Mojmir Churavy — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File%3ATitanoboa_OC_Harfa_Praha.jpg
+  Self-hosted under `/assets/blog/`; same image as the matching video build
+  (`paleodex-content/content-grid/2026-08-28-how-hot-was-titanoboas-swamp/images/multi/titanoboamodel_01.jpg`),
+  not re-sourced.
+
+## why-we-picture-neanderthals-stooped (2026-08-30)
+- `why-we-picture-neanderthals-stooped-hero.jpg` — "Restoration of a Neanderthal man in profile," early 20th century. Wellcome Collection — Public Domain — https://commons.wikimedia.org/wiki/File:Restoration_of_a_Neanderthal_man_in_profile._Wellcome_M0001106.jpg
+  Self-hosted under `/assets/blog/`; same image as the matching video build
+  (`paleodex-content/content-grid/2026-08-30-why-we-picture-neanderthals-stooped/images/multi/neander_recon_06.jpg`),
+  not re-sourced.
+- `why-we-picture-neanderthals-stooped-boule.jpg` — "1929 Marcellin Boule." Georges Chevalier — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:1929_Marcellin_Boule.jpg
+  Self-hosted under `/assets/blog/`; same image as the matching video build (`.../images/multi/boule_02.jpg`), not re-sourced.
+- `why-we-picture-neanderthals-stooped-upright.jpg` — Upright Neanderthal reconstruction diorama figure. Vicpeters — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Neanderthals_Diorama.jpg
+  Self-hosted under `/assets/blog/`; same image as the matching video build (`.../images/multi/neander_recon_04.jpg`), not re-sourced.
+
+## the-last-aurochs-1627 (2026-09-03)
+- `the-last-aurochs-1627-hero.jpg` — Aurochs, painted by Charles Hamilton Smith c.1827. Charles Hamilton Smith — Public domain — https://commons.wikimedia.org/wiki/File:Ur-painting.jpg
+  Self-hosted under `/assets/blog/`; same image as the matching video build
+  (`paleodex-content/content-grid/2026-09-03-the-last-aurochs-1627/images/multi/aurochs_paint_01.jpg`), not re-sourced.
+  ⚠️ HEDGE, and it is carried in the post's own figcaption: this is NOT a 16th-century original. Smith
+  repainted a lost early-16th-century oil he bought in Augsburg, changing the animal's colour, and some
+  authors have argued the original may have shown an aurochs/domestic hybrid rather than a pure aurochs.
+  It is used as a historical DEPICTION, never as evidence of the animal's appearance.
+- `the-last-aurochs-1627-skull.jpg` — Aurochs skull and mounted skeleton, Danish National Museum. Eldrichr — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Aurochs,_Danish_National_Museum.jpg
+  Self-hosted under `/assets/blog/`; same image as the video build (`.../images/multi/aurochs_mount_01.jpg`), not re-sourced.
+- `the-last-aurochs-1627-monument.jpg` — Monument to the last aurochs, Jaktorów Forest, carved with the year 1627. Tomasz Kuran aka Meteor2017 — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Jaktorow_pomnik_tura.jpg
+  Self-hosted under `/assets/blog/`; same image as the video build (`.../images/multi/jaktorow_01.jpg`), not re-sourced.
+
+## megalodon-is-not-hiding-in-the-deep (2026-09-04)
+- `megalodon-is-not-hiding-in-the-deep-hero.jpg` — Fossil *Otodus megalodon* tooth, Yorktown Formation, offshore North Carolina. James St. John — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Carcharocles_megalodon_(fossil_shark_tooth)_(Yorktown_Formation,_Upper_Miocene_to_Lower_Pliocene;_offshore_North_Carolina,_USA)_1.jpg
+  Self-hosted under `/assets/blog/`; same image as the matching video build (`paleodex-content/content-grid/2026-09-04-megalodon-is-not-hiding-in-the-deep/images/multi/meg_tooth_01.jpg`), not re-sourced.
+- `megalodon-is-not-hiding-in-the-deep-teeth.jpg` — Catalogued series of megalodon teeth with accession numbers and a 1 cm scale bar. Catalina Pimiento, Dana J. Ehret, Bruce J. MacFadden, Gordon Hubbell — CC BY 2.5 — https://commons.wikimedia.org/wiki/File:Megalodon_teeth.png
+  Self-hosted under `/assets/blog/`; same image as the video build (`paleodex-content/content-grid/2026-09-04-megalodon-is-not-hiding-in-the-deep/images/multi/megset_10.jpg`), not re-sourced.
+- `megalodon-is-not-hiding-in-the-deep-nodule.jpg` — Polymetallic (manganese) nodule in cross-section, showing concentric growth layers. Ifremer — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Coupe_transversale_d'un_nodule_polym%C3%A9tallique_(Ifremer_00562-67399).jpg
+  Self-hosted under `/assets/blog/`; same image as the video build (`paleodex-content/content-grid/2026-09-04-megalodon-is-not-hiding-in-the-deep/images/multi/mn_02.jpg`), not re-sourced.
+  ⚠️ ATTRIBUTION CORRECTED BY HAND. Commons' own Author field for this file is literally the string
+  `null` — it is an Ifremer batch upload with no named photographer — so the fetcher produced the
+  credit line "null · CC BY 4.0 · Wikimedia Commons", which attributes the work to nobody. Credited to
+  the holding institution instead, which is what the file's own title and source URL give (Ifremer
+  image database 00562/67399). Verified on the file page 2026-09-04.
+
+## the-human-species-that-lasted-two-million-years (2026-09-06)
+- `the-human-species-that-lasted-two-million-years-hero.jpg` — Turkana Boy (KNM-WT 15000), Homo erectus skeleton cast, full vertical mount. Emőke Dénes — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Em_-_Homo_erectus,_Turkana_boy_-_1.jpg
+  Self-hosted under `/assets/blog/`; same image as the matching video build (`paleodex-content/content-grid/2026-09-06-the-human-species-that-lasted-two-million-years/images/multi/turkana_01.jpg`), not re-sourced.
+- `the-human-species-that-lasted-two-million-years-dnh134.jpg` — The DNH 134 Homo erectus cranium from Drimolen Main Quarry, South Africa (the actual specimen described in Herries et al. 2020). Jesse Martin / Renaud Joannes-Boyau / Andy I. R. Herries — press/media image, used with credit (no free-licensed alternative exists) — via Sci-News, 2020-04-02 coverage of Herries et al. 2020, Science 368(6486): eaaw7293 — https://www.sci.news/othersciences/anthropology/drimolen-homo-erectus-08294.html
+  Self-hosted under `/assets/blog/`; same image as the video build (`.../images/multi/dnh134_01.jpg`), not re-sourced.
+- `the-human-species-that-lasted-two-million-years-ngandong.jpg` — Homo erectus calvaria cast, Ngandong series, Solo River, Java. Jonathan Chen — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Ngandong_14.jpg
+  Self-hosted under `/assets/blog/`; same image as the video build (`.../images/multi/ngandong2_03.jpg`), not re-sourced.
+- `the-human-species-that-lasted-two-million-years-irhoud.jpg` — Cast of Jebel Irhoud 1 cranium, NMNH. © Philipp Gunz, MPI EVA Leipzig — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Jebel_Irhoud-1_NMNH.jpg
+  Self-hosted under `/assets/blog/`; same image as the video build (`.../images/multi/irhoud2_01.jpg`), not re-sourced.
+
+## the-tail-that-changed-spinosaurus (2026-09-11)
+- `the-tail-that-changed-spinosaurus-hero.jpg` — A mounted *Spinosaurus aegyptiacus* skeleton on public display in an exhibition hall, side-on. Kabacchi — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Spinosaurus_skeleton.jpg
+  Self-hosted under `/assets/blog/`; same image as the matching video build (`paleodex-content/content-grid/2026-09-11-the-tail-that-changed-spinosaurus/images/multi/tail_02.jpg`), not re-sourced.
+- `the-tail-that-changed-spinosaurus-skeletal.jpg` — Digital skeletal reconstruction of *Spinosaurus aegyptiacus*, with known bones coloured by specimen against an inferred grey silhouette, human scale figure and scale bar. Paul C Sereno, Nathan Myhrvold, Donald M Henderson, Frank E Fish, Daniel Vidal, Stephanie L Baumgart, Tyler M Keillor, Kiersten K Formoso & Lauren L Conroy — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Digital_skeletal_reconstruction_of_Spinosaurus.png
+  Self-hosted under `/assets/blog/`; same image as the video build (`paleodex-content/content-grid/2026-09-11-the-tail-that-changed-spinosaurus/images/multi/mount_04.jpg`), not re-sourced.
+  NOTE: this is a figure from Sereno et al. 2022, *eLife* 11:e80092 — one of the three papers the post
+  discusses — released CC BY 4.0. It is used in the post as a diagram of WHICH BONES ARE KNOWN, not as
+  support for that paper's behavioural argument, and the caption credits the full author list.
+- `the-tail-that-changed-spinosaurus-tail.jpg` — Life reconstruction of *Spinosaurus aegyptiacus* in lateral view, built around the 2020 caudal material, showing the deep blade-like tail. Gustavo Monroy-Becerril — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Spinosaurus_aegyptiacus_3.png
+  Self-hosted under `/assets/blog/`; same image as the video build (`paleodex-content/content-grid/2026-09-11-the-tail-that-changed-spinosaurus/images/multi/recon_04.jpg`), not re-sourced.
+- `the-tail-that-changed-spinosaurus-allosaurus.jpg` — A mounted *Allosaurus* skeleton in a museum hall, side-on above a second disarticulated skeleton laid on sand. Gary Todd (Xinzheng, China) — CC0 — https://commons.wikimedia.org/wiki/File:Allosaurus_(10436537304).jpg
+  Self-hosted under `/assets/blog/`; same image as the video build (`paleodex-content/content-grid/2026-09-11-the-tail-that-changed-spinosaurus/images/multi/allo_01.jpg`), not re-sourced.
+  Used because *Allosaurus* is one of the two land-theropod tails the Spinosaurus model was measured
+  against — there is no freely licensed image of the flapping rig itself, and none was substituted.
+
+## pterosaurs-were-not-bald (2026-09-13)
+- `pterosaurs-were-not-bald-hero.jpg` — Heinrich Harder's 1916 painting of pterosaurs: one perched on a branch, others flying over the sea at sunset. Heinrich Harder (1858–1935) — Public domain — https://commons.wikimedia.org/wiki/File:Rhamphor.jpg
+  Self-hosted under `/assets/blog/`; same image as the matching video build (`paleodex-content/content-grid/2026-09-13-pterosaurs-were-not-bald/images/multi/old_harder_01.jpg`), not re-sourced.
+- `pterosaurs-were-not-bald-goldfuss.jpg` — The *Scaphognathus crassirostris* fossil Goldfuss described in 1831. Camillo1313 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:UniBonnSteinmannGoldfussScapho01ak.jpg
+  Self-hosted under `/assets/blog/`; same image as the video build (`paleodex-content/content-grid/2026-09-13-pterosaurs-were-not-bald/images/multi/scapho_fossil_01.jpg`), not re-sourced.
+- `pterosaurs-were-not-bald-sordes.jpg` — A *Sordes pilosus* fossil slab, painted number 2585/25 (NOT the holotype, PIN 2585/3). Ghedoghedo — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Sordes_pilosus_skeleton.JPG
+  Self-hosted under `/assets/blog/`; same image as the video build (`paleodex-content/content-grid/2026-09-13-pterosaurs-were-not-bald/images/multi/sordes_fossil_01.jpg`), downscaled to 2000 px on the long side and otherwise unaltered.
+- `pterosaurs-were-not-bald-restoration.jpg` — Life restoration of *Scaphognathus* clinging to a tree trunk. Rudolf Hima — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Scaphognathus_(life_restoration).png
+  Self-hosted under `/assets/blog/`; same image as the video build (`paleodex-content/content-grid/2026-09-13-pterosaurs-were-not-bald/images/multi/new_scapho_01.jpg`), not re-sourced. An artwork, captioned as one, not presented as evidence.
+
+## the-rock-that-was-supposed-to-be-empty (2026-09-14)
+- `the-rock-that-was-supposed-to-be-empty-hero.jpg` — A *Charnia masoni* fossil on display at New Walk Museum, Leicester. Andy Dingley — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Charnia_masoni_fossil,_New_Walk_Museum.jpg
+  Self-hosted under `/assets/blog/`; same image as the carousel build (`paleodex-content/content-grid/2026-09-14-the-rock-that-was-supposed-to-be-empty/images/multi/charnia_01.jpg`), downscaled to 2000 px on the long side and otherwise unaltered.
+- `the-rock-that-was-supposed-to-be-empty-aspidella.jpg` — *Aspidella* discs on a bedding surface of the Fermeuse Formation near Ferryland, Newfoundland. Martin Smith — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Aspidella_specimens.jpg
+  Self-hosted under `/assets/blog/`; same image as the video build (`paleodex-content/content-grid/2026-09-14-the-rock-that-was-supposed-to-be-empty/images/multi/aspidella_01.jpg`), downscaled to 2000 px on the long side and otherwise unaltered.
+- `the-rock-that-was-supposed-to-be-empty-holotype-cast.jpg` — A cast of the *Charnia masoni* holotype under low-angle light, contrast enhanced by the uploader. Smith609 (original uploader; transferred to Commons by AdmiralHood) — CC BY 2.5 — https://commons.wikimedia.org/wiki/File:Charnia.JPG
+  Self-hosted under `/assets/blog/`; same image as the video build (`paleodex-content/content-grid/2026-09-14-the-rock-that-was-supposed-to-be-empty/images/multi/charnia_06.jpg`), not re-sourced. A cast, captioned as one.
+- `the-rock-that-was-supposed-to-be-empty-growth-model.jpg` — Fig. 4 of Dunn et al. 2021, a model of how *Charnia masoni* grew. Dunn, F.S., Liu, A.G., Grazhdankin, D.V. et al. — CC BY 4.0 — https://doi.org/10.1126/sciadv.abe0291
+  Self-hosted under `/assets/blog/`; same image as the video build (`paleodex-content/content-grid/2026-09-14-the-rock-that-was-supposed-to-be-empty/images/multi/dunn2021_fig4.jpg`), extracted at native resolution from the open-access article, not re-sourced.
+
+## stegosaurus-had-no-second-brain (2026-09-15)
+- `stegosaurus-had-no-second-brain-hero.jpg` — O. C. Marsh’s 1896 skeletal restoration of *Stegosaurus*, from *The Dinosaurs of North America* (U.S. Geological Survey, 16th Annual Report). Othniel Charles Marsh (uploaded by Firsfron, modified by anetode) — **Public domain** — https://commons.wikimedia.org/wiki/File:Stego-marsh-1896-US_geological_survey.png
+  Self-hosted under `/assets/blog/`; same image as the video build (`paleodex-content/content-grid/2026-09-15-stegosaurus-had-no-second-brain/images/multi/marsh1896_skeletal_01.jpg`), downscaled to 2000 px on the long side and otherwise unaltered.
+- `stegosaurus-had-no-second-brain-casts.jpg` — Marsh 1896, Plate XLVI, figs. 1–4: casts of the sacral neural cavity and of the brain of *Stegosaurus ungulatus*, one-fourth natural size. O. C. Marsh / U.S. Geological Survey — **Public domain** — https://commons.wikimedia.org/wiki/File:The_dinosaurs_of_North_America_(1896)_(20335635423).jpg
+  Self-hosted under `/assets/blog/`; same image as the video and carousel builds (`paleodex-content/content-grid/2026-09-15-stegosaurus-had-no-second-brain/images/multi/marsh1896_pl46_casts.jpg`), cropped there from the full plate to figs. 1–4 with a 24 px mat in the paper's own colour; at the build file's own resolution (891x1445), otherwise unaltered.
+- `stegosaurus-had-no-second-brain-glycogen-body.jpg` — Fig. 2, panel G of Stanchak et al. 2020: a CT cross-section of a bird's spinal canal with the glycogen body in green, with the panel's own legend. Stanchak, K.E., French, C., Perkel, D.J. & Brunton, B.W. — CC BY 4.0 — https://doi.org/10.1093/iob/obaa024
+  Self-hosted under `/assets/blog/`; same image as the video and carousel builds (`paleodex-content/content-grid/2026-09-15-stegosaurus-had-no-second-brain/images/multi/stanchak2020_fig2_G.jpg`), cropped there to panel G and its legend with a 24 px mat, from the bioRxiv copy of the published figure (the licence cited is the published CC BY 4.0); at the build file's own resolution (443x783), otherwise unaltered.
+
+## why-sabre-teeth-snap (2026-09-16)
+- `why-sabre-teeth-snap-hero.jpg` — A cast of a *Smilodon* skull at Göteborgs Naturhistoriska Museum, Sweden. Gunnar Creutz — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Smilodon_(cast_of_skull)_at_G%C3%B6teborgs_Naturhistoriska_Museum_8992.jpg
+  Self-hosted under `/assets/blog/`; same image as the video build (`paleodex-content/content-grid/2026-09-16-why-sabre-teeth-snap/images/multi/skull_cast_01.jpg`), downscaled to 2000 px on the long side and otherwise unaltered. A cast, captioned as one.
+- `why-sabre-teeth-snap-from-below.jpg` — A *Smilodon fatalis* skull photographed from below, showing the narrow width of the upper canines. Ellen from Ann Arbor, MI, USA — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Smilodon_fatalis_tooth_replacement.jpg
+  Self-hosted under `/assets/blog/`; same image as the video build (`paleodex-content/content-grid/2026-09-16-why-sabre-teeth-snap/images/multi/skull_below_crop.jpg`), cropped there above the museum label (which reads "Tooth replacement"), otherwise unaltered.
+- `why-sabre-teeth-snap-xrays.jpg` — Fig. 2 of Meachen-Samuels & Van Valkenburgh 2010: radiographs of jaguar and *Smilodon fatalis* humeri. Julie A. Meachen-Samuels & Blaire Van Valkenburgh — CC BY — https://doi.org/10.1371/journal.pone.0011412
+  Self-hosted under `/assets/blog/`; same image as the video build (`paleodex-content/content-grid/2026-09-16-why-sabre-teeth-snap/images/multi/meachen2010_fig2.jpg`), the full-size PLoS figure, converted from PNG to JPEG and otherwise unaltered.
+- `why-sabre-teeth-snap-muscles.jpg` — Fig. 4B of Wroe et al. 2013: a *Smilodon fatalis* skull model with head-depressing and jaw-adducting muscles simulated. Stephen Wroe, Uphar Chamoli, William C. H. Parr, Philip Clausen, Ryan Ridgely & Lawrence Witmer — CC BY — https://doi.org/10.1371/journal.pone.0066888
+  Self-hosted under `/assets/blog/`; same image as the video build (`paleodex-content/content-grid/2026-09-16-why-sabre-teeth-snap/images/multi/wroe2013_fig4B.jpg`), cropped there to panel B only, downscaled to 2000 px on the long side.
+
+## one-mans-notes-are-the-whole-record (2026-09-17)
+- `one-mans-notes-are-the-whole-record-hero.jpg` — A *Hydrodamalis gigas* skeleton at the Finnish Museum of Natural History, Helsinki. Daderot — CC0 — https://commons.wikimedia.org/wiki/File:Hydrodamalis_gigas_skeleton_-_Finnish_Museum_of_Natural_History_-_DSC04529.JPG
+  Self-hosted under `/assets/blog/`; same image as the video build (`paleodex-content/content-grid/2026-09-17-one-mans-notes-are-the-whole-record/images/multi/skel_helsinki_01.jpg`), downscaled to 2000 px on the long side; otherwise unaltered.
+- `one-mans-notes-are-the-whole-record-museum.jpg` — A Steller's sea cow skeleton in the Hall of Osteology, Smithsonian National Museum of Natural History. Ryan Schwark — CC0 — https://commons.wikimedia.org/wiki/File:Hall_of_Osteology_NMNH.jpg
+  Self-hosted under `/assets/blog/`; same image as the video build (`paleodex-content/content-grid/2026-09-17-one-mans-notes-are-the-whole-record/images/multi/hall_nmnh_01.jpg`), downscaled to 2000 px on the long side; otherwise unaltered.
+- `one-mans-notes-are-the-whole-record-plates.jpg` — Plate XIV of *Novi Commentarii Academiae Scientiarum Imperialis Petropolitanae* 2 (1751), cited in the margin of p. 302 of Steller's *De bestiis marinis* ("Tab. XIV, fig. 1") beside his description of the chewing bones. Public domain (1751) — scan by Niedersächsische Staats- und Universitätsbibliothek Göttingen — http://resolver.sub.uni-goettingen.de/purl?PPN350003793
+  Self-hosted under `/assets/blog/`; the GDZ greyscale TIFF master (https://gdz.sub.uni-goettingen.de/download/tiff/PPN350003793/00000531.tif), converted to JPEG and downscaled to 2000 px on the long side; otherwise unaltered. A faithful scan of a public-domain work carries no new rights (EU DSM Directive art. 14).
+- `one-mans-notes-are-the-whole-record-table.jpg` — Page 294 of Steller's *De bestiis marinis* (1751): the heading naming the female killed on 12 July 1742 and the measurement table (296 inches). Public domain (1751) — scan by SUB Göttingen — http://resolver.sub.uni-goettingen.de/purl?PPN350003793
+  Self-hosted under `/assets/blog/`; same image as the video build (`paleodex-content/content-grid/2026-09-17-one-mans-notes-are-the-whole-record/images/multi/steller1751_p294_table.jpg`): the bitonal GDZ master converted to greyscale and cropped to the text column (the page margins removed).
+- `one-mans-notes-are-the-whole-record-measuring.jpg` — Leonhard Stejneger's 1925 reconstruction of Steller measuring a sea cow on Bering Island, from F. A. Golder (ed.), *Bering's Voyages* vol. II (1925), p. 228. Public domain — https://commons.wikimedia.org/wiki/File:Steller_measuring_a_sea_cow.jpg
+  Self-hosted under `/assets/blog/`; same image as the video build (`paleodex-content/content-grid/2026-09-17-one-mans-notes-are-the-whole-record/images/multi/stejneger1925_01.jpg`), downscaled to 2000 px on the long side. A reconstruction, captioned as one.
+- `one-mans-notes-are-the-whole-record-crew-drawing.jpg` — A sea cow, a fur seal and a sea lion on a 1744 map by Sofron Khitrov (Chitrow) after Sven Waxell. Public domain — https://commons.wikimedia.org/wiki/File:Chitrow_-_Seekuh,_Seebaer_und_Seeloewe_(Ausschnitt_aus_einer_Karte).jpg
+  Self-hosted under `/assets/blog/`; same image as the video build (`paleodex-content/content-grid/2026-09-17-one-mans-notes-are-the-whole-record/images/multi/chitrow1744_drawing.jpg`), cropped there to the framed drawing; otherwise unaltered.
+- `the-fighting-dinosaurs-hero.jpg` — The Fighting Dinosaurs (Velociraptor MPC-D 100/25 with Protoceratops MPC-D 100/512) on display at the Nagoya City Science Museum, photographed 2014-03-25. The source does not say whether the object is the original slab or a cast, and the post does not claim either. CC BY 2.0 — Yuya Tamai — https://commons.wikimedia.org/wiki/File:Fighting_dinosaurs_(1).jpg
+  Self-hosted under `/assets/blog/`; same image as the video build (`paleodex-content/content-grid/2026-09-18-the-fighting-dinosaurs/images/multi/fd_nagoya_01.jpg`), downscaled to 2000 px on the long side; otherwise unaltered.
+- `the-fighting-dinosaurs-dig.jpg` — The 1971 excavation of the two skeletons at Tugrugeen Shireh, Gobi Desert. CC BY-SA 4.0 — Tomasz Jerzykiewicz — https://commons.wikimedia.org/wiki/File:%27Fighting_dinosaurs%27Tugrugeen_Shireh,_Gobi_Desert,_1971.jpg
+  Self-hosted under `/assets/blog/`; same image as the video build (`.../images/multi/fd_insitu1971_pan.jpg`), which is cropped to the photograph itself (the uploader's English title line above it removed). The genus labels inside the photograph are the uploader's and are credited as such in the caption. No pixel inside the photograph was changed.
+- `the-fighting-dinosaurs-grip.jpg` — Close view of the point of contact: the raptor forearm inside the Protoceratops beak, with the curved foot claw at the left. CC BY 2.0 — Yuya Tamai — https://commons.wikimedia.org/wiki/File:Fighting_dinosaurs_(2).jpg
+  Self-hosted under `/assets/blog/`; same image as the video build (`.../images/multi/fd_nagoya_02_grip.jpg`), a crop (x1150-2150, y200-850) of the 3119x2178 photograph; otherwise unaltered.
+- `the-fighting-dinosaurs-raptor.jpg` — Artist's reconstruction of *Velociraptor mongoliensis*, captioned as a reconstruction and not as this specimen. CC BY-SA 4.0 — Fred Wierum — https://commons.wikimedia.org/wiki/File:Velociraptor_Restoration.png
+  Self-hosted under `/assets/blog/`; the PNG flattened onto white, converted to JPEG and downscaled to 2000 px on the long side.
+- `the-fighting-dinosaurs-dunefield.jpg` — Artist's reconstruction of the Djadokhta Formation dunefield with Protoceratops, captioned as the setting and not as this specimen or the moment of burial. CC BY 4.0 — PaleoNeolitic — https://commons.wikimedia.org/wiki/File:Protoceratops_in_Djadokhta.png
+  Self-hosted under `/assets/blog/`; the PNG flattened onto white, converted to JPEG and downscaled to 2000 px on the long side.
+
+## We Know What Colour a Moa Was (we-know-what-colour-a-moa-was)
+
+- `we-know-what-colour-a-moa-was-hero.jpg` — *Megalapteryx* (upland moa) life restoration, plate 41 of Walter Rothschild's
+  *Extinct Birds* (1907). Painted by **George Edward Lodge**. **Public domain**, via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Megalapteryx.png). A RECONSTRUCTION, not a
+  specimen, and the caption says so; it predates the 2009 DNA work by a century.
+- `we-know-what-colour-a-moa-was-owen.jpg` — Professor Richard Owen beside a mounted *Dinornis* skeleton, engraved plate from
+  R. Owen (ed.), *The Life of Richard Owen* (1894), after a photograph of about 1877. Maker
+  **unidentified**; the plate is signed "Smit". **Public domain**, via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Portrait_of_Richard_Owen_with_skeleton_of_the_giant_moa_-_DPLA_-_4abadfe80670ff5960cdbea669ef9077.jpg).
+  Cropped to the plate, removing the book's page edges and printed caption. *(Commons' own Artist field
+  names the book's editor, not the image's maker — repaired by hand.)*
+- `we-know-what-colour-a-moa-was-feathers.jpg` — Moa feathers on display at the Canterbury Museum. Photo by **Szilas**.
+  **Public domain**, via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Moa_feathers,_Canterbury_Museum,_2016-01-27.jpg).
+  Cropped to the display disc, removing the museum's English label.
+- `we-know-what-colour-a-moa-was-foot.jpg` — Desiccated foot of *Megalapteryx didinus*, Museum of New Zealand Te Papa Tongarewa
+  (Fossil Vertebrates Collection). Photo **© Te Papa**, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/),
+  via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Megalapteryx_desiccated_foot_(3).jpg).
+- `we-know-what-colour-a-moa-was-parakeet.jpg` — Red-crowned parakeet (*Cyanoramphus novaezelandiae*), Tiritiri Matangi, New
+  Zealand. Photo by **Charles J. Sharp**, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/),
+  via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Red-crowned_parakeet_(Cyanoramphus_novaezelandiae)_Tiritiri_Matangi.jpg).
+
+## Is Bigfoot a Surviving Gigantopithecus? (`is-bigfoot-a-surviving-gigantopithecus`)
+
+| File | Subject | Author / source | Licence |
+| --- | --- | --- | --- |
+| `is-bigfoot-a-surviving-gigantopithecus-hero.jpg` | Speculative restoration of *Gigantopithecus blacki* | Concavenator, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gigantopithecus.png) | CC BY-SA 4.0 |
+| `is-bigfoot-a-surviving-gigantopithecus-model.jpg` | Life-size model, "Gigants" exhibition, 2014 (speculative restoration) | Michal Maňas, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gigantopithecus_blacki_restoration.jpg) | CC BY 4.0 |
+| `is-bigfoot-a-surviving-gigantopithecus-jaw.jpg` | Cast of mandible PA1601, Museum of Man, San Diego | Durova, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gigantopithecusjaw.jpg) | CC BY-SA 4.0 |
+| `is-bigfoot-a-surviving-gigantopithecus-molar.jpg` | The holotype molar, held by Friedemann Schrenk, Senckenberg, 2005 | Gerbil, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:F._Schrenk_mit_Gigantopithecus-Molar_2005.jpg) | CC BY-SA 3.0 |
+| `is-bigfoot-a-surviving-gigantopithecus-orangutan.jpg` | Tapanuli orangutan, *Pongo tapanuliensis* | Tim Laman, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pongo_tapanuliensis.jpg) | CC BY 4.0 |
+
+Two of these are **speculative restorations** and are captioned as such on the page: no skull and no
+postcranial bone of this animal has ever been found, so the body around the jaws is an artist's inference.
+Three are **casts**, not original fossils; the originals are in Chinese collections.
+
+## deinosuchus-on-both-sides-of-the-seaway
+
+- `/assets/blog/deinosuchus-on-both-sides-of-the-seaway-hero.jpg` — Deinosuchus skull cast, Fossil Discovery Exhibit, Big Bend NP. Jonathan Cutrer, CC BY 2.0, <https://commons.wikimedia.org/wiki/File%3ADeinosuchus_Head_at_Fossil_Discovery_Exhibit.jpg>
+- `/assets/blog/deinosuchus-on-both-sides-of-the-seaway-map.jpg` — Fig. 4A — Deinosuchus distribution around the Western Interior Seaway. Walter, Massonne, Paiva, Martin, Delfino & Rabi, CC BY 4.0, <https://doi.org/10.1038/s42003-025-07653-4>
+- `/assets/blog/deinosuchus-on-both-sides-of-the-seaway-alligator.jpg` — American alligator (Alligator mississippiensis) at the surface. Ken Thomas, Public domain, <https://commons.wikimedia.org/wiki/File%3AAmerican_Alligator-27527-3.jpg>
+- `/assets/blog/deinosuchus-on-both-sides-of-the-seaway-tree.jpg` — Fig. 4B — ancestral-state reconstruction of osmoregulation in Crocodylia. Walter, Massonne, Paiva, Martin, Delfino & Rabi, CC BY 4.0, <https://doi.org/10.1038/s42003-025-07653-4>
+- `/assets/blog/deinosuchus-on-both-sides-of-the-seaway-saltwater-crocodile.jpg` — Saltwater crocodile (Crocodylus porosus) on a bank. Bernard Dupont, CC BY-SA 2.0, <https://commons.wikimedia.org/wiki/File%3ASaltwater_Crocodile_%28Crocodylus_porosus%29_%2810106331165%29.jpg>
+
+  The two figures are from the post's own open-access primary (*Communications Biology* 8: 611, CC BY 4.0), reused with attribution to all six authors.
+
+## largest-land-mammal-ever
+
+- `/assets/blog/largest-land-mammal-ever-hero.jpg` — Paraceratherium skeletal mount, Orlov Paleontological Museum, Moscow. MikSed, CC BY-SA 4.0, <https://commons.wikimedia.org/wiki/File:Палеонтологический_музей_Орлова_(20221008151051).jpg>
+- `/assets/blog/largest-land-mammal-ever-skull.jpg` — Paraceratherium skull AMNH 18650, American Museum of Natural History. Jonathan Chen, CC BY-SA 4.0, <https://commons.wikimedia.org/wiki/File:Paraceratherium_AMNH.jpg>
+- `/assets/blog/largest-land-mammal-ever-scale.jpg` / `-scale-es.jpg` — rearranged from Larramendi 2016, Appendix 1 ("Largest land mammals in history"; Paraceratherium silhouette modified from Paul 1997). Asier Larramendi, CC BY 4.0, <https://doi.org/10.4202/app.00136.2014>. Silhouettes extracted from the PDF at their shared 1:100 scale; labels and layout added.
+- `/assets/blog/largest-land-mammal-ever-kolkata.jpg` — Palaeoloxodon namadicus skull, Indian Museum, Kolkata. Royroydeb, CC BY-SA 4.0, <https://commons.wikimedia.org/wiki/File:Palaeoloxodon_namadicus.JPG>
