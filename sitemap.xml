@@ -55,6 +55,24 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://paleodex.co/blog/"/>
   </url>
   <url>
+    <loc>https://paleodex.co/blog/did-raptors-hunt-in-packs</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/blog/coelacanth-back-from-extinction"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/blog/coelacanth-back-from-extinction"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paleodex.co/blog/coelacanth-back-from-extinction"/>
+  </url>
+<url>
+    <loc>https://paleodex.co/es/blog/did-raptors-hunt-in-packs</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/es/blog/coelacanth-back-from-extinction"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/blog/coelacanth-back-from-extinction"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paleodex.co/es/blog/coelacanth-back-from-extinction"/>
+  </url>
+<url>
     <loc>https://paleodex.co/blog/coelacanth-back-from-extinction</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -1377,5 +1395,140 @@
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://paleodex.co/blog/how-many-t-rex-ever-lived</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/blog/how-many-t-rex-ever-lived"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/blog/how-many-t-rex-ever-lived"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paleodex.co/blog/how-many-t-rex-ever-lived"/>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://paleodex.co/es/blog/how-many-t-rex-ever-lived</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/blog/how-many-t-rex-ever-lived"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/blog/how-many-t-rex-ever-lived"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paleodex.co/blog/how-many-t-rex-ever-lived"/>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://paleodex.co/blog/haasts-eagle-hunted-moa</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/blog/haasts-eagle-hunted-moa"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/blog/haasts-eagle-hunted-moa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paleodex.co/blog/haasts-eagle-hunted-moa"/>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://paleodex.co/es/blog/haasts-eagle-hunted-moa</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/blog/haasts-eagle-hunted-moa"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/blog/haasts-eagle-hunted-moa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paleodex.co/blog/haasts-eagle-hunted-moa"/>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://paleodex.co/blog/could-diplodocus-crack-its-tail</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/blog/could-diplodocus-crack-its-tail"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/blog/could-diplodocus-crack-its-tail"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paleodex.co/blog/could-diplodocus-crack-its-tail"/>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://paleodex.co/es/blog/could-diplodocus-crack-its-tail</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/blog/could-diplodocus-crack-its-tail"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/blog/could-diplodocus-crack-its-tail"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paleodex.co/blog/could-diplodocus-crack-its-tail"/>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://paleodex.co/blog/first-dna-from-an-extinct-animal</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/blog/first-dna-from-an-extinct-animal"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/blog/first-dna-from-an-extinct-animal"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paleodex.co/blog/first-dna-from-an-extinct-animal"/>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://paleodex.co/es/blog/first-dna-from-an-extinct-animal</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/blog/first-dna-from-an-extinct-animal"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/blog/first-dna-from-an-extinct-animal"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paleodex.co/blog/first-dna-from-an-extinct-animal"/>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://paleodex.co/blog/what-did-parasaurolophus-sound-like</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/blog/what-did-parasaurolophus-sound-like"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/blog/what-did-parasaurolophus-sound-like"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paleodex.co/blog/what-did-parasaurolophus-sound-like"/>
+  </url>
+  <url>
+    <loc>https://paleodex.co/es/blog/what-did-parasaurolophus-sound-like</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/blog/what-did-parasaurolophus-sound-like"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/blog/what-did-parasaurolophus-sound-like"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paleodex.co/blog/what-did-parasaurolophus-sound-like"/>
+  </url>
+  <url>
+    <loc>https://paleodex.co/blog/what-did-titanoboa-actually-eat</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/blog/what-did-titanoboa-actually-eat"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/blog/what-did-titanoboa-actually-eat"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paleodex.co/blog/what-did-titanoboa-actually-eat"/>
+  </url>
+  <url>
+    <loc>https://paleodex.co/blog/the-mosasaur-tail-was-wrong</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/blog/the-mosasaur-tail-was-wrong"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/blog/the-mosasaur-tail-was-wrong"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paleodex.co/blog/the-mosasaur-tail-was-wrong"/>
+  </url>
+  <url>
+    <loc>https://paleodex.co/es/blog/the-mosasaur-tail-was-wrong</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/blog/the-mosasaur-tail-was-wrong"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/blog/the-mosasaur-tail-was-wrong"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paleodex.co/blog/the-mosasaur-tail-was-wrong"/>
+  </url>
+  <url>
+    <loc>https://paleodex.co/blog/heaviest-bird-that-ever-lived</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/blog/heaviest-bird-that-ever-lived"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/blog/heaviest-bird-that-ever-lived"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paleodex.co/blog/heaviest-bird-that-ever-lived"/>
+  </url>
+  <url>
+    <loc>https://paleodex.co/es/blog/heaviest-bird-that-ever-lived</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://paleodex.co/blog/heaviest-bird-that-ever-lived"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://paleodex.co/es/blog/heaviest-bird-that-ever-lived"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paleodex.co/blog/heaviest-bird-that-ever-lived"/>
   </url>
 </urlset>

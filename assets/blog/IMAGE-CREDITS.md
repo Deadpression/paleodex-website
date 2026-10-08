@@ -389,3 +389,46 @@ Three are **casts**, not original fossils; the originals are in Chinese collecti
 - `/assets/blog/largest-land-mammal-ever-skull.jpg` — Paraceratherium skull AMNH 18650, American Museum of Natural History. Jonathan Chen, CC BY-SA 4.0, <https://commons.wikimedia.org/wiki/File:Paraceratherium_AMNH.jpg>
 - `/assets/blog/largest-land-mammal-ever-scale.jpg` / `-scale-es.jpg` — rearranged from Larramendi 2016, Appendix 1 ("Largest land mammals in history"; Paraceratherium silhouette modified from Paul 1997). Asier Larramendi, CC BY 4.0, <https://doi.org/10.4202/app.00136.2014>. Silhouettes extracted from the PDF at their shared 1:100 scale; labels and layout added.
 - `/assets/blog/largest-land-mammal-ever-kolkata.jpg` — Palaeoloxodon namadicus skull, Indian Museum, Kolkata. Royroydeb, CC BY-SA 4.0, <https://commons.wikimedia.org/wiki/File:Palaeoloxodon_namadicus.JPG>
+
+## how-many-t-rex-ever-lived
+
+- `/assets/blog/how-many-t-rex-sue.jpg` — SUE (FMNH PR 2081), Field Museum, Chicago. Zissoudisctrucker · CC BY-SA 4.0 · Wikimedia Commons, <https://commons.wikimedia.org/wiki/File:FMNH_Tyrannosaurus_rex_Sue.jpg>. Resized to 1600 px wide.
+
+## haasts-eagle-hunted-moa
+
+- `/assets/blog/haasts-eagle-megahan.jpg` — Haast's eagle attacking moa, reconstruction by John Megahan (PLoS Biology 2005). John Megahan · CC BY 2.5 · Wikimedia Commons, <https://commons.wikimedia.org/wiki/File:Giant_Haasts_eagle_attacking_New_Zealand_moa.jpg>. Used at original size (1375 px).
+
+## could-diplodocus-crack-its-tail
+
+- `/assets/blog/diplodocus-cm84-carnegie.jpg` — Diplodocus carnegii (CM 84), Carnegie Museum of Natural History, Pittsburgh. Piotrus · CC BY-SA 3.0 · Wikimedia Commons, <https://commons.wikimedia.org/wiki/File:Diplodocus_at_CMNH.jpg>. Resized to 1600 px wide.
+
+## first-dna-from-an-extinct-animal
+
+- `/assets/blog/quagga-london-zoo-york-1870.jpg` — A quagga mare at London Zoo, photographed in 1870. F. York · Public domain · Wikimedia Commons, <https://commons.wikimedia.org/wiki/File:Quagga_HIFI.jpg>. Resized to 1600 px wide.
+
+## did-raptors-hunt-in-packs
+
+- `/assets/blog/deinonychus-tenontosaurus-mor-mount.jpg` — Mounted fossils AND A MODEL of Deinonychus posed attacking Tenontosaurus, Museum of the Rockies, Bozeman, Montana. It stages the pack hypothesis and is NOT an excavated death assemblage; the caption and alt text both say so. Tim Evanson · CC BY-SA 2.0 · Wikimedia Commons, <https://commons.wikimedia.org/wiki/File:Deinonychus_attacks_Tenontosaurus_-_fossil_-_Museum_of_the_Rockies_-_2013-07-08.jpg>. Resized to 1600 px wide.
+
+## what-did-parasaurolophus-sound-like
+
+- `/assets/blog/parasaurolophus-crest-skull.jpg` — Fossil *Parasaurolophus* skull in a museum case, showing the hollow tube crest in
+  profile. It is a specimen photograph, not a reconstruction. Gary Todd · CC0 · Wikimedia Commons,
+  <https://commons.wikimedia.org/wiki/File:Parasaurolophus_Skull_%26_Crest_(36445611666).jpg>. Resized to
+  3000 px wide.
+- **the-mosasaur-tail-was-wrong** — `mosasaur-knight-amnh.jpg` — Charles R. Knight, painting for the American Museum. Public domain. Source: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Knight_Tylosaurus.jpg
+
+## titanoboa-vertebra-ufigm2.jpg
+- **Post:** `/blog/what-did-titanoboa-actually-eat` and `/es/blog/what-did-titanoboa-actually-eat`
+- **Subject:** a *Titanoboa cerrejonensis* precloacal vertebra (paratype UF/IGM 2) on display.
+- **Author:** Anfecaro
+- **Licence:** CC0 (public domain dedication)
+- **Source:** Wikimedia Commons — `File:Titanoboa paratype precloacal vertebra UF-IGM 2.jpg`
+
+## vorombe-titan-femur-hansford-turvey.jpg
+- **Post:** `/blog/heaviest-bird-that-ever-lived` and `/es/blog/heaviest-bird-that-ever-lived`
+- **Subject:** the *Vorombe titan* femur, figured in Hansford & Turvey's 2018 reassessment of the elephant birds &mdash; the bone the "world's largest bird" claim rests on.
+- **Author:** James P. Hansford, Samuel T. Turvey
+- **Licence:** CC BY 4.0
+- **Source:** Wikimedia Commons — `File:Vorombe titan femur.jpg`
+
