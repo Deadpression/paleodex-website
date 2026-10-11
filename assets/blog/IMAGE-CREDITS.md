@@ -432,3 +432,23 @@ Three are **casts**, not original fossils; the originals are in Chinese collecti
 - **Licence:** CC BY 4.0
 - **Source:** Wikimedia Commons — `File:Vorombe titan femur.jpg`
 
+## dickinsonia-lissa-film-ghedoghedo.jpg
+- **Post:** `/blog/how-do-you-prove-a-fossil-was-an-animal` and `/es/blog/how-do-you-prove-a-fossil-was-an-animal`
+- **Subject:** a *Dickinsonia lissa* specimen preserved as dark organic material on the rock surface &mdash; the kind of film the 2018 biomarker study extracted. Resized to 1800&nbsp;px wide from the Commons original; nothing cropped.
+- **Author:** Ghedoghedo
+- **Licence:** CC BY-SA 3.0
+- **Source:** Wikimedia Commons — `File:Dickinsonia lissa 1.JPG`
+
+## borealopelta-dorsal-brown.jpg
+- **Post:** `/blog/borealopelta-last-meal` and `/es/blog/borealopelta-last-meal`
+- **Subject:** the holotype of *Borealopelta markmitchelli* (TMP 2011.033.0001) in dorsal view, figure 1(a) of Brown et al. 2020 &mdash; the specimen the stomach mass was found inside. Resized to 1800&nbsp;px wide from the Commons original; nothing cropped.
+- **Author:** Caleb M. Brown
+- **Licence:** CC BY 4.0
+- **Source:** Wikimedia Commons — `File:Borealopelta dorsal view.png`
+
+## borealopelta-cololite-brown.jpg
+- **Post:** `/blog/borealopelta-last-meal` and `/es/blog/borealopelta-last-meal`
+- **Subject:** panel (f) of figure 2 of Brown et al. 2020 &mdash; the preserved abdominal mass in dorsolateral view, photographed wetted under cross-polarized light. Cropped from the published six-panel plate to the single panel, which is illegible at the plate's aspect on a phone; the panel label, both orientation markers and the scale bar are inside the crop.
+- **Author:** Caleb M. Brown, David R. Greenwood, Jessica E. Kalyniuk, Dennis R. Braman, Donald M. Henderson, Cathy L. Greenwood &amp; James F. Basinger
+- **Licence:** CC BY 4.0
+- **Source:** Wikimedia Commons — `File:Borealopelta preserved abdominal mass.jpg`
